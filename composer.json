@@ -1,0 +1,16 @@
+{
+    "name": "dijitaltrix/spacecraft-rss-reader",
+    "description": "A simple RSS reader demo",
+    "type": "project",
+    "require": {
+        "simplepie/simplepie": "^1.5"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ian Grindley",
+            "email": "iangrindley@icloud.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
