@@ -1,0 +1,1432 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns="http://purl.org/rss/1.0/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+>
+<channel rdf:about="http://php.net/">
+	<title>PHP: Hypertext Preprocessor</title>
+	<link>http://php.net/</link>
+	<description>The PHP scripting language web site</description>
+	<items>
+		<rdf:Seq>
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-11-21-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-11-21-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-11-14-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-31-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-24-3" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-24-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-24-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-18-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-10-03-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-09-26-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-09-26-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-09-19-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-09-05-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-30-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-29-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-29-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-22-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-08-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-01-3" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-01-2" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-08-01-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-07-25-1" />
+			<rdf:li rdf:resource="https://www.php.net/index.php#id2019-07-11-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-07-04-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-07-04-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-06-26-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-06-13-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-30-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-30-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-30-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-03-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-02-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-05-02-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-04-04-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-04-04-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-04-04-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-03-07-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-03-07-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-03-07-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-02-07-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-02-07-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-01-10-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-01-10-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-01-10-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2019-01-10-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-12-06-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-12-06-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-12-06-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-12-06-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-11-22-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-11-08-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-11-08-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-10-25-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-10-11-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-10-11-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-10-11-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-09-28-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-09-13-5" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-09-13-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-09-13-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-08-30-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-08-17-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-08-16-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-08-02-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-07-20-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-07-20-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-07-19-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-07-05-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-06-25-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-06-21-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-06-21-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-06-07-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-05-25-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-04-26-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-04-26-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-03-30-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-03-29-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-03-02-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-03-01-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-03-01-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-02-01-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-02-01-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-01-04-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-01-04-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2018-01-04-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-11-30-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-11-24-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-11-09-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-10-27-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-10-26-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-10-26-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-10-12-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-09-29-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-09-28-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-09-14-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-09-01-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-08-31-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-08-17-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-08-03-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-08-03-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-07-20-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-07-06-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-07-06-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-07-06-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-06-22-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-06-08-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-05-11-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-04-13-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-03-16-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-02-17-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-01-19-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2017-01-19-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-12-08-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-12-01-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-11-10-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-11-10-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-10-27-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-10-19-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-10-14-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-09-29-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-09-16-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-09-16-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-09-01-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-08-18-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-08-18-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-08-04-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-07-21-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-07-21-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-07-21-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-07-07-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-06-24-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-06-23-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-06-23-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-06-09-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-05-26-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-05-26-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-04-28-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-04-28-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-03-31-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-03-31-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-03-03-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-03-03-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-02-04-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-02-04-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-01-07-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2016-01-07-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-11-26-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-10-29-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-10-01-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-10-01-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-09-04-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-09-04-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-09-04-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-08-06-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-08-06-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-08-06-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-07-10-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-07-10-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-07-09-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-06-11-4" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-06-11-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-06-11-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-05-14-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-05-14-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-05-14-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-04-16-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-04-16-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-04-16-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-03-20-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-03-20-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-03-19-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-02-19-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-02-19-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-02-18-1" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-01-22-3" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-01-22-2" />
+			<rdf:li rdf:resource="http://php.net/index.php#id2015-01-22-1" />
+		</rdf:Seq>
+	</items>
+</channel>
+
+<item rdf:about="https://www.php.net/index.php#id2019-11-21-2">
+	<title>PHP 7.2.25 Released</title>
+	<link>https://www.php.net/index.php#id2019-11-21-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.25. This is a bug fix release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.25 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-11-21</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-11-21-1">
+	<title>PHP 7.3.12 Released</title>
+	<link>https://www.php.net/index.php#id2019-11-21-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.12. This is a bug fix release.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.12 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-11-21</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-11-14-1">
+	<title>PHP 7.4.0RC6 Released!</title>
+	<link>https://www.php.net/index.php#id2019-11-14-1</link>
+	<description>The PHP team is glad to announce the sixth release candidate of PHP 7.4: PHP 7.4.0RC6. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC6 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0, planned for November 28th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-11-14</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-31-2">
+	<title>PHP 7.4.0RC5 released!</title>
+	<link>https://www.php.net/index.php#id2019-10-31-2</link>
+	<description>The PHP team is glad to announce the fifth release candidate of PHP 7.4: PHP 7.4.0RC5. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC5 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0RC6, planned for November 14th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-10-31</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-24-3">
+	<title>PHP 7.1.33 Released</title>
+	<link>https://www.php.net/index.php#id2019-10-24-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.33. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.33 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-10-24</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-24-2">
+	<title>PHP 7.3.11 Released</title>
+	<link>https://www.php.net/index.php#id2019-10-24-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.11. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.11 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-10-24</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-24-1">
+	<title>PHP 7.2.24 Released</title>
+	<link>https://www.php.net/index.php#id2019-10-24-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.24. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.247 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-10-24</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-18-1">
+	<title>PHP 7.4.0RC4 Released!</title>
+	<link>https://www.php.net/index.php#id2019-10-18-1</link>
+	<description>The PHP team is glad to announce the fourth release candidate of PHP 7.4: PHP 7.4.0RC4. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC4 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0RC5, planned for October 31st. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-10-18</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-10-03-1">
+	<title>PHP 7.4.0RC3 Released!</title>
+	<link>https://www.php.net/index.php#id2019-10-03-1</link>
+	<description>The PHP team is glad to announce the third release candidate of PHP 7.4: PHP 7.4.0RC3. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC3 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0RC4, planned for October 17th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-10-03</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-09-26-2">
+	<title>PHP 7.2.23 Release Announcement</title>
+	<link>https://www.php.net/index.php#id2019-09-26-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.23. This is a bugfix release.For source downloads of PHP 7.2.23 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-09-26</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-09-26-1">
+	<title>PHP 7.3.10 Released</title>
+	<link>https://www.php.net/index.php#id2019-09-26-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.10. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.10 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-09-26</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-09-19-1">
+	<title>PHP 7.4.0RC2 Released!</title>
+	<link>https://www.php.net/index.php#id2019-09-19-1</link>
+	<description>The PHP team is glad to announce the second release candidate of PHP 7.4: PHP 7.4.0RC2. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC2 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0RC3, planned for October 3rd. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-09-19</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-09-05-1">
+	<title>PHP 7.4.0RC1 Released!</title>
+	<link>https://www.php.net/index.php#id2019-09-05-1</link>
+	<description>The PHP team is glad to announce the first release candidate of PHP 7.4: PHP 7.4.0RC1. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. Please DO NOT use this version in production, it is an early test version. For source downloads of PHP 7.4.0RC1 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be 7.4.0RC2, planned for September 19th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-09-05</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-30-1">
+	<title>PHP 7.1.32 Released</title>
+	<link>https://www.php.net/index.php#id2019-08-30-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.32. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.32 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-30</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-29-2">
+	<title>PHP 7.2.22 Released</title>
+	<link>https://www.php.net/index.php#id2019-08-29-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.22. This is a security release which also contains several bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.22 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-29</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-29-1">
+	<title>PHP 7.3.9 Release Announcement</title>
+	<link>https://www.php.net/index.php#id2019-08-29-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.9. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.9 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-29</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-22-1">
+	<title>PHP 7.4.0beta4 released!</title>
+	<link>https://www.php.net/index.php#id2019-08-22-1</link>
+	<description>The PHP team is glad to announce the third and last beta release of PHP 7.4: PHP 7.4.0beta4. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0beta4 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be RC 1, planned for September 5th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-08-22</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-08-1">
+	<title>PHP 7.4.0beta2 released!</title>
+	<link>https://www.php.net/index.php#id2019-08-08-1</link>
+	<description>The PHP team is glad to announce the second beta release of PHP 7.4: PHP 7.4.0beta2. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0beta2 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 3, planned for August 22nd. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-08-08</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-01-3">
+	<title>PHP 7.1.31 Released</title>
+	<link>https://www.php.net/index.php#id2019-08-01-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.31. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.31 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-01</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-01-2">
+	<title>PHP 7.2.21 Released</title>
+	<link>https://www.php.net/index.php#id2019-08-01-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.21. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.21 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-01</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-08-01-1">
+	<title>PHP 7.3.8 Release Announcement</title>
+	<link>https://www.php.net/index.php#id2019-08-01-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.8. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.8 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-08-01</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-07-25-1">
+	<title>PHP 7.4.0beta1 released!</title>
+	<link>https://www.php.net/index.php#id2019-07-25-1</link>
+	<description>The PHP team is glad to announce the first beta release of PHP 7.4: PHP 7.4.0beta1. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0beta1 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 2, planned for August 8th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-07-25</dc:date>
+</item>
+
+<item rdf:about="https://www.php.net/index.php#id2019-07-11-1">
+	<title>PHP 7.4.0 alpha 3 Released</title>
+	<link>https://www.php.net/index.php#id2019-07-11-1</link>
+	<description>PHP team is glad to announce the release of the third PHP 7.4.0 version, PHP 7.4.0 Alpha 3. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0 Alpha 3 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 1, planned for July 25th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-07-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-07-04-2">
+	<title>PHP 7.2.20 Released</title>
+	<link>http://php.net/index.php#id2019-07-04-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.20. This is a bugfix release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.20 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-07-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-07-04-1">
+	<title>PHP 7.3.7 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-07-04-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.7. This is a bug fix release.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.7 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-07-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-06-26-1">
+	<title>PHP 7.4.0 alpha 2 Released</title>
+	<link>http://php.net/index.php#id2019-06-26-1</link>
+	<description>PHP team is glad to announce the release of the second PHP 7.4.0 version, PHP 7.4.0 Alpha 2. This continues the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0 Alpha 2 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Alpha 3, planned for July 11th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-06-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-06-13-1">
+	<title>PHP 7.4.0 alpha 1 Released</title>
+	<link>http://php.net/index.php#id2019-06-13-1</link>
+	<description>PHP team is glad to announce the release of the first PHP 7.4.0 version, PHP 7.4.0 Alpha 1. This starts the PHP 7.4 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.4.0 Alpha 1 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Alpha 2, planned for June 27. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2019-06-13</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-30-3">
+	<title>PHP 7.1.30 Released</title>
+	<link>http://php.net/index.php#id2019-05-30-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.30. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.30 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-30-2">
+	<title>PHP 7.2.19 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-05-30-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.19. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.19 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-30-1">
+	<title>PHP 7.3.6 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-05-30-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.6. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.6 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-03-1">
+	<title>PHP 7.1.29 Released</title>
+	<link>http://php.net/index.php#id2019-05-03-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.29. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.29 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-03</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-02-2">
+	<title>PHP 7.2.18 Released</title>
+	<link>http://php.net/index.php#id2019-05-02-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.18. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.18 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-02</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-05-02-1">
+	<title>PHP 7.3.5 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-05-02-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.5. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.5 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-05-02</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-04-04-3">
+	<title>PHP 7.1.28 Released</title>
+	<link>http://php.net/index.php#id2019-04-04-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.28. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.28 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-04-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-04-04-2">
+	<title>PHP 7.2.17 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-04-04-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.17. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.17 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-04-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-04-04-1">
+	<title>PHP 7.3.4 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-04-04-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.4. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.4 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-04-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-03-07-3">
+	<title>PHP 7.1.27 Released</title>
+	<link>http://php.net/index.php#id2019-03-07-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.27. This is a security release which also contains several bug fixes.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.27 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-03-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-03-07-2">
+	<title>PHP 7.2.16 Released</title>
+	<link>http://php.net/index.php#id2019-03-07-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.16. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.16 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-03-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-03-07-1">
+	<title>PHP 7.3.3 Released</title>
+	<link>http://php.net/index.php#id2019-03-07-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.3. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.3 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-03-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-02-07-2">
+	<title>PHP 7.2.15 Released</title>
+	<link>http://php.net/index.php#id2019-02-07-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.15. This is a bugfix release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.15 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-02-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-02-07-1">
+	<title>PHP 7.3.2 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-02-07-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.2. This is a bugfix release, with several bug fixes included.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.2 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-02-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-01-10-4">
+	<title>PHP 5.6.40 Released</title>
+	<link>http://php.net/index.php#id2019-01-10-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.40. This is a security release. Several security bugs have been fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.40 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog. Please note that according to the PHP version support timelines, PHP 5.6.40 is the last scheduled release of PHP 5.6 branch. There may be additional release if we discover important security issues that warrant it, otherwise this release will be the final one in the PHP 5.6 branch. If your PHP installation is based on PHP 5.6, it may be a good time to start making the plans for the upgrade to PHP 7.1, PHP 7.2 or PHP 7.3.</description>
+	<dc:date>2019-01-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-01-10-3">
+	<title>PHP 7.1.26 Release Announcement</title>
+	<link>http://php.net/index.php#id2019-01-10-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.26. This is a security release which also contains several bug fixes.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.26 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-01-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-01-10-2">
+	<title>PHP 7.3.1 Released</title>
+	<link>http://php.net/index.php#id2019-01-10-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.1. This is a security release which also contains several bug fixes.All PHP 7.3 users are encouraged to upgrade to this version.For source downloads of PHP 7.3.1 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-01-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2019-01-10-1">
+	<title>PHP 7.2.14 Released</title>
+	<link>http://php.net/index.php#id2019-01-10-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.14. This is a security release which also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.14 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2019-01-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-12-06-4">
+	<title>PHP 7.1.25 Released</title>
+	<link>http://php.net/index.php#id2018-12-06-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.25. This is a security release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.25 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-12-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-12-06-3">
+	<title>PHP 7.2.13 Released</title>
+	<link>http://php.net/index.php#id2018-12-06-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.13. This is a security release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.13 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-12-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-12-06-2">
+	<title>PHP 5.6.39 Released</title>
+	<link>http://php.net/index.php#id2018-12-06-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.39. This is a security release. Several security bugs have been fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.39 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog. Please note that according to the PHP version support timelines, PHP 5.6.39 is the last scheduled release of PHP 5.6 branch. There may be additional release if we discover important security issues that warrant it, otherwise this release will be the final one in the PHP 5.6 branch. If your PHP installation is based on PHP 5.6, it may be a good time to start making the plans for the upgrade to PHP 7.1, PHP 7.2 or PHP 7.3.</description>
+	<dc:date>2018-12-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-12-06-1">
+	<title>PHP 7.3.0 Released</title>
+	<link>http://php.net/index.php#id2018-12-06-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.3.0. This release marks the third feature update to the PHP 7 series.PHP 7.3.0 comes with numerous improvements and new features such asFlexible Heredoc and Nowdoc SyntaxPCRE2 MigrationMultiple MBString ImprovementsLDAP Controls SupportImproved FPM LoggingWindows File Deletion ImprovementsSeveral DeprecationsFor source downloads of PHP 7.3.0 please visit our downloads page Windows binaries can be found on the PHP for Windows site. The list of changes is recorded in the ChangeLog.The migration guide is available in the PHP Manual. Please consult it for the detailed list of new features and backward incompatible changes.Many thanks to all the contributors and supporters!</description>
+	<dc:date>2018-12-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-11-22-1">
+	<title>PHP 7.3.0RC6 Released</title>
+	<link>http://php.net/index.php#id2018-11-22-1</link>
+	<description>The PHP team is glad to announce the presumably last PHP 7.3.0 pre-release, PHP 7.3.0RC6. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC6 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be 7.3.0 (GA), planned for December 6th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-11-22</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-11-08-3">
+	<title>PHP 7.1.24 Released</title>
+	<link>http://php.net/index.php#id2018-11-08-3</link>
+	<description>PHP 7.1.24 Release AnnouncementThe PHP development team announces the immediate availability of PHP 7.1.24. This is a bugfix release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.24 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-11-08</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-11-08-1">
+	<title>PHP 7.3.0RC5 Released</title>
+	<link>http://php.net/index.php#id2018-11-08-1</link>
+	<description>The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC5. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC5 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC6, planned for November 22nd. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-11-08</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-10-25-1">
+	<title>PHP 7.3.0RC4 Released</title>
+	<link>http://php.net/index.php#id2018-10-25-1</link>
+	<description>The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC4. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC4 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC5, planned for November 8th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-10-25</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-10-11-3">
+	<title>PHP 7.1.23 Released</title>
+	<link>http://php.net/index.php#id2018-10-11-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.23. This is a bugfix release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.23 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-10-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-10-11-2">
+	<title>PHP 7.2.11 Released</title>
+	<link>http://php.net/index.php#id2018-10-11-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.11. This is a bugfix release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.11 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-10-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-10-11-1">
+	<title>PHP 7.3.0RC3 Released</title>
+	<link>http://php.net/index.php#id2018-10-11-1</link>
+	<description>The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC3. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC3 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC4, planned for October 25th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-10-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-09-28-1">
+	<title>PHP 7.3.0RC2 Released</title>
+	<link>http://php.net/index.php#id2018-09-28-1</link>
+	<description>The PHP team is glad to announce the next PHP 7.3.0 pre-release, PHP 7.3.0RC2. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC2 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC3, planned for October 11th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-09-28</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-09-13-5">
+	<title>PHP 5.6.38 Released</title>
+	<link>http://php.net/index.php#id2018-09-13-5</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.38. This is a security release. One security bug has been fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.38 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-09-13</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-09-13-4">
+	<title>PHP 7.1.22 Released</title>
+	<link>http://php.net/index.php#id2018-09-13-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.22. This is a security release. One security bug has been fixed in this release. All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.22 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-09-13</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-09-13-2">
+	<title>PHP 7.3.0RC1 Released</title>
+	<link>http://php.net/index.php#id2018-09-13-2</link>
+	<description>The PHP team is glad to announce the release of the next PHP 7.3.0 pre-release, PHP 7.3.0RC1. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0RC1 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC2, planned for September 27th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-09-13</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-08-30-1">
+	<title>PHP 7.3.0.beta3 Released</title>
+	<link>http://php.net/index.php#id2018-08-30-1</link>
+	<description>The PHP team is glad to announce the release of the seventh PHP 7.3.0 version, PHP 7.3.0beta3. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0beta3 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be RC1, planned for September 13th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-08-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-08-17-1">
+	<title>PHP 7.1.21 Released</title>
+	<link>http://php.net/index.php#id2018-08-17-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.21. This is a bugfix release. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.21 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-08-17</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-08-16-1">
+	<title>PHP 7.3.0.beta2 Released</title>
+	<link>http://php.net/index.php#id2018-08-16-1</link>
+	<description>The PHP team is glad to announce the release of the sixth PHP 7.3.0 version, PHP 7.3.0beta2. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0beta2 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. Internal changes are listed in the UPGRADING.INTERNALS file. These files can also be found in the release archive. The next release would be Beta 3, planned for August 30th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-08-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-08-02-1">
+	<title>PHP 7.3.0.beta1 Released</title>
+	<link>http://php.net/index.php#id2018-08-02-1</link>
+	<description>The PHP team is glad to announce the release of the fifth PHP 7.3.0 version, PHP 7.3.0beta1. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0beta1 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 2, planned for August 16th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-08-02</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-07-20-2">
+	<title>PHP 7.1.20 Released</title>
+	<link>http://php.net/index.php#id2018-07-20-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.20. This is a security release. Several security bugs have been fixed in this release. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.20 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-07-20</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-07-20-1">
+	<title>PHP 5.6.37 Released</title>
+	<link>http://php.net/index.php#id2018-07-20-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.37. This is a security release. Several security bugs have been fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.37 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-07-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-07-19-1">
+	<title>PHP 7.3.0alpha4 Released</title>
+	<link>http://php.net/index.php#id2018-07-19-1</link>
+	<description>The PHP team is glad to announce the release of the fourth PHP 7.3.0 version, PHP 7.3.0alpha4. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0alpha4 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 1, planned for August 2nd. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-07-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-07-05-1">
+	<title>PHP 7.3.0 alpha 3 Released</title>
+	<link>http://php.net/index.php#id2018-07-05-1</link>
+	<description>The PHP team is glad to announce the release of the third PHP 7.3.0 version, PHP 7.3.0 Alpha 3. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0 Alpha 3 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Beta 1, planned for July 19th. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-07-05</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-06-25-1">
+	<title>PHP 7.1.19 Released</title>
+	<link>http://php.net/index.php#id2018-06-25-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.19. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.19 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-06-25</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-06-21-2">
+	<title>PHP 7.2.7 Released</title>
+	<link>http://php.net/index.php#id2018-06-21-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.7. This is a primarily a bugfix release which includes a segfault fix for opcache.PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.7 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-06-21</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-06-21-1">
+	<title>PHP 7.3.0 alpha 2 Released</title>
+	<link>http://php.net/index.php#id2018-06-21-1</link>
+	<description>The PHP team is glad to announce the release of the second PHP 7.3.0 version, PHP 7.3.0 Alpha 2. The rough outline of the PHP 7.3 release cycle is specified in the PHP Wiki. For source downloads of PHP 7.3.0 Alpha 2 please visit the download page. Windows sources and binaries can be found on windows.php.net/qa/. Please carefully test this version and report any issues found in the bug reporting system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Alpha 3, planned for July 5. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-06-21</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-06-07-1">
+	<title>PHP 7.3.0 alpha 1 Released</title>
+	<link>http://php.net/index.php#id2018-06-07-1</link>
+	<description>PHP team is glad to announce the release of the first PHP 7.3.0 version, PHP 7.3.0 Alpha 1. This starts the PHP 7.3 release cycle, the rough outline of which is specified in the PHP Wiki. For source downloads of PHP 7.3.0 Alpha 1 please visit the download page. Please carefully test this version and report any issues found in the bug reporting system. Please DO NOT use this version in production, it is an early test version. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. The next release would be Alpha 2, planned for June 21. The signatures for the release can be found in the manifest or on the QA site. Thank you for helping us make PHP better.</description>
+	<dc:date>2018-06-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-05-25-1">
+	<title>PHP 7.1.18 Released</title>
+	<link>http://php.net/index.php#id2018-05-25-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.18. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.18 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-05-25</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-04-26-4">
+	<title>PHP 5.6.36 Released</title>
+	<link>http://php.net/index.php#id2018-04-26-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.36. This is a security release. Several security bugs have been fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.36 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-04-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-04-26-3">
+	<title>PHP 7.1.17 Released</title>
+	<link>http://php.net/index.php#id2018-04-26-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.17. This is a security fix release, containing many bugfixes. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.17 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-04-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-03-30-2">
+	<title>PHP 7.1.16 Released</title>
+	<link>http://php.net/index.php#id2018-03-30-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.16. This is a security fix release, containing one security fix and many bug fixes. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.16 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-03-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-03-29-3">
+	<title>PHP 5.6.35 Released</title>
+	<link>http://php.net/index.php#id2018-03-29-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.35. This is a security release. One security bug was fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.35 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-03-29</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-03-02-1">
+	<title>PHP 7.1.15 Released</title>
+	<link>http://php.net/index.php#id2018-03-02-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.15. This is a security fix release, containing one security fix and many bug fixes. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.15 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-03-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-03-01-3">
+	<title>PHP 5.6.34 Released</title>
+	<link>http://php.net/index.php#id2018-03-01-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.34. This is a security release. One security bug was fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.34 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-03-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-03-01-2">
+	<title>PHP 7.2.3 Released</title>
+	<link>http://php.net/index.php#id2018-03-01-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.3. This is a security release with also contains several minor bug fixes.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.3 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-03-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-02-01-2">
+	<title>PHP 7.1.14 Released</title>
+	<link>http://php.net/index.php#id2018-02-01-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.14. This is a bugfix release. Several bugs were fixed in this release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.14 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-02-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-02-01-1">
+	<title>PHP 7.2.2 Released</title>
+	<link>http://php.net/index.php#id2018-02-01-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.2. This is a bugfix release, with several bug fixes included.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.2 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-02-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-01-04-4">
+	<title>PHP 5.6.33 Released</title>
+	<link>http://php.net/index.php#id2018-01-04-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.33. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.33 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-01-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-01-04-3">
+	<title>PHP 7.1.13 Released</title>
+	<link>http://php.net/index.php#id2018-01-04-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.13. This is a security release. Several security bugs were fixed in this release.All PHP 7.1 users are encouraged to upgrade to this version.For source downloads of PHP 7.1.13 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-01-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2018-01-04-2">
+	<title>PHP 7.2.1 Released</title>
+	<link>http://php.net/index.php#id2018-01-04-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.1. This is a security release. Several security bugs were fixed in this release.All PHP 7.2 users are encouraged to upgrade to this version.For source downloads of PHP 7.2.1 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2018-01-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-11-30-1">
+	<title>PHP 7.2.0 Released</title>
+	<link>http://php.net/index.php#id2017-11-30-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0. This release marks the second feature update to the PHP 7 series.PHP 7.2.0 comes with numerous improvements and new features such asConvert numeric keys in object/array castsCounting of non-countable objectsObject typehintHashContext as ObjectArgon2 in password hashImprove TLS constants to sane valuesMcrypt extension removedNew sodium extensionFor source downloads of PHP 7.2.0 please visit our downloads page Windows binaries can be found on the PHP for Windows site. The list of changes is recorded in the ChangeLog.The migration guide is available in the PHP Manual. Please consult it for the detailed list of new features and backward incompatible changes.Many thanks to all the contributors and supporters!</description>
+	<dc:date>2017-11-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-11-24-1">
+	<title>PHP 7.1.12 Released</title>
+	<link>http://php.net/index.php#id2017-11-24-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.12. This is a bugfix release, with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.12 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-11-24</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-11-09-1">
+	<title>PHP 7.2.0RC6 Released</title>
+	<link>http://php.net/index.php#id2017-11-09-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 RC6. This release is the sixth Release Candidate for 7.2.0. Barring any surprises, we expect this to be the FINAL release candidate, with Nov 30th's GA release being not-substantially different. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 6 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-11-09</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-10-27-1">
+	<title>PHP 7.1.11 Released</title>
+	<link>http://php.net/index.php#id2017-10-27-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.11. This is a bugfix release, with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.11 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-10-27</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-10-26-3">
+	<title>PHP 5.6.32 Released</title>
+	<link>http://php.net/index.php#id2017-10-26-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.32. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.32 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-10-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-10-26-2">
+	<title>PHP 7.2.0 Release Candidate 5 Released</title>
+	<link>http://php.net/index.php#id2017-10-26-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 RC5. This release is the fifth Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 5 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The next Release Candidate will be announced on the 9th of November. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-10-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-10-12-1">
+	<title>PHP 7.2.0 Release Candidate 4 Released</title>
+	<link>http://php.net/index.php#id2017-10-12-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 RC4. This release is the fourth Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 4 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The next Release Candidate will be announced on the 26th of October. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-10-12</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-09-29-1">
+	<title>PHP 7.1.10 Release Announcement</title>
+	<link>http://php.net/index.php#id2017-09-29-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.10. This is a bugfix release, with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.10 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-09-29</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-09-28-2">
+	<title>PHP 7.2.0 Release Candidate 3 Released</title>
+	<link>http://php.net/index.php#id2017-09-28-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 RC3. This release is the third Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 3 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The next Release Candidate will be announced on the 12th of October. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-09-28</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-09-14-1">
+	<title>PHP 7.2.0 Release Candidate 2 Released</title>
+	<link>http://php.net/index.php#id2017-09-14-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 RC2. This release is the second Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 2 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The next Release Candidate will be announced on the 28th of September. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-09-14</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-09-01-1">
+	<title>PHP 7.1.9 Released</title>
+	<link>http://php.net/index.php#id2017-09-01-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.9. This is a bugfix release, with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.9 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-09-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-08-31-1">
+	<title>PHP 7.2.0 Release Candidate 1 Released</title>
+	<link>http://php.net/index.php#id2017-08-31-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Release Candidate 1. This release is the first Release Candidate for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Release Candidate 1 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The second Release Candidate will be released on the 14th of September. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-08-31</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-08-17-1">
+	<title>PHP 7.2.0 Beta 3 Released</title>
+	<link>http://php.net/index.php#id2017-08-17-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Beta 3. This release is the third and final beta for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Beta 3 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The first Release Candidate will be released on the 31th of August. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-08-17</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-08-03-3">
+	<title>PHP 7.1.8 Released</title>
+	<link>http://php.net/index.php#id2017-08-03-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.8. This is a bugfix release, with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.8 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-08-03</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-08-03-2">
+	<title>PHP 7.2.0 Beta 2 Released</title>
+	<link>http://php.net/index.php#id2017-08-03-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Beta 2. This release is the second beta for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Beta 2 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The third and final beta will be released on the 17th of August. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-08-03</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-07-20-1">
+	<title>PHP 7.2.0 Beta 1 Released</title>
+	<link>http://php.net/index.php#id2017-07-20-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Beta 1. This release is the first beta for 7.2.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!PHP 7.2.0 Beta 1 builds on previous releases with:The much anticipated Sodium extensionOpcache improvementsCountable support for DOMNodeList and DOMNamedNodeMapImproved handling for invalid UTF8 in json_decode()And many bugfixes... For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.2.0 Beta 1 please visit the download page, Windows sources and binaries can be found at windows.php.net/qa/. The second beta will be released on the 3rd of August. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2017-07-20</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-07-06-4">
+	<title>PHP 5.6.31 Released</title>
+	<link>http://php.net/index.php#id2017-07-06-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.31. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.31 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-07-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-07-06-3">
+	<title>PHP 7.1.7 Released</title>
+	<link>http://php.net/index.php#id2017-07-06-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.7. This is a security release with several bug fixes included. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.7 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-07-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-07-06-2">
+	<title>PHP 7.2.0 Alpha 3 Released</title>
+	<link>http://php.net/index.php#id2017-07-06-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Alpha 3. This release contains fixes and improvements relative to Alpha 2. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system.THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!For information on new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive.For source downloads of PHP 7.2.0 Alpha 3 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/.The first beta will be released on the 20th of July. You can also read the full list of planned releases on our wiki.Thank you for helping us make PHP better.</description>
+	<dc:date>2017-07-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-06-22-1">
+	<title>PHP 7.2.0 Alpha 2 Released</title>
+	<link>http://php.net/index.php#id2017-06-22-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.2.0 Alpha 2. This release contains fixes and improvements relative to Alpha 1. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system.THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION!For information on new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive.For source downloads of PHP 7.2.0 Alpha 2 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/.The third and final alpha will be released on the 6th of July. You can also read the full list of planned releases on our wiki.Thank you for helping us make PHP better.</description>
+	<dc:date>2017-06-22</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-06-08-3">
+	<title>PHP 7.1.6 Released</title>
+	<link>http://php.net/index.php#id2017-06-08-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.6. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.6 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-06-08</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-05-11-2">
+	<title>PHP 7.1.5 Released</title>
+	<link>http://php.net/index.php#id2017-05-11-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.5. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.5 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-05-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-04-13-2">
+	<title>PHP 7.1.4 Released</title>
+	<link>http://php.net/index.php#id2017-04-13-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.4. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.4 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-04-13</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-03-16-2">
+	<title>PHP 7.1.3 Released</title>
+	<link>http://php.net/index.php#id2017-03-16-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.3. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.3 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-03-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-02-17-1">
+	<title>PHP 7.1.2 Released</title>
+	<link>http://php.net/index.php#id2017-02-17-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.2. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.2 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-02-17</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-01-19-3">
+	<title>PHP 5.6.30 Released</title>
+	<link>http://php.net/index.php#id2017-01-19-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.30. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. According to our release calendar, this PHP 5.6 version is the last planned release that contains regular bugfixes. All the consequent releases will contain only security-relevant fixes, for the term of two years. PHP 5.6 users that need further bugfixes are encouraged to upgrade to PHP 7. For source downloads of PHP 5.6.30 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-01-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2017-01-19-1">
+	<title>PHP 7.1.1 Released</title>
+	<link>http://php.net/index.php#id2017-01-19-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.1. Several bugs have been fixed. All PHP 7.1 users are encouraged to upgrade to this version. For source downloads of PHP 7.1.1 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2017-01-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-12-08-2">
+	<title>PHP 5.6.29 Released</title>
+	<link>http://php.net/index.php#id2016-12-08-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.29. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.29 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-12-08</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-12-01-3">
+	<title>PHP 7.1.0 Released</title>
+	<link>http://php.net/index.php#id2016-12-01-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0. This release is the first point release in the 7.x series.PHP 7.1.0 comes with numerous improvements and new features such asNullable typesVoid return typeIterable pseudo-typeClass constant visiblity modifiersSquare bracket syntax for list() and the ability to specify keys in list()Catching multiple exceptions typesMany more features and changes…For source downloads of PHP 7.1.0 please visit our downloads page, Windows binaries can be found on the PHP for Windows site. The list of changes is recorded in the ChangeLog.The migration guide is available in the PHP Manual. Please consult it for the detailed list of new features and backward incompatible changes.Many thanks to all the contributors and supporters!</description>
+	<dc:date>2016-12-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-11-10-3">
+	<title>PHP 5.6.28 Released</title>
+	<link>http://php.net/index.php#id2016-11-10-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.28. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.28 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-11-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-11-10-2">
+	<title>PHP 7.1.0 Release Candidate 6 Released</title>
+	<link>http://php.net/index.php#id2016-11-10-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 6. This release is the sixth and final release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 6 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-11-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-10-27-1">
+	<title>PHP 7.1.0 Release Candidate 5 Released</title>
+	<link>http://php.net/index.php#id2016-10-27-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 5. This release is the fifth release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 5 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The sixth and last release candidate will be released on the 10th of November. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-10-27</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-10-19-1">
+	<title>PHP 7.1.0 Release Candidate 4 Released</title>
+	<link>http://php.net/index.php#id2016-10-19-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 4. This release is the fourth release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 4 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The fifth release candidate will be released on the 27th of October. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-10-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-10-14-1">
+	<title>PHP 5.6.27 Released</title>
+	<link>http://php.net/index.php#id2016-10-14-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.27. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.27 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-10-14</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-09-29-1">
+	<title>PHP 7.1.0 Release Candidate 3 Released</title>
+	<link>http://php.net/index.php#id2016-09-29-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 3. This release is the third release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 3 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The fourth release candidate will be released on the 13th of October. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-09-29</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-09-16-2">
+	<title>PHP 7.1.0 Release Candidate 2 Released</title>
+	<link>http://php.net/index.php#id2016-09-16-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 2. This release is the second release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 2 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The third release candidate will be released on the 29th of September. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-09-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-09-16-1">
+	<title>PHP 5.6.26 is released</title>
+	<link>http://php.net/index.php#id2016-09-16-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.26. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.26 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-09-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-09-01-1">
+	<title>PHP 7.1.0 Release Candidate 1 Released</title>
+	<link>http://php.net/index.php#id2016-09-01-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Release Candidate 1. This release is the first release candidate for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Release Candidate 1 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The second release candidate will be released on the 15th of September. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-09-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-08-18-3">
+	<title>PHP 7.1.0 Beta 3 Released</title>
+	<link>http://php.net/index.php#id2016-08-18-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Beta 3. This release is the last beta for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Beta 3 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The first release candidate will be released on the 1st of September. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-08-18</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-08-18-2">
+	<title>PHP 5.6.25 is released</title>
+	<link>http://php.net/index.php#id2016-08-18-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.25. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version.For source downloads of PHP 5.6.25 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-08-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-08-04-1">
+	<title>PHP 7.1.0 Beta 2 Released</title>
+	<link>http://php.net/index.php#id2016-08-04-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Beta 2. This release is the second beta for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Beta 2 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The third and last beta will be released on the 18th of August. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-08-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-07-21-4">
+	<title>PHP 5.6.24 is released</title>
+	<link>http://php.net/index.php#id2016-07-21-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.24. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.24 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-07-21</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-07-21-2">
+	<title>PHP 5.5.38 is released</title>
+	<link>http://php.net/index.php#id2016-07-21-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.38. This is a security release that fixes some security related bugs. All PHP 5.5 users are encouraged to upgrade to this version.For source downloads of PHP 5.5.38 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download. The list of changes is recorded in the ChangeLog. Note that according to our release schedule, PHP 5.5.38 is the last release of the PHP 5.5 branch. There may be additional release if we discover important security issues that warrant it, otherwise this release will be the final one in the PHP 5.5 branch. If your PHP installation is based on PHP 5.5, it may be a good time to start making the plans for the upgrade to PHP 5.6 or PHP 7.0.</description>
+	<dc:date>2016-07-21</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-07-21-1">
+	<title>PHP 7.1.0 Beta 1 Released</title>
+	<link>http://php.net/index.php#id2016-07-21-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Beta 1. This release is the first beta for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! PHP 7.1.0 Beta 1 builds on previous releases with: Asynchronous Signal Handling (without ticks) in ext/pcntl. Additional Context in pcntl_signal Handler For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Beta 1 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The second beta will be released on the 8th of August. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-07-21</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-07-07-1">
+	<title>PHP 7.1.0 Alpha 3 Released</title>
+	<link>http://php.net/index.php#id2016-07-07-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Alpha 3. This release is the last alpha for 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! PHP 7.1.0 Alpha 3 builds on previous releases with: Iterable type. HTTP/2 Server Push Support in ext/curl &amp; other ext/curl improvements Fix inconsistent behavior in $this variableSquare bracket syntax for array destructuring assignmentCreate closure from callableMore precise float values. For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Alpha 3 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The first beta will be released on the 21st of July. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-07-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-06-24-1">
+	<title>PHP 7.1.0 Alpha 2 Released</title>
+	<link>http://php.net/index.php#id2016-06-24-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Alpha 2. This is the second alpha release for PHP 7.1.0. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Alpha 2 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The first beta will be released on the 7th of July. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-06-27</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-06-23-3">
+	<title>PHP 5.5.37 is released</title>
+	<link>http://php.net/index.php#id2016-06-23-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.37. This is a security release, several security bugs were fixed. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.37 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-06-23</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-06-23-2">
+	<title>PHP 5.6.23 is released</title>
+	<link>http://php.net/index.php#id2016-06-23-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.23. Several bugs were fixed in this release, including security-related ones. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.23 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-06-23</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-06-09-1">
+	<title>PHP 7.1.0 Alpha 1 Released</title>
+	<link>http://php.net/index.php#id2016-06-09-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 7.1.0 Alpha 1. This release marks the beginning of the first minor release in the PHP 7.x series. All users of PHP are encouraged to test this version carefully, and report any bugs and incompatibilities in the bug tracking system. THIS IS A DEVELOPMENT PREVIEW - DO NOT USE IT IN PRODUCTION! PHP 7.1.0 Alpha 1 comes with features such as (incomplete list): Nullable TypesSquare bracket syntax for array destructuring assignment Allow specifying keys in list()Generalize support of negative string offsets Void Return TypeClass constant visibility modifiersMulti catch For more information on the new features and other changes, you can read the NEWS file, or the UPGRADING file for a complete list of upgrading notes. These files can also be found in the release archive. For source downloads of PHP 7.1.0 Alpha 1 please visit the download page, Windows sources and binaries can be found on windows.php.net/qa/. The second alpha will be released on the 23rd of June. You can also read the full list of planned releases on our wiki. Thank you for helping us make PHP better.</description>
+	<dc:date>2016-06-09</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-05-26-3">
+	<title>PHP 5.6.22 is available</title>
+	<link>http://php.net/index.php#id2016-05-26-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.22. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.22 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-05-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-05-26-2">
+	<title>PHP 5.5.36 is available</title>
+	<link>http://php.net/index.php#id2016-05-26-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.36. This is a security release. Several security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.36 please visit our downloads page, Windows source and binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-05-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-04-28-2">
+	<title>PHP 5.6.21 is available</title>
+	<link>http://php.net/index.php#id2016-04-28-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.21. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.21 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-04-28</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-04-28-1">
+	<title>PHP 5.5.35 Release</title>
+	<link>http://php.net/index.php#id2016-04-28-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.35. This is a security release. Several security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.35 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-04-28</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-03-31-4">
+	<title>PHP 5.6.20 is available</title>
+	<link>http://php.net/index.php#id2016-03-31-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.20. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.20 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-03-31</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-03-31-2">
+	<title>PHP 5.5.34 is available</title>
+	<link>http://php.net/index.php#id2016-03-31-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.34. This is a security release. Several security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.34 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-03-31</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-03-03-3">
+	<title>PHP 5.6.19 is available</title>
+	<link>http://php.net/index.php#id2016-03-03-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.19. This is a security release in which several security bugs were fixed. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.19 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-03-03</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-03-03-2">
+	<title>PHP 5.5.33 is available</title>
+	<link>http://php.net/index.php#id2016-03-03-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.33. This is a security release in which two security bugs were fixed. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.33 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-03-03</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-02-04-3">
+	<title>PHP 5.6.18 is available</title>
+	<link>http://php.net/index.php#id2016-02-04-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.18. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.18 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-02-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-02-04-2">
+	<title>PHP 5.5.32 is available</title>
+	<link>http://php.net/index.php#id2016-02-04-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.32. This is a security release. Several security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.32 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-02-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-01-07-3">
+	<title>PHP 5.6.17 is available</title>
+	<link>http://php.net/index.php#id2016-01-07-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.17. This is a security release. Several security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.17 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-01-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2016-01-07-2">
+	<title>PHP 5.5.31 is available</title>
+	<link>http://php.net/index.php#id2016-01-07-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.31. This is a security release. Several security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.31 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2016-01-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-11-26-2">
+	<title>PHP 5.6.16 is available</title>
+	<link>http://php.net/index.php#id2015-11-26-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.16. Several bugs have been fixed. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.16 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-11-26</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-10-29-2">
+	<title>PHP 5.6.15 is available</title>
+	<link>http://php.net/index.php#id2015-10-29-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.15. Several bugs have been fixed. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.15 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-10-30</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-10-01-3">
+	<title>PHP 5.6.14 is available</title>
+	<link>http://php.net/index.php#id2015-10-01-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.14. This is a security release. Two security bugs were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.14 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-10-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-10-01-2">
+	<title>PHP 5.5.30 is available</title>
+	<link>http://php.net/index.php#id2015-10-01-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.30. This is a security release. Two security bugs were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.30 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-10-01</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-09-04-4">
+	<title>PHP 5.4.45 Released</title>
+	<link>http://php.net/index.php#id2015-09-04-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.45. Ten security-related issues were fixed in this release. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.45 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog. Please note that according to the PHP version support timelines, PHP 5.4.45 is the last scheduled release of PHP 5.4 branch. There may be additional release if we discover important security issues that warrant it, otherwise this release will be the final one in the PHP 5.4 branch. If your PHP installation is based on PHP 5.4, it may be a good time to start making the plans for the upgrade to PHP 5.5 or PHP 5.6.</description>
+	<dc:date>2015-09-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-09-04-3">
+	<title>PHP 5.5.29 is available</title>
+	<link>http://php.net/index.php#id2015-09-04-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.29. This is a security release. Many security-related issues were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.29 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-09-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-09-04-2">
+	<title>PHP 5.6.13 is available</title>
+	<link>http://php.net/index.php#id2015-09-04-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.13. 11 security-related issues were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.13 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-09-04</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-08-06-4">
+	<title>PHP 5.6.12 is available</title>
+	<link>http://php.net/index.php#id2015-08-06-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.12. 12 security-related issues were fixed in this release. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.12 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-08-07</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-08-06-3">
+	<title>PHP 5.5.28 Released</title>
+	<link>http://php.net/index.php#id2015-08-06-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.28. 12 security-related issues were fixed in this release. All PHP 5.5 users are encouraged to upgrade to this version. According to our release calendar, this PHP 5.5 version is the first security release of the PHP 5.5 branch. This and all the following releases of this branch do not contain bugfixes that are not considered relevant for security. PHP 5.5 users that need further bugfixes are encouraged to upgrade to PHP 5.6. For source downloads of PHP 5.5.28 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-08-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-08-06-2">
+	<title>PHP 5.4.44 Released</title>
+	<link>http://php.net/index.php#id2015-08-06-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.44. 11 security-related issues were fixed in this release. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.44 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog. Please note that PHP 5.4 branch is nearing the end of its support timeframe. Either September or October release, depending on discovered issues, will be the last official release of PHP 5.4. If your PHP installation is based on PHP 5.4, it may be a good time to start making the plans for the upgrade.</description>
+	<dc:date>2015-08-06</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-07-10-3">
+	<title>PHP 5.6.11 is available</title>
+	<link>http://php.net/index.php#id2015-07-10-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.11. Five security-related issues in PHP were fixed in this release, including CVE-2015-3152. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.11 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-07-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-07-10-2">
+	<title>PHP 5.5.27 released</title>
+	<link>http://php.net/index.php#id2015-07-10-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.27. Several bugs were fixed in this release as well as CVE-2015-3152. All PHP 5.5 users are encouraged to upgrade to this version. According to our release calendar, this PHP 5.5 version is the last planned release that contains regular bugfixes. All the consequent releases will contain only security-relevant fixes, for the term of one year. PHP 5.5 users that need further bugfixes are encouraged to upgrade to PHP 5.6. For source downloads of PHP 5.5.27 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-07-10</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-07-09-1">
+	<title>PHP 5.4.43 Released</title>
+	<link>http://php.net/index.php#id2015-07-09-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.43. Five security-related issues in PHP were fixed in this release, including CVE-2015-3152. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.43 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog. Please note that PHP 5.4 branch is nearing the end of its support timeframe. If your PHP installations is based on PHP 5.4, it may be a good time to start making the plans for the upgrade.</description>
+	<dc:date>2015-07-09</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-06-11-4">
+	<title>PHP 5.4.42 Released</title>
+	<link>http://php.net/index.php#id2015-06-11-4</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.42. Six security-related issues in PHP were fixed in this release, as well as several security issues in bundled sqlite library (CVE-2015-3414, CVE-2015-3415, CVE-2015-3416). All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.42 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-06-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-06-11-2">
+	<title>PHP 5.6.10 is available</title>
+	<link>http://php.net/index.php#id2015-06-11-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.10. Several bugs have been fixed as well as several security issues into some bundled libraries (CVE-2015-3414, CVE-2015-3415, CVE-2015-3416, CVE-2015-2325 and CVE-2015-2326). All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.10 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-06-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-06-11-1">
+	<title>PHP 5.5.26 is available</title>
+	<link>http://php.net/index.php#id2015-06-11-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.26. Several bugs have been fixed as well as several security issues into some bundled libraries (CVE-2015-3414, CVE-2015-3415, CVE-2015-3416, CVE-2015-2325 and CVE-2015-2326). All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.26 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-06-11</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-05-14-3">
+	<title>PHP 5.6.9 is available</title>
+	<link>http://php.net/index.php#id2015-05-14-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.9. Several bugs have been fixed. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.9 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-05-15</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-05-14-2">
+	<title>PHP 5.4.41 Released</title>
+	<link>http://php.net/index.php#id2015-05-14-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.41. Seven security-related issues were fixed in this version. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.41 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-05-14</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-05-14-1">
+	<title>PHP 5.5.25 is available</title>
+	<link>http://php.net/index.php#id2015-05-14-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.25. Several bugs have been fixed. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.25 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-05-14</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-04-16-3">
+	<title>PHP 5.4.40 Released</title>
+	<link>http://php.net/index.php#id2015-04-16-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.40. 14 security-related bugs were fixed in this release, including CVE-2014-9709, CVE-2015-2301, CVE-2015-2783, CVE-2015-1352. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.40 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-04-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-04-16-2">
+	<title>PHP 5.6.8 is available</title>
+	<link>http://php.net/index.php#id2015-04-16-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.8. Several bugs have been fixed some of them beeing security related, like CVE-2015-1351 and CVE-2015-1352. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.8 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-04-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-04-16-1">
+	<title>PHP 5.5.24 is available</title>
+	<link>http://php.net/index.php#id2015-04-16-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.24. Several bugs have been fixed some of them beeing security related, like CVE-2015-1351 and CVE-2015-1352. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.24 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-04-16</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-03-20-2">
+	<title>PHP 5.6.7 is available</title>
+	<link>http://php.net/index.php#id2015-03-20-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.7. Several bugs have been fixed as well as CVE-2015-0231, CVE-2015-2305 and CVE-2015-2331. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.7 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-03-20</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-03-20-1">
+	<title>PHP 5.5.23 is available</title>
+	<link>http://php.net/index.php#id2015-03-20-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.23. Several bugs have been fixed as well as CVE-2015-0231, CVE-2015-2305 and CVE-2015-2331. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.23 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-03-20</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-03-19-2">
+	<title>PHP 5.4.39 Released</title>
+	<link>http://php.net/index.php#id2015-03-19-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.39. Six security-related bugs were fixed in this release, including CVE-2015-0231, CVE-2015-2305 and CVE-2015-2331. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.39 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-03-20</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-02-19-2">
+	<title>PHP 5.6.6 is available</title>
+	<link>http://php.net/index.php#id2015-02-19-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.6. This release fixes several bugs and addresses CVE-2015-0235 and CVE-2015-0273. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.6 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-02-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-02-19-1">
+	<title>PHP 5.5.22 is available</title>
+	<link>http://php.net/index.php#id2015-02-19-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.22. This release fixes several bugs and addresses CVE-2015-0235 and CVE-2015-0273. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.22 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-02-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-02-18-1">
+	<title>PHP 5.4.38 Released</title>
+	<link>http://php.net/index.php#id2015-02-18-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.38. Seven security-related bugs were fixed in this release, including CVE-2015-0273 and mitigation for CVE-2015-0235. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.38 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-02-19</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-01-22-3">
+	<title>PHP 5.4.37 Released</title>
+	<link>http://php.net/index.php#id2015-01-22-3</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.4.37. Six security-related bugs were fixed in this release, including CVE-2015-0231, CVE-2014-9427 and CVE-2015-0232. All PHP 5.4 users are encouraged to upgrade to this version. For source downloads of PHP 5.4.37 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-01-22</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-01-22-2">
+	<title>PHP 5.6.5 is available</title>
+	<link>http://php.net/index.php#id2015-01-22-2</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.6.5. This release fixes several bugs as well as CVE-2015-0231, CVE-2014-9427 and CVE-2015-0232. All PHP 5.6 users are encouraged to upgrade to this version. For source downloads of PHP 5.6.5 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-01-22</dc:date>
+</item>
+
+<item rdf:about="http://php.net/index.php#id2015-01-22-1">
+	<title>PHP 5.5.21 is released</title>
+	<link>http://php.net/index.php#id2015-01-22-1</link>
+	<description>The PHP development team announces the immediate availability of PHP 5.5.21. This release fixes several bugs as well as CVE-2015-0231, CVE-2014-9427 and CVE-2015-0232. All PHP 5.5 users are encouraged to upgrade to this version. For source downloads of PHP 5.5.21 please visit our downloads page, Windows binaries can be found on windows.php.net/download/. The list of changes is recorded in the ChangeLog.</description>
+	<dc:date>2015-01-22</dc:date>
+</item>
+</rdf:RDF>

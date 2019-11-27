@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet title="XSL_formatting" type="text/xsl" href="/shared/bsp/xsl/rss/nolsol.xsl"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+    <channel>
+        <title><![CDATA[BBC News - Home]]></title>
+        <description><![CDATA[BBC News - Home]]></description>
+        <link>https://www.bbc.co.uk/news/</link>
+        <image>
+            <url>https://news.bbcimg.co.uk/nol/shared/img/bbc_news_120x60.gif</url>
+            <title>BBC News - Home</title>
+            <link>https://www.bbc.co.uk/news/</link>
+        </image>
+        <generator>RSS for Node</generator>
+        <lastBuildDate>Wed, 27 Nov 2019 17:19:31 GMT</lastBuildDate>
+        <copyright><![CDATA[Copyright: (C) British Broadcasting Corporation, see http://news.bbc.co.uk/2/hi/help/rss/4498287.stm for terms and conditions of reuse.]]></copyright>
+        <language><![CDATA[en-gb]]></language>
+        <ttl>15</ttl>
+        <item>
+            <title><![CDATA[Australian broadcaster Clive James dies aged 80]]></title>
+            <description><![CDATA[The critic, author, poet and TV host was known for his witty commentary on international television.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50578512</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50578512</guid>
+            <pubDate>Wed, 27 Nov 2019 16:49:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Row over Labour's 'NHS for sale' claim]]></title>
+            <description><![CDATA[Jeremy Corbyn says his party has a 451-page dossier of evidence - but the Tories say he is lying.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50572454</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50572454</guid>
+            <pubDate>Wed, 27 Nov 2019 16:43:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: SNP vote 'will send clear message on indyref2']]></title>
+            <description><![CDATA[Nicola Sturgeon says her party wants to "escape Brexit and put Scotland's future in Scotland's hands".]]></description>
+            <link>https://www.bbc.co.uk/news/uk-scotland-scotland-politics-50563934</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-scotland-scotland-politics-50563934</guid>
+            <pubDate>Wed, 27 Nov 2019 13:45:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gary Rhodes: Chef and TV presenter dies aged 59]]></title>
+            <description><![CDATA[The celebrity chef and TV personality was known for his spiky hair and passion for British cuisine.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50570852</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50570852</guid>
+            <pubDate>Wed, 27 Nov 2019 12:26:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jaden Moodie: Boy, 14, 'killed by rival gang in frenzied attack']]></title>
+            <description><![CDATA[Jaden Moodie "did not stand a chance" as he was targeted by a group of five men, a court hears.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-london-50573572</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-london-50573572</guid>
+            <pubDate>Wed, 27 Nov 2019 14:10:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Open door on 80mph Southend train 'due to loose screws']]></title>
+            <description><![CDATA[Operator Greater Anglia has since found a similar fault on 60 other doorways, a report says.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-essex-50573800</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-essex-50573800</guid>
+            <pubDate>Wed, 27 Nov 2019 13:43:06 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Couple fall victim to holiday scam]]></title>
+            <description><![CDATA[Simone and Alice Cardillo arrived at their accommodation to find it was empty and for sale.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-northern-ireland-50570187</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-northern-ireland-50570187</guid>
+            <pubDate>Wed, 27 Nov 2019 13:49:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Holey Artisan cafe: Bangladesh Islamists sentenced to death for 2016 attack]]></title>
+            <description><![CDATA[Seven Islamists are sentenced to death for an attack on a Bangladesh cafe that killed 22 people.]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-50570243</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-50570243</guid>
+            <pubDate>Wed, 27 Nov 2019 14:37:10 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[West Coast Mainline passengers 'stranded for seven hours']]></title>
+            <description><![CDATA[Trains between Preston and Scotland will not run until Friday after lines were "majorly damaged".]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-lancashire-50572149</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-lancashire-50572149</guid>
+            <pubDate>Wed, 27 Nov 2019 17:09:43 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jonathan Miller, director and humorist, dies at 85]]></title>
+            <description><![CDATA[The theatre and opera director famously starred in the Beyond the Fringe comedy revue in the 1960s.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50574472</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50574472</guid>
+            <pubDate>Wed, 27 Nov 2019 12:40:45 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Justin Welby: 'I felt nervous about opening up about my mental health’]]></title>
+            <description><![CDATA[The Archbishop of Canterbury tells Emma Barnett about seeking help and challenging the stigma of mental health.]]></description>
+            <link>https://www.bbc.co.uk/news/health-50576345</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/health-50576345</guid>
+            <pubDate>Wed, 27 Nov 2019 16:25:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Black Friday: US couple charge shoppers to queue]]></title>
+            <description><![CDATA[A US couple are trying to make money out of sitting in Black Friday queues for shoppers.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50570367</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50570367</guid>
+            <pubDate>Wed, 27 Nov 2019 10:51:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gary Rhodes' life in pictures: Michelin stars, MasterChef and more]]></title>
+            <description><![CDATA[Look back at the life of the celebrity chef who enjoyed huge popularity in the kitchen and on TV.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50573348</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50573348</guid>
+            <pubDate>Wed, 27 Nov 2019 12:25:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Pushy pig steals spotlight during live TV broadcast]]></title>
+            <description><![CDATA[Presenters at a Greek TV station cry with laughter as the nosey intruder take centre stage.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-50576398</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-50576398</guid>
+            <pubDate>Wed, 27 Nov 2019 13:46:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Stafford man's weary World War Two teddy bear up for auction]]></title>
+            <description><![CDATA[The bear sat on Tom Matthews' father's lap during a victory parade in Berlin in 1945.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50574030</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-stoke-staffordshire-50574030</guid>
+            <pubDate>Wed, 27 Nov 2019 14:05:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[James Gellatly: Scooter champion, 12, shows off his tricks]]></title>
+            <description><![CDATA[James Gellatly became a junior world champion in the extreme sport earlier this year.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-england-northamptonshire-50566703</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-england-northamptonshire-50566703</guid>
+            <pubDate>Wed, 27 Nov 2019 06:12:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How much! Why are service station snacks so expensive?]]></title>
+            <description><![CDATA[A bottle of water costs four times more on the motorway than in a supermarket, mystery shoppers say.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50517170</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50517170</guid>
+            <pubDate>Wed, 27 Nov 2019 00:00:54 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TRNSMT: Gender-balanced festival line-ups 'several years' away]]></title>
+            <description><![CDATA[TRNSMT boss says that more women need to be "picking up guitars" to address festival gender balance.]]></description>
+            <link>https://www.bbc.co.uk/news/newsbeat-50570007</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/newsbeat-50570007</guid>
+            <pubDate>Wed, 27 Nov 2019 07:12:55 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The YouTuber with 26 billion views]]></title>
+            <description><![CDATA[Brazil's Konrad Dantas, better know as Kondzilla, has the world's second most watched music video channel.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50559786</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50559786</guid>
+            <pubDate>Wed, 27 Nov 2019 00:03:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Russian cows get VR headsets 'to reduce anxiety']]></title>
+            <description><![CDATA[The herd was shown "a unique summer field simulation program" in a bid to boost milk yields.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-50571010</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-50571010</guid>
+            <pubDate>Wed, 27 Nov 2019 09:41:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Newspaper headlines: Corbyn 'horror show' and '£105m win nearly killed me']]></title>
+            <description><![CDATA[Most of Wednesday's papers splash on the Labour leader's interview with the BBC's Andrew Neil.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-the-papers-50567551</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-the-papers-50567551</guid>
+            <pubDate>Wed, 27 Nov 2019 05:20:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[CEO Secrets: 'My success is all down to maths']]></title>
+            <description><![CDATA[Timothy Armoo of Fanbytes explains how his success is grounded in a love of maths.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50516836</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50516836</guid>
+            <pubDate>Wed, 27 Nov 2019 00:03:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['My drink was spiked on my second day at university']]></title>
+            <description><![CDATA[Fresher Lily Petch has told BBC Radio 5 Live what happened when she collapsed in the street.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50552305</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50552305</guid>
+            <pubDate>Wed, 27 Nov 2019 01:31:53 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[How a cake company pioneered the first office computer]]></title>
+            <description><![CDATA[How the Lyons catering company pioneered LEO, the first electronic office system]]></description>
+            <link>https://www.bbc.co.uk/news/stories-50559357</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-50559357</guid>
+            <pubDate>Wed, 27 Nov 2019 00:15:19 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Clive James obituary: 'A man of substance']]></title>
+            <description><![CDATA[The writer, film-maker and broadcaster brought his acute gaze to the whole range of human activity.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-13437293</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-13437293</guid>
+            <pubDate>Wed, 27 Nov 2019 16:09:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Beauty industry bullying: 'I saw strong women cry at their desks']]></title>
+            <description><![CDATA[An independent body is needed to investigate claims of bullying in the beauty industry, a trade organisation says.]]></description>
+            <link>https://www.bbc.co.uk/news/business-50436312</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50436312</guid>
+            <pubDate>Wed, 27 Nov 2019 11:16:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The real story behind Prince's Little Red Corvette]]></title>
+            <description><![CDATA[Legend has it Prince wrote the song after falling asleep in a bandmate's car. That's not 100% true.]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50556922</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50556922</guid>
+            <pubDate>Wed, 27 Nov 2019 00:17:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Can you charge different customers different amounts?]]></title>
+            <description><![CDATA[Is it possible to make some clients pay a premium for goods and sell them cheaply to a mass market?]]></description>
+            <link>https://www.bbc.co.uk/news/business-50005890</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-50005890</guid>
+            <pubDate>Wed, 27 Nov 2019 00:16:35 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Kamala Harris school plan: The two hours costing US parents thousands]]></title>
+            <description><![CDATA[A proposal to keep US schools open longer has led to a polarised debate over childcare nationwide.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-50563103</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-50563103</guid>
+            <pubDate>Tue, 26 Nov 2019 20:33:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Von der Leyen's Commission: The ones to watch at Europe’s new top table]]></title>
+            <description><![CDATA[The EU parliament approves incoming Commission President Ursula von der Leyen's new team.]]></description>
+            <link>https://www.bbc.co.uk/news/world-europe-50559307</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-europe-50559307</guid>
+            <pubDate>Wed, 27 Nov 2019 12:52:15 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[India's toilets: Report questions claims that rural areas are free from open defecation]]></title>
+            <description><![CDATA[India's prime minister has said defecating in the open has ended in rural India - but is that true?]]></description>
+            <link>https://www.bbc.co.uk/news/world-asia-india-46400678</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-asia-india-46400678</guid>
+            <pubDate>Wed, 27 Nov 2019 00:03:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Tiger Woods: His scandalous, tumultuous and redemptive decade, sparked by a car crash]]></title>
+            <description><![CDATA[In the early hours of 27 November, 2009, Tiger Woods crashed his car outside his Florida home. It began a scandalous, tumultuous and redemptive decade.]]></description>
+            <link>https://www.bbc.co.uk/sport/golf/50559613</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/golf/50559613</guid>
+            <pubDate>Wed, 27 Nov 2019 00:14:26 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Iran protests: Videos reveal crackdown regime tried to hide from world]]></title>
+            <description><![CDATA[Social media is painting a picture of a government crackdown bloodier than many had feared.]]></description>
+            <link>https://www.bbc.co.uk/news/world-middle-east-50562584</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-middle-east-50562584</guid>
+            <pubDate>Wed, 27 Nov 2019 00:09:44 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Why France is focused on fighting jihadists in Mali]]></title>
+            <description><![CDATA[As Islamist militant violence escalates France wants the the rest of Europe to join the deadly fight.]]></description>
+            <link>https://www.bbc.co.uk/news/world-africa-50558972</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-africa-50558972</guid>
+            <pubDate>Wed, 27 Nov 2019 00:07:50 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Nuno possible replacement if Arsenal sack Emery]]></title>
+            <description><![CDATA[Arsenal identify Wolves boss Nuno Espirito Santo as a potential replacement for Unai Emery if the Gunners decide to sack the Spaniard.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/50570872</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/50570872</guid>
+            <pubDate>Wed, 27 Nov 2019 16:34:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Moreno was disloyal' - Spain coach Enrique criticises predecessor ]]></title>
+            <description><![CDATA[Spain's returning manager Luis Enrique says his predecessor Robert Moreno was "disloyal" and will not be part of his coaching team.]]></description>
+            <link>https://www.bbc.co.uk/sport/football/50576250</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/football/50576250</guid>
+            <pubDate>Wed, 27 Nov 2019 13:47:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dillian Whyte to face Mariusz Wach on Joshua-Ruiz undercard in Saudi Arabia]]></title>
+            <description><![CDATA[Dillian Whyte will face Poland's Mariusz Wach on the undercard of Anthony Joshua's world-title bout with Andy Ruiz Jr in Saudi Arabia.]]></description>
+            <link>https://www.bbc.co.uk/sport/boxing/50570444</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/boxing/50570444</guid>
+            <pubDate>Wed, 27 Nov 2019 16:59:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA['Goooooaaaaal!' - keeper scores from inside his own box]]></title>
+            <description><![CDATA[Chivas Guadalajara goalkeeper Antonio Rodriguez scores a goal from inside his own box during his side's 3-1 win against Veracruz in Mexico's Liga MX.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/football/50560226</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/football/50560226</guid>
+            <pubDate>Tue, 26 Nov 2019 12:31:34 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Jenson Button on failing his first driving test & owning two yachts]]></title>
+            <description><![CDATA[Jenson Button - the 2009 Formula One world champion - talks about failing his first driving test and his childhood love for Mario Kart as he busts internet rumours in BBC Sport's Setting it Straight.]]></description>
+            <link>https://www.bbc.co.uk/sport/av/formula1/50517436</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/sport/av/formula1/50517436</guid>
+            <pubDate>Wed, 27 Nov 2019 06:11:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SNP manifesto 2019: Key policies explained]]></title>
+            <description><![CDATA[The SNP election manifesto has been launched. What are its most eye-catching promises?]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50561073</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50561073</guid>
+            <pubDate>Wed, 27 Nov 2019 14:36:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: Jeremy Corbyn interview fact-checked]]></title>
+            <description><![CDATA[Reality Check looks at claims made by the Labour leader in a special interview with the BBC's Andrew Neil.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50567031</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50567031</guid>
+            <pubDate>Wed, 27 Nov 2019 12:45:11 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Who should I vote for? General election 2019 policy guide]]></title>
+            <description><![CDATA[Compare where the parties stand on key issues, from Brexit and the NHS to education and the environment.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50291676</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50291676</guid>
+            <pubDate>Tue, 26 Nov 2019 15:37:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Election explained: What to look out for on climate change and the environment]]></title>
+            <description><![CDATA[If you care about what the parties are promising to do about the environment, here are some key issues to watch for.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50565943</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50565943</guid>
+            <pubDate>Wed, 27 Nov 2019 02:41:47 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: The big names facing a nervy election night]]></title>
+            <description><![CDATA[A look at the well-known MPs who are in danger of losing their seats on 12 December.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50508529</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50508529</guid>
+            <pubDate>Wed, 27 Nov 2019 01:55:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General Election 2019: The Facebook influencers you've never heard of]]></title>
+            <description><![CDATA[Far from newspaper offices and TV studios, committed volunteer activists have created an alternative Facebook media universe.]]></description>
+            <link>https://www.bbc.co.uk/news/blogs-trending-50479877</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/blogs-trending-50479877</guid>
+            <pubDate>Wed, 27 Nov 2019 01:47:22 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Election 2019: Islamophobia? Anti-Semitism? What happened on Tuesday]]></title>
+            <description><![CDATA[The BBC's Nick Eardley breaks down the main events of Tuesday's election campaigning.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50567755</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50567755</guid>
+            <pubDate>Wed, 27 Nov 2019 00:55:51 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The bar helping homeless people register to vote]]></title>
+            <description><![CDATA[Staff in a Bristol bar are helping people with no permanent address register to vote.]]></description>
+            <link>https://www.bbc.co.uk/news/50565033</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/50565033</guid>
+            <pubDate>Tue, 26 Nov 2019 22:15:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ashfield candidate faces criticism over 'fake door knock']]></title>
+            <description><![CDATA[Lee Anderson was seemingly caught on a TV microphone arranging to call at a supporter's house.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50558306</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50558306</guid>
+            <pubDate>Tue, 26 Nov 2019 19:15:16 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: Nicola Sturgeon interview fact-checked]]></title>
+            <description><![CDATA[Reality Check looks at claims made by the SNP leader in a special interview with the BBC's Andrew Neil.]]></description>
+            <link>https://www.bbc.co.uk/news/50552295</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/50552295</guid>
+            <pubDate>Tue, 26 Nov 2019 12:39:17 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: 'No solo Labour canvassing' in Bromyard after attack]]></title>
+            <description><![CDATA[The party says it will work in pairs in Bromyard following an assault on a volunteer in her 70s.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50560366</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50560366</guid>
+            <pubDate>Tue, 26 Nov 2019 16:54:09 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: Brexit Party MEP and Rizzle Kicks have dinner]]></title>
+            <description><![CDATA[What happens when two people from across the political divide are brought together for dinner?]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50548994</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50548994</guid>
+            <pubDate>Tue, 26 Nov 2019 01:20:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Election 2019, Your Questions Answered: What's being done for the self-employed?]]></title>
+            <description><![CDATA[Your questions answered on tax, finance and MPs' employment details.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50547793</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50547793</guid>
+            <pubDate>Tue, 26 Nov 2019 00:07:38 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sir John Curtice: Why age, not class, matters most]]></title>
+            <description><![CDATA[Fifty years ago, people voted in the UK largely according to class, but different factors are now in play.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50543903</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50543903</guid>
+            <pubDate>Tue, 26 Nov 2019 00:08:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: What to look out for on crime]]></title>
+            <description><![CDATA[If you care about what the parties are promising to do about crime, here are some key issues to watch for.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50513800</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50513800</guid>
+            <pubDate>Tue, 26 Nov 2019 09:16:02 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[BBC acknowledges 'mistake' in Boris Johnson editing]]></title>
+            <description><![CDATA[The BBC says editing footage of Prime Minister Boris Johnson for a news bulletin was "a mistake".]]></description>
+            <link>https://www.bbc.co.uk/news/entertainment-arts-50546115</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/entertainment-arts-50546115</guid>
+            <pubDate>Mon, 25 Nov 2019 14:59:20 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: What is Labour offering to Waspi women?]]></title>
+            <description><![CDATA[Reality Check looks at the compensation being offered by Labour to women born in the 1950s.]]></description>
+            <link>https://www.bbc.co.uk/news/50546923</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/50546923</guid>
+            <pubDate>Mon, 25 Nov 2019 16:05:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: Can the NHS boost nurse numbers by 50,000?]]></title>
+            <description><![CDATA[The Conservative manifesto pledges a big increase in nurse numbers in England - is it realistic?]]></description>
+            <link>https://www.bbc.co.uk/news/50544033</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/50544033</guid>
+            <pubDate>Mon, 25 Nov 2019 13:34:57 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Conservative Party manifesto 2019: 13 key policies explained]]></title>
+            <description><![CDATA[The Conservative Party election manifesto has been launched. What are its most eye-catching promises?]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50524262</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50524262</guid>
+            <pubDate>Sun, 24 Nov 2019 23:09:56 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election poll tracker: How do the parties compare?]]></title>
+            <description><![CDATA[Our poll tracker measures how people say they are going to vote at the next general election.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-49798197</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-49798197</guid>
+            <pubDate>Tue, 26 Nov 2019 11:37:24 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: The towns and cities least likely to vote]]></title>
+            <description><![CDATA[City dwellers tend to vote differently to the rest of the country and this divide is deepening.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50417767</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50417767</guid>
+            <pubDate>Mon, 25 Nov 2019 10:23:37 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: What are rent controls?]]></title>
+            <description><![CDATA[A simple look at how rent controls work and how effective they are.]]></description>
+            <link>https://www.bbc.co.uk/news/business-49030885</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/business-49030885</guid>
+            <pubDate>Mon, 25 Nov 2019 10:38:21 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The Tory manifesto in (just over) two minutes]]></title>
+            <description><![CDATA[Political correspondent Helen Catt outlines the main bits of the newly-launched Conservative manifesto.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-50540952</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-50540952</guid>
+            <pubDate>Sun, 24 Nov 2019 21:24:04 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Election 2019, Your Questions Answered: Are there record numbers of NHS staff?]]></title>
+            <description><![CDATA[Your questions answered on mental health, social care and the future funding of the NHS.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50521323</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50521323</guid>
+            <pubDate>Sun, 24 Nov 2019 17:56:40 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: The candidates standing in each constituency]]></title>
+            <description><![CDATA[The BBC News site is listing all candidates standing on 12 December - find them with our postcode search.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50459517</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50459517</guid>
+            <pubDate>Mon, 18 Nov 2019 18:02:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[This Matters: Will how you vote make you better off?]]></title>
+            <description><![CDATA[How is this election going to hit you in the pocket?]]></description>
+            <link>https://www.bbc.co.uk/news/uk-50520182</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-50520182</guid>
+            <pubDate>Sat, 23 Nov 2019 00:08:46 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[General election 2019: A really simple guide]]></title>
+            <description><![CDATA[The UK's main parties are gearing up for a general election on 12 December.]]></description>
+            <link>https://www.bbc.co.uk/news/uk-politics-49826655</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/uk-politics-49826655</guid>
+            <pubDate>Fri, 01 Nov 2019 09:00:12 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Teal Swan: The woman encouraging her followers to visualise death]]></title>
+            <description><![CDATA[The BBC has heard testimony that the teachings of spiritual influencer Teal Swan may have contributed to the suicides of at least two of her followers.]]></description>
+            <link>https://www.bbc.co.uk/news/world-us-canada-50478821</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/world-us-canada-50478821</guid>
+            <pubDate>Sat, 23 Nov 2019 00:01:14 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[The fight to get citizenship for descendants of German Jews]]></title>
+            <description><![CDATA[A UK lawyer says Germany is violating its constitution by denying citizenship to some descendants of Nazi victims.]]></description>
+            <link>https://www.bbc.co.uk/news/stories-50398227</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-50398227</guid>
+            <pubDate>Mon, 18 Nov 2019 00:51:39 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cryptoqueen: How this woman scammed the world, then vanished]]></title>
+            <description><![CDATA[How did Ruja Ignatova make $4bn selling her fake cryptocurrency to the world - and where did she go?]]></description>
+            <link>https://www.bbc.co.uk/news/stories-50435014</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/stories-50435014</guid>
+            <pubDate>Sun, 24 Nov 2019 00:02:05 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Russian domestic violence: Women fight back]]></title>
+            <description><![CDATA[Two years ago Russia passed a law reducing sentences for domestic violence. There is now a movement pushing back.]]></description>
+            <link>https://www.bbc.co.uk/news/election-2019-50493758</link>
+            <guid isPermaLink="true">https://www.bbc.co.uk/news/election-2019-50493758</guid>
+            <pubDate>Thu, 21 Nov 2019 00:21:47 GMT</pubDate>
+        </item>
+    </channel>
+</rss>

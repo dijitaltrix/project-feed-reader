@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:admin="http://webns.net/mvcb/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="https://slashdot.org/">
+<title>Slashdot</title>
+<link>https://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2016, SlashdotMedia. All Rights Reserved.</dc:rights>
+<dc:date>2019-11-27T17:20:21+00:00</dc:date>
+<dc:publisher>Dice</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="https://news.slashdot.org/story/19/11/27/1633235/consumers-are-confused-by-5g?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://apple.slashdot.org/story/19/11/27/1610220/right-to-repair-groups-dont-buy-apples-answers-to-congress?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/11/27/1447240/twitter-prepares-for-huge-cull-of-inactive-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/11/27/1414219/microsoft-starts-talking-up-its-progressive-web-app-plans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://yro.slashdot.org/story/19/11/27/140253/its-way-too-easy-to-get-a-gov-domain-name?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/19/11/27/0043233/audi-to-cut-9500-german-jobs-in-switch-to-electrification?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/11/27/0047204/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://science.slashdot.org/story/19/11/27/0036246/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://slashdot.org/story/19/11/26/2318212/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/11/26/2250223/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/19/11/26/2258258/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://news.slashdot.org/story/19/11/26/2231223/transport-canada-official-says-737-max-mcas-system-has-to-go?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://it.slashdot.org/story/19/11/26/2244240/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://hardware.slashdot.org/story/19/11/26/2218213/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="https://tech.slashdot.org/story/19/11/26/2211238/cows-wearing-vr-headsets-might-produce-better-milk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="https://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="https://slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdot" /><feedburner:info uri="slashdot/slashdot" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+<image rdf:about="https://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>https://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>https://slashdot.org/</link>
+</image>
+<item rdf:about="https://news.slashdot.org/story/19/11/27/1633235/consumers-are-confused-by-5g?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Consumers are Confused by 5G</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/aiHwR8tj08Q/consumers-are-confused-by-5g</link>
+<description>Awareness of 5G is relatively high in the US market but significant confusion exists. From a report: Overcoming the confusion among flagship buyers that believe they already have 5G is an industry created problem that needs to be addressed. A new report from the User Experience Strategies group at Strategy Analytics has assessed consumer awareness, expectations, and potential adoption of 5G and found that smartphone price was overwhelmingly the biggest factor for not buying 5G. Surveying consumers in the US via web-survey, key report findings include: Nearly two thirds of consumers surveyed claimed 'Basic Familiarity' or to be 'Very Familiar' with 5G, but of this nearly one fifth of consumers already thought they had 5G. While one in four consumers in the US listed 5G as an important feature, one in five didn't yet see a need for 5G, or wanted to wait until the benefits of 5G were proven before purchasing this technology. Apple fans in the US believe they are 5G leaders despite market reality. But when asked which brand they would buy for 5G capabilities, overall consumers ranked Samsung neck and neck with Apple as the most preferred.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Consumers+are+Confused+by+5G%3A+http%3A%2F%2Fbit.ly%2F33lRIr3"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F19%2F11%2F27%2F1633235%2Fconsumers-are-confused-by-5g%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/19/11/27/1633235/consumers-are-confused-by-5g?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/19/11/27/1633235/consumers-are-confused-by-5g?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15293598&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/aiHwR8tj08Q" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-11-27T16:48:00+00:00</dc:date>
+<dc:subject>communications</dc:subject>
+<slash:department>closer-look</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>15</slash:comments>
+<slash:hit_parade>15,15,14,12,2,0,0</slash:hit_parade>
+<feedburner:origLink>https://news.slashdot.org/story/19/11/27/1633235/consumers-are-confused-by-5g?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://apple.slashdot.org/story/19/11/27/1610220/right-to-repair-groups-dont-buy-apples-answers-to-congress?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Right-to-Repair Groups Don't Buy Apple's Answers To Congress</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/b8T686if1dM/right-to-repair-groups-dont-buy-apples-answers-to-congress</link>
+<description>Last week, Apple responded to a series of questions that the US House Judiciary Committee sent to it back in September as part of a broader antitrust probe. Apple answered a series of questions about its hardware repair programs. It emphasized that it doesn't restrict repairs or refuse to repair gadgets that might have been fixed previously by unauthorized technicians. For right-to-repair advocates, though, Apple's answers weren't good enough. From a report: Proponents of a more open source approach to repairing gadgets say that Apple's on-the-record responses are examples of "expert question-dodging," or in some cases "downright false." Apple's responses have even raised questions about the definition of a "repair" -- a kind of consumer tech version of what the meaning of the word "is" is. That's according to iFixit, a business built on DIY electronics repairs and one of the more consistently vocal groups in the world of product repairs and sustainability. Now the right-to-repair arm of the US Public Interest Research Group is also weighing in, saying Apple is trying to "weave around key criticisms." The group is lobbying for Congress to take a harder look at Apple's claims. "The fact is that Apple, and many other manufacturers, take all manner of actions that restrict repair, which result in higher costs for consumers and a faster rate of obsolescence," says Nathan Proctor, director of the US PIRG's Right to Repair campaign. Proctor also argues that when Apple offers replacement products instead of repairing a device, it is effectively refusing to repair.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Right-to-Repair+Groups+Don't+Buy+Apple's+Answers+To+Congress%3A+http%3A%2F%2Fbit.ly%2F2OSJAJl"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fapple.slashdot.org%2Fstory%2F19%2F11%2F27%2F1610220%2Fright-to-repair-groups-dont-buy-apples-answers-to-congress%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://apple.slashdot.org/story/19/11/27/1610220/right-to-repair-groups-dont-buy-apples-answers-to-congress?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://apple.slashdot.org/story/19/11/27/1610220/right-to-repair-groups-dont-buy-apples-answers-to-congress?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15293520&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/b8T686if1dM" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-11-27T16:10:00+00:00</dc:date>
+<dc:subject>iphone</dc:subject>
+<slash:department>closer-look</slash:department>
+<slash:section>apple</slash:section>
+<slash:comments>25</slash:comments>
+<slash:hit_parade>25,24,22,20,7,3,0</slash:hit_parade>
+<feedburner:origLink>https://apple.slashdot.org/story/19/11/27/1610220/right-to-repair-groups-dont-buy-apples-answers-to-congress?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/11/27/1447240/twitter-prepares-for-huge-cull-of-inactive-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Twitter Prepares For Huge Cull of Inactive Users</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/gtjkMaJQxdU/twitter-prepares-for-huge-cull-of-inactive-users</link>
+<description>Twitter will begin deleting accounts that have been inactive for more than six months, unless they log in before an 11 December deadline. From a report: The cull will include users who stopped posting to the site because they died -- unless someone with that person's account details is able to log-in. It is the first time Twitter has removed inactive accounts on such a large scale. The site said it was because users who do not log-in were unable to agree to its updated privacy policies. A spokeswoman also said it would improve credibility by removing dormant accounts from people's follower counts, something which may give a user an undue sense of importance. The first batch of deleted accounts will involve those registered outside of the US. The firm bases inactivity on whether or not a person has logged in at least once in the past six months. Twitter said the effort is not, as had been suggested by some users on the network, an attempt to free up usernames.
+ 
+
+That said, previously unavailable usernames will start coming up for grabs after the 11 December cut-off -- though Twitter said it would be a gradual process, beginning with users outside of the US. In future, the firm said it would also look at accounts where people have logged in but don't "do anything" on the platform. A spokeswoman would not elaborate, other to say that the firm uses many signals to determine genuine human users -- not just whether they interact with, or post, tweets. Further reading: You can take my Dad's tweets over my dead body.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Twitter+Prepares+For+Huge+Cull+of+Inactive+Users%3A+http%3A%2F%2Fbit.ly%2F2DkO9Xp"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F11%2F27%2F1447240%2Ftwitter-prepares-for-huge-cull-of-inactive-users%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/11/27/1447240/twitter-prepares-for-huge-cull-of-inactive-users?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/11/27/1447240/twitter-prepares-for-huge-cull-of-inactive-users?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15293260&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/gtjkMaJQxdU" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-11-27T15:21:00+00:00</dc:date>
+<dc:subject>social</dc:subject>
+<slash:department>how-about-that</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>31</slash:comments>
+<slash:hit_parade>31,31,28,24,2,1,1</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/11/27/1447240/twitter-prepares-for-huge-cull-of-inactive-users?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/11/27/1414219/microsoft-starts-talking-up-its-progressive-web-app-plans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Microsoft Starts Talking Up Its Progressive Web App Plans</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/-5psuYAPxgs/microsoft-starts-talking-up-its-progressive-web-app-plans</link>
+<description>A year ago, Microsoft seemed to be pushing full steam-ahead with Progressive Web Apps (PWAs). Since then, the company's PWA momentum -- at least publicly -- seemed to have waned. However, this week, a couple of different teams at Microsoft have started talking about their PWA plans. From a report: Google has been the main champion of PWAs, which are basically web sites and/or apps that behave like native apps. But other vendors have jumped on the PWA bandwagon, as well, in recent years. Microsoft has been working to make PWA support part of its overall Windows 10 and Edge browser stories. Microsoft is turning its Outlook.com and Outlook on the Web applications into PWAs, as noted by Thurrott.com. Thurrott.com's Paul Thurrott noted that Outlook on the Web is displaying a PWA "Install" button in the Brave browser address bar. That same Install option is visible to some using the Canary version of the Chromium-based Edge browser, he reported on November 25. Outlook.com also now has an Install prompt available in the Brave address bar, he reported today, November 26, which means Outlook.com also is on its way to becoming a PWA.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Microsoft+Starts+Talking+Up+Its+Progressive+Web+App+Plans%3A+http%3A%2F%2Fbit.ly%2F35Im0px"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F11%2F27%2F1414219%2Fmicrosoft-starts-talking-up-its-progressive-web-app-plans%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/11/27/1414219/microsoft-starts-talking-up-its-progressive-web-app-plans?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/11/27/1414219/microsoft-starts-talking-up-its-progressive-web-app-plans?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15293164&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/-5psuYAPxgs" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-11-27T14:41:00+00:00</dc:date>
+<dc:subject>microsoft</dc:subject>
+<slash:department>shape-of-things-to-come</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>14</slash:comments>
+<slash:hit_parade>14,14,12,12,2,0,0</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/11/27/1414219/microsoft-starts-talking-up-its-progressive-web-app-plans?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://yro.slashdot.org/story/19/11/27/140253/its-way-too-easy-to-get-a-gov-domain-name?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>It's Way Too Easy To Get a&lt;nobr&gt; &lt;wbr&gt;&lt;/nobr&gt;.gov Domain Name</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/-bYdK4LcPXI/its-way-too-easy-to-get-a-gov-domain-name</link>
+<description>Brian Krebs: Many readers probably believe they can trust links and emails coming from U.S. federal government domain names, or else assume there are at least more stringent verification requirements involved in obtaining a .gov domain versus a commercial one ending in .com or .org. But a recent experience suggests this trust may be severely misplaced, and that it is relatively straightforward for anyone to obtain their very own .gov domain. Earlier this month, KrebsOnSecurity received an email from a researcher who said he got a .gov domain simply by filling out and emailing an online form, grabbing some letterhead off the homepage of a small U.S. town that only has a ".us" domain name, and impersonating the town's mayor in the application. 
+
+"I used a fake Google Voice number and fake Gmail address," said the source, who asked to remain anonymous for this story but who said he did it mainly as a thought experiment. "The only thing that was real was the mayor's name." The email from this source was sent from exeterri[.]gov, a domain registered on Nov. 14 that at the time displayed the same content as the .us domain it was impersonating -- town.exeter.ri.us -- which belongs to the town of Exeter, Rhode Island (the impostor domain is no longer resolving). "I had to [fill out] 'an official authorization form,' which basically just lists your admin, tech guy, and billing guy," the source continued. "Also, it needs to be printed on 'official letterhead,' which of course can be easily forged just by Googling a document from said municipality. Then you either mail or fax it in. After that, they send account creation links to all the contacts."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=It's+Way+Too+Easy+To+Get+a+.gov+Domain+Name%3A+http%3A%2F%2Fbit.ly%2F33nPasj"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fyro.slashdot.org%2Fstory%2F19%2F11%2F27%2F140253%2Fits-way-too-easy-to-get-a-gov-domain-name%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://yro.slashdot.org/story/19/11/27/140253/its-way-too-easy-to-get-a-gov-domain-name?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://yro.slashdot.org/story/19/11/27/140253/its-way-too-easy-to-get-a-gov-domain-name?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15293120&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/-bYdK4LcPXI" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>msmash</dc:creator>
+<dc:date>2019-11-27T14:01:00+00:00</dc:date>
+<dc:subject>government</dc:subject>
+<slash:department>beating-the-system</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>26</slash:comments>
+<slash:hit_parade>26,25,25,19,5,2,1</slash:hit_parade>
+<feedburner:origLink>https://yro.slashdot.org/story/19/11/27/140253/its-way-too-easy-to-get-a-gov-domain-name?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://hardware.slashdot.org/story/19/11/27/0043233/audi-to-cut-9500-german-jobs-in-switch-to-electrification?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Audi To Cut 9,500 German Jobs In Switch To Electrification</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/dhi1KGjrWM0/audi-to-cut-9500-german-jobs-in-switch-to-electrification</link>
+<description>An anonymous reader quotes a report from Bloomberg: Audi plans to eliminate roughly 15% of its German workforce to lift earnings by $6.6 billion as Volkswagen AG's largest profit maker pushes ahead with a restructuring plan to help adapt to the costly transition to electric cars. The turnaround is aimed at regaining ground lost to luxury-car leaders Mercedes-Benz and BMWand counter pressure from Tesla. Volkswagen has been scrambling to revive Audi's fortunes after turmoil sparked by the aftermath of the 2015 diesel-cheating scandal. By 2025, Audi plans to cut as many as 9,500 jobs in Germany and streamline operations at its two main factories in its home country. The positions will be reduced through attrition and voluntary measures including early retirement, Audi said in a statement Tuesday after reaching an agreement with employee representatives. The approximately 50,000 remaining employees in Germany will have job guarantees through 2029, and Audi will create 2,000 new jobs to strengthen its engineering muscle for electric cars and digital offerings.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Audi+To+Cut+9%2C500+German+Jobs+In+Switch+To+Electrification%3A+http%3A%2F%2Fbit.ly%2F33piheT"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F19%2F11%2F27%2F0043233%2Faudi-to-cut-9500-german-jobs-in-switch-to-electrification%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/19/11/27/0043233/audi-to-cut-9500-german-jobs-in-switch-to-electrification?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/19/11/27/0043233/audi-to-cut-9500-german-jobs-in-switch-to-electrification?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15287138&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/dhi1KGjrWM0" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T13:00:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>sign-of-things-to-come</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>49</slash:comments>
+<slash:hit_parade>49,48,40,35,8,4,2</slash:hit_parade>
+<feedburner:origLink>https://hardware.slashdot.org/story/19/11/27/0043233/audi-to-cut-9500-german-jobs-in-switch-to-electrification?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/11/27/0047204/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Facebook Was Mystery Firm Bidding Against Google To Buy Fitbit, Report Says</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/hcE15nOHy2c/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says</link>
+<description>Facebook is the mystery "Party A" revealed in an SEC filing that bid several times to acquire health wearables maker Fitbit, including a best and final offer of $7.30 per share, according CNBC citing people familiar with the matter. From the report: Google announced its intentions to acquire Fitbit on Nov. 1 for about $2.1 billion in cash, or $7.35 per share. Facebook views the sale process as complete and doesn't plan to bid again now that Google has agreed to the purchase, one of the people said.
+ 
+According to the filing, Fitbit CEO James Park had dinner with "the chief executive officer of Party A" on June 11, 2019, to discuss the wearables technology landscape. That person would be Facebook CEO Mark Zuckerberg, sources said. Park and other members of Fitbit's senior management had dinner with Zuckerberg again on July 2, the filing said. Zuckerberg and Park met once more in September, according to the filing. In October, Facebook bid several times to acquire Fitbit, the filing said, but ultimately said $7.30 per share was the company's best and final offer.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Facebook+Was+Mystery+Firm+Bidding+Against+Google+To+Buy+Fitbit%2C+Report+Says%3A+http%3A%2F%2Fbit.ly%2F37GjBgP"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F11%2F27%2F0047204%2Ffacebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/11/27/0047204/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/11/27/0047204/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15287140&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/hcE15nOHy2c" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T10:00:00+00:00</dc:date>
+<dc:subject>facebook</dc:subject>
+<slash:department>no-longer-a-mystery</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>21</slash:comments>
+<slash:hit_parade>21,19,18,15,4,1,1</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/11/27/0047204/facebook-was-mystery-firm-bidding-against-google-to-buy-fitbit-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://science.slashdot.org/story/19/11/27/0036246/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Health Concerns Mount As More Old Sewer Pipes Are Lined With Plastic</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0UqivtwVU2s/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic</link>
+<description>Residents near renovation sites claim noxious emissions from pipe inserts are making them sick. Scientific American reports: Earlier this year Nicole Davis arrived at one of the San Antonio, Tex., offices of the audiology practice she co-owns ready to see the day's patients. But upon entering her office, Davis says she quickly noticed a noxious odor that smelled like paint thinner. Her eyes started burning. By noon, she felt nauseated and dizzy, with the burning sensation spreading to her nose and throat. Her mouth went numb. Co-workers in the building told Davis that they felt ill, too. By the evening, she says, she was vomiting. Two days later, Davis received an e-mail from an employee for a construction firm that was doing work that week on municipal pipes below street-level near the building. The employee apologized in the e-mail for Davis's "recent experience," and attached a technical document describing the hazards and health risks associated with materials used to make plastic in the pipe project. The e-mail and attachment do not state that the work caused the odor or Davis's reaction.
+ 
+The company was renovating an underground sewer pipe with a widely and increasingly used technique called cured-in-place pipes. A felt or composite sleeve is saturated, typically with a polyester or vinyl ester resin. Workers thread the sleeve through an underground pipe and then inflate and heat it, often with steam or hot water. The sleeve hardens to form a continuous plastic liner along the old pipe's inner walls. The technique is less expensive and takes less time than fully replacing old sewer-system pipes and stormwater culverts. [...] Davis's experience reflects, in part, the scarcity of reliable, industry-independent research and public health advice about potential risks associated with the cured-in-place pipe, or CIPP, method. The practice has grown steadily in the past two decades, with more than 35,000 miles of the liners installed worldwide, according to a 2017 market report by BCC Research. CIPP is the most popular method among a group of pipe-renovation techniques that require minimal digging as compared with excavating an old pipe and replacing it. With billions of dollars spent and loaned annually in the U.S. alone to restore deteriorating pipes, the market for lower-cost renovation approaches is forecast to remain strong for several years. The report goes on to say that there have been more than 100 incidents spanning 29 U.S. states in the past 15 years from CIPP. "Children have been mentioned in news stories and other reports in more than a dozen of those 100 cases, including a September incident in Seneca Falls, N.Y., in which middle school students reportedly felt sick from a CIPP job several hundred feet from their classroom," reports Scientific American.
+ 
+"Studies by [Purdue University]'s group have revealed that jobs at study sites, where installers used steam to harden the resin, release a mixture of vaporized and liquid droplets of organic compounds and water, as well as particles of partially hardened resin, into the air. The compounds include hazardous air pollutants such as styrene and methylene chloride, as well as dibutyl phthalate, which some studies have identified as an endocrine disruptor. But other emitted compounds vary, possibly depending on the type of resin used and other operational differences."
+ 
+Some of the first findings to look into the health implications of exposures to CIPP emissions "found alterations in gene expression and protein production in exposed cells, inflammation and injuries or with abnormal function in organs," the report says. "The findings show the potential for adverse health effects in humans," although the findings "differed from site to site, by the type of cells exposed, and by the genes and proteins examined."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Health+Concerns+Mount+As+More+Old+Sewer+Pipes+Are+Lined+With+Plastic%3A+http%3A%2F%2Fbit.ly%2F2pYvWMk"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fscience.slashdot.org%2Fstory%2F19%2F11%2F27%2F0036246%2Fhealth-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://science.slashdot.org/story/19/11/27/0036246/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://science.slashdot.org/story/19/11/27/0036246/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15287130&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/0UqivtwVU2s" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T07:00:00+00:00</dc:date>
+<dc:subject>medicine</dc:subject>
+<slash:department>harmful-renovations</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>63</slash:comments>
+<slash:hit_parade>63,58,49,43,12,6,4</slash:hit_parade>
+<feedburner:origLink>https://science.slashdot.org/story/19/11/27/0036246/health-concerns-mount-as-more-old-sewer-pipes-are-lined-with-plastic?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://slashdot.org/story/19/11/26/2318212/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Indiana Manipulated Report On Amazon Worker's Death To Lure HQ2, Report Says</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/yT0OpObFGzU/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says</link>
+<description>An anonymous reader quotes a report produced by Reveal from The Center for Investigative Reporting: When an Amazon worker was killed by a forklift in a Plainfield warehouse in 2017, the state of Indiana's investigator found the company was at fault. The state cited Amazon for four major safety violations and fined it $28,000. But an investigation by Reveal from The Center for Investigative Reporting has found that, as Gov. Eric Holcomb sought to lure Amazon's HQ2 to Indiana, state labor officials quietly absolved Amazon of responsibility. After Amazon appealed, they deleted every fine that had been levied and accepted the company's argument -- that the Amazon worker was to blame.
+ 
+The investigator on the case, John Stallone, had arrived at the warehouse a day after 59-year-old Phillip Lee Terry was crushed to death. He was so troubled by the pushback he was getting from higher-ups that he secretly recorded his boss, Indiana OSHA Director Julie Alexander, as she counseled the company on how to lessen the fine. He said pressure to back off came from as high up as the governor's mansion. The governor's office and Indiana labor officials declined interviews. In statements, they both called Stallone's account false. Stallone said Indiana Labor Commissioner Rick Ruble told him to back off on the Amazon case -- or resign. Stallone went on to quit and report the incident to a federal OSHA official.
+ 
+"Stallone told the federal official that 'someone higher than Director Alexander' wanted the Amazon case to go away 'in the hopes it would keep Indianapolis in the running for their new HQ location,'" reports Reveal. "The governor's office denied the meeting with Stallone and the labor commissioner took place, with press secretary Rachel Hoffmeyer writing, 'The Governor never gets involved in Department of Labor cases.'"
+ 
+A year after Terry's death when Indianapolis was one of 20 finalists for the Amazon headquarters deal, Indiana officials quietly signed an agreement with Amazon to delete all the safety citations and fees. "The agreement said Amazon had met the requirements of an 'unpreventable employee misconduct defense,'" reports Reveal. "The official record now essentially blames Terry for his own death." Ultimately, Amazon ended up choosing Arlington for its second headquarters.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Indiana+Manipulated+Report+On+Amazon+Worker's+Death+To+Lure+HQ2%2C+Report+Says%3A+http%3A%2F%2Fbit.ly%2F2OTyrYS"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fslashdot.org%2Fstory%2F19%2F11%2F26%2F2318212%2Findiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://slashdot.org/story/19/11/26/2318212/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://slashdot.org/story/19/11/26/2318212/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286934&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/yT0OpObFGzU" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T03:30:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>shady-business</slash:department>
+<slash:section>slashdot</slash:section>
+<slash:comments>38</slash:comments>
+<slash:hit_parade>38,35,32,29,9,8,6</slash:hit_parade>
+<feedburner:origLink>https://slashdot.org/story/19/11/26/2318212/indiana-manipulated-report-on-amazon-workers-death-to-lure-hq2-report-says?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/11/26/2250223/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>NSO Employees Take Legal Action Against Facebook For Banning Their Accounts</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/g-b7xlbYh54/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts</link>
+<description>On Tuesday, lawyers representing current and former employees of Israeli surveillance contractor NSO Group took legal action against Facebook to try and get their accounts reinstated after being banned by the social media giant. Motherboard reports: Last month, Facebook itself sued NSO in California for leveraging a vulnerability in the WhatsApp chat program that NSO Group clients used to hack targets. As part of that, Facebook also banned the personal Facebook and Instagram accounts of multiple current and former NSO employees. The new lawsuit argues that Facebook violated its own terms of service by blocking the NSO employees, and it used personal information they shared with Facebook in order to identify them, in violation of an Israeli privacy law. As relief, the lawyers ask the court to make Facebook lift the ban on the accounts. The lawsuit was first reported in Israeli media.
+ 
+"It appears that Facebook used the [NSO employees'] personal data...in order to identify them as NSO employees (or former employees), in service of imposing 'collective punishment' on them, in the form of blocking their personal accounts," the lawsuit reads in Hebrew. The lawsuit argues that the personal data used to identify them as NSO employees belonged to the individuals, and not Facebook. The legal action says that the NSO employees were banned without warning even though they are "private people, who make private use of the social networks, whose only 'sin' was any association with NSO, as employees or former employees." The lawsuit includes a screenshot of an email Facebook allegedly sent to someone who had their account suspended. Facebook told Motherboard in a statement on Tuesday, "In October we filed a legal complaint which attributed a sophisticated cyber attack to the NSO Group and its employees that was directed at WhatsApp and its users in violation of our terms of service and U.S. law. Such actions warranted disabling relevant accounts and continue to be necessary for security reasons, including preventing additional attacks."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=NSO+Employees+Take+Legal+Action+Against+Facebook+For+Banning+Their+Accounts%3A+http%3A%2F%2Fbit.ly%2F2rq9XhM"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F11%2F26%2F2250223%2Fnso-employees-take-legal-action-against-facebook-for-banning-their-accounts%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/11/26/2250223/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/11/26/2250223/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286788&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/g-b7xlbYh54" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T02:30:00+00:00</dc:date>
+<dc:subject>facebook</dc:subject>
+<slash:department>this-isn't-over</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>47</slash:comments>
+<slash:hit_parade>47,44,38,29,8,5,1</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/11/26/2250223/nso-employees-take-legal-action-against-facebook-for-banning-their-accounts?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://hardware.slashdot.org/story/19/11/26/2258258/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ford Says It Has Nothing To Prove To Tesla In F-150 Vs Cybertruck Tow Battle</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/5Wk5DZaDC44/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle</link>
+<description>Sadly, it's looking like the Ford F-150 versus Tesla Cybertruck tow battle probably won't happen. TechCrunch reports: Tesla CEO Elon Musk poked the figurative Dearborn, Michigan bear in the middle of the company's Cybertruck unveiling when he played a video of the futuristic electric truck pulling an F-150 in what was pitched as a head-to-head contest. Many were quick to question whether it was a fair fight, including astrophysicist and author Neil deGrasse Tyson. But what really got Musk's attention was a tweet from Sundeep Madra, VP of Ford X, the automaker's venture incubator.
+ 
+Madra tweeted to Musk challenging the CEO to send Ford a Cybertruck to do an "apples to apples" test. Musk, who is well versed in the Twitter troll, responded with a "bring it on." It seems Madra's tweet wasn't meant to be a serious challenge, but a "tongue in cheek" troll, according to Ford. "Sunny's tweet was tongue in cheek to point out the absurdity of Tesla's video, nothing more," a Ford spokesperson said in an email to TechCrunch. "With America's best-selling truck for 42 years, we've always focused on serving our truck customers regardless of what others say or do. We look forward to our all-new F-150 hybrid coming next year and all-electric F-150 in a few years."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ford+Says+It+Has+Nothing+To+Prove+To+Tesla+In+F-150+Vs+Cybertruck+Tow+Battle%3A+http%3A%2F%2Fbit.ly%2F2OJz8nk"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F19%2F11%2F26%2F2258258%2Fford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/19/11/26/2258258/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/19/11/26/2258258/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286862&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/5Wk5DZaDC44" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T02:00:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>scaredy-cat</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>149</slash:comments>
+<slash:hit_parade>149,145,125,109,19,10,6</slash:hit_parade>
+<feedburner:origLink>https://hardware.slashdot.org/story/19/11/26/2258258/ford-says-it-has-nothing-to-prove-to-tesla-in-f-150-vs-cybertruck-tow-battle?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://news.slashdot.org/story/19/11/26/2231223/transport-canada-official-says-737-max-mcas-system-has-to-go?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Transport Canada Official Says 737 MAX MCAS System 'Has To Go'</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/7I1DrUHfkvI/transport-canada-official-says-737-max-mcas-system-has-to-go</link>
+<description>Freshly Exhumed shares a report from AeroTime: In a growing line of whistleblowers and skeptics voicing their concerns before the expected re-certification of the Boeing 737 MAX, another rogue agent has emerged. In an email sent to regulators in the U.S., Europe and Brazil, a Transport Canada safety official called for the entire removal of the MCAS system from the 737 MAX. The official believes that the U.S. plane maker should remove the software, largely blamed for the two deadly 737 MAX 8 crashes, before the aircraft is cleared to fly again.
+ 
+"The only way I see moving forward at this point is that the MCAS has to go," Jim Marko, manager of Aircraft Integration and Safety Assessment at Canada's aviation regulator -- Transport Canada -- wrote in the email, according to The New York Times, which first reported the news. In the email, sent to the U.S. Federal Aviation Administration (FAA), the European Union Aviation Safety Agency (EASA) and Brazil's National Civil Aviation Agency (ANAC) on November 19, 2019, Marko expressed his "uneasiness" about Boeing's attempts to fix the MCAS software. "Judging from the number and degree of open issues that we have, I am feeling that final decisions on acceptance will not be technically based," he was quoted as saying by Canada's National Post. "This leaves me with a level of uneasiness that I cannot sit idly by and watch it pass by..." Marko continues to say that, according to him, the only feasible option at this point is to remove the MCAS software altogether, with all the compliance issues that such move would entail, if regulators and the public were to regain confidence in the sign-off on the 737 MAX.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Transport+Canada+Official+Says+737+MAX+MCAS+System+'Has+To+Go'%3A+http%3A%2F%2Fbit.ly%2F2Ootmsk"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fnews.slashdot.org%2Fstory%2F19%2F11%2F26%2F2231223%2Ftransport-canada-official-says-737-max-mcas-system-has-to-go%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://news.slashdot.org/story/19/11/26/2231223/transport-canada-official-says-737-max-mcas-system-has-to-go?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://news.slashdot.org/story/19/11/26/2231223/transport-canada-official-says-737-max-mcas-system-has-to-go?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286692&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/7I1DrUHfkvI" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T01:30:00+00:00</dc:date>
+<dc:subject>software</dc:subject>
+<slash:department>gotta-go</slash:department>
+<slash:section>news</slash:section>
+<slash:comments>102</slash:comments>
+<slash:hit_parade>102,100,96,84,25,15,12</slash:hit_parade>
+<feedburner:origLink>https://news.slashdot.org/story/19/11/26/2231223/transport-canada-official-says-737-max-mcas-system-has-to-go?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://it.slashdot.org/story/19/11/26/2244240/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Amazon's Ring Planned Neighborhood 'Watch Lists' Built On Facial Recognition</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/BpRimbO0AuE/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition</link>
+<description>An anonymous reader quotes a report from The Intercept: Ring, Amazon's crimefighting surveillance camera division, has crafted plans to use facial recognition software and its ever-expanding network of home security cameras to create AI-enabled neighborhood "watch lists," according to internal documents reviewed by The Intercept. The planning materials envision a seamless system whereby a Ring owner would be automatically alerted when an individual deemed "suspicious" was captured in their camera's frame, something described as a "suspicious activity prompt."
+ 
+It's unclear who would have access to these neighborhood watch lists, if implemented, or how exactly they would be compiled, but the documents refer repeatedly to law enforcement, and Ring has forged partnerships with police departments throughout the U.S., raising the possibility that the lists could be used to aid local authorities. The documents indicate that the lists would be available in Ring's Neighbors app, through which Ring camera owners discuss potential porch and garage security threats with others nearby. [...] Mohammad Tajsar, an attorney with the American Civil Liberties Union of Southern California, expressed concern over Ring's willingness to plan the use of facial recognition watch lists, fearing that "giving police departments and consumers access to 'watch listing' capabilities on Ring devices encourages the creation of a digital redline in local neighborhoods, where cops in tandem with skeptical homeowners let machines create lists of undesirables unworthy of entrance into well-to-do areas." When reached for comment, Ring spokesperson Yassi Shahmiri said that "the features described are not in development or in use and Ring does not use facial recognition technology."
+ 
+Amazon also told Massachusetts Sen. Edward Markey earlier this month that facial recognition has been a "contemplated but unreleased feature" for Ring, but would only be added with "thoughtful design including privacy, security and user control."&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Amazon's+Ring+Planned+Neighborhood+'Watch+Lists'+Built+On+Facial+Recognition%3A+http%3A%2F%2Fbit.ly%2F37Cv9BP"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fit.slashdot.org%2Fstory%2F19%2F11%2F26%2F2244240%2Famazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://it.slashdot.org/story/19/11/26/2244240/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://it.slashdot.org/story/19/11/26/2244240/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286752&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/BpRimbO0AuE" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T00:50:00+00:00</dc:date>
+<dc:subject>security</dc:subject>
+<slash:department>unreleased-features</slash:department>
+<slash:section>it</slash:section>
+<slash:comments>63</slash:comments>
+<slash:hit_parade>63,62,55,48,9,4,2</slash:hit_parade>
+<feedburner:origLink>https://it.slashdot.org/story/19/11/26/2244240/amazons-ring-planned-neighborhood-watch-lists-built-on-facial-recognition?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://hardware.slashdot.org/story/19/11/26/2218213/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ask Slashdot: How Much Faster Is an ASIC Than a Programmable GPU?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/rkuU1HLPvTo/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu</link>
+<description>dryriver writes: When you run a real-time video processing algorithm on a GPU, you notice that some math functions execute very quickly on the GPU and some math functions take up a lot more processing time or cycles, slowing down the algorithm. If you were to implement that exact GPU algorithm as a dedicated ASIC hardware chip or perhaps on a beefy FPGA, what kind of speedup -- if any -- could you expect over a midrange GPU like a GTX 1070? Would hardwiring the same math operations as ASIC circuitry lead to a massive execution time speedup as some people claim -- e.g. 5x or 10x faster than a general purpose Nvidia GPU -- or are GPUs and ASICs close to each other in execution speed?
+ 
+Bonus question: Is there a way to calculate the speed of an algorithm implemented as an ASIC chip without having an actual physical ASIC chip produced? Could you port the algorithm to, say, Verilog or similar languages and then use a software tool to calculate or predict how fast it would run if implemented as an ASIC with certain properties (clock speed, core count, manufacturing process... )?&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ask+Slashdot%3A+How+Much+Faster+Is+an+ASIC+Than+a+Programmable+GPU%3F%3A+http%3A%2F%2Fbit.ly%2F2DmcyMq"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Fhardware.slashdot.org%2Fstory%2F19%2F11%2F26%2F2218213%2Fask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://hardware.slashdot.org/story/19/11/26/2218213/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://hardware.slashdot.org/story/19/11/26/2218213/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286680&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/rkuU1HLPvTo" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-27T00:10:00+00:00</dc:date>
+<dc:subject>graphics</dc:subject>
+<slash:department>flexible-vs-limited</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>56</slash:comments>
+<slash:hit_parade>56,56,55,44,13,7,5</slash:hit_parade>
+<feedburner:origLink>https://hardware.slashdot.org/story/19/11/26/2218213/ask-slashdot-how-much-faster-is-an-asic-than-a-programmable-gpu?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="https://tech.slashdot.org/story/19/11/26/2211238/cows-wearing-vr-headsets-might-produce-better-milk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Cows Wearing VR Headsets Might Produce Better Milk</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/QzdxRT2H78c/cows-wearing-vr-headsets-might-produce-better-milk</link>
+<description>Moscow-area farmers are strapping modified VR headsets to cows to try and improve their milk production. Engadget reports: The project subjected cattle to a simulated summer field with colors tuned for the animals' eyes, giving them a decidedly more pleasing landscape than a plain, confining farm. And yes, the headsets were adapted to the "structural features" of cows' heads so that they could see properly. It appears to have worked, at least on a basic level. The first test reduced the cows' anxiety and boosted their overall sentiment. While it's not certain how well this affects the quality or volume of milk, there are plans for a more "comprehensive" study to answer that question. Further reading: The Moscow Times, Interfax&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Cows+Wearing+VR+Headsets+Might+Produce+Better+Milk%3A+http%3A%2F%2Fbit.ly%2F2rrgybC"&gt;&lt;img src="https://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=https%3A%2F%2Ftech.slashdot.org%2Fstory%2F19%2F11%2F26%2F2211238%2Fcows-wearing-vr-headsets-might-produce-better-milk%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="https://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=https://tech.slashdot.org/story/19/11/26/2211238/cows-wearing-vr-headsets-might-produce-better-milk?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="https://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="https://tech.slashdot.org/story/19/11/26/2211238/cows-wearing-vr-headsets-might-produce-better-milk?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="https://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=15286656&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/QzdxRT2H78c" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>BeauHD</dc:creator>
+<dc:date>2019-11-26T23:30:00+00:00</dc:date>
+<dc:subject>technology</dc:subject>
+<slash:department>what-will-they-think-of-next</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>78</slash:comments>
+<slash:hit_parade>78,78,74,54,18,5,1</slash:hit_parade>
+<feedburner:origLink>https://tech.slashdot.org/story/19/11/26/2211238/cows-wearing-vr-headsets-might-produce-better-milk?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<textinput rdf:about="https://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>https://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
