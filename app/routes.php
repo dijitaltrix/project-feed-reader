@@ -5,6 +5,6 @@
  */
 $app->get('/', function($request, $response, $args) {
 
-	die("Hello");
+	return $response->withRedirect('/feeds', 302);
 
 });
