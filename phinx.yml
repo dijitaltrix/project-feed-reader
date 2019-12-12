@@ -1,0 +1,22 @@
+paths:
+    migrations: 
+        - '%%PHINX_CONFIG_DIR%%/database/migrations'
+        - '%%PHINX_CONFIG_DIR%%/vendor/*/*/database/migrations'
+    seeds:
+        - '%%PHINX_CONFIG_DIR%%/database/seeds'
+        - '%%PHINX_CONFIG_DIR%%/vendor/*/*/database/seeds'
+
+environments:
+    default_migration_table: migrations
+    default_database: dev
+
+    development:
+        adapter: sqlite
+        host: 
+        name: database/development.sqlite
+        user: 
+        pass: ''
+        port: 3306
+        charset: utf8
+
+version_order: creation

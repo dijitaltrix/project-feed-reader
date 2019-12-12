@@ -11,3 +11,5 @@
 		20:05 - Adding feeds module
 		break
 		21:20 - Get Feeds module routes/mvc working
+		21:30 - Add Phinx for db migration/seeding support
+
