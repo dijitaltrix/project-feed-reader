@@ -30,14 +30,13 @@
 * view rss feed
 	* fetch feed
 		* handle errors gracefully, eg nice error msg
-		* caching? SHow cached version first
+		* caching? Show cached version first
 	* display feed
 		* display feed nicely
 			* channel info, fetched date
-			* 
 
 #Issues
-	* support differing rss formats - check librarys on packagist
+	* support differing rss formats - check libraries on packagist
 
 #Improvements
 	* Store feed meta data in db e.g last fetched date
