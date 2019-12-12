@@ -8,3 +8,6 @@
 		break
 		19:25 - Setup local dev server - not, using local php server -S
 		19:35 - Setup app using Slim 3 add folder layout and app files
+		20:05 - Adding feeds module
+		break
+		21:20 - Get Feeds module routes/mvc working
