@@ -47,4 +47,4 @@
 # Requirements
 	PHP ^7.1.3
 	Eloquent - PDO (Eloquent)
-	SimplePie - PCRE, XML, XMLReader 
+	SimplePie - PCRE, XML, XMLReader (mf2?)

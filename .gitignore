@@ -1,3 +1,5 @@
+.php_cs_cache
 brief.pdf
 /database/development.sqlite3
+/storage/
 /vendor/

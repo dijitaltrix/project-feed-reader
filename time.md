@@ -14,4 +14,6 @@
 		21:30 - Add Phinx for db migration/seeding support
 		21:45 - Migrated and seeded db
 		break
-		11:30 - Create models & validation, ditch Eloquent
+		11:30 - Create models, ditch Eloquent
+		11:40 - Get twig/view logic working for feeds.create
+		12:00 - Create App support, copy in PDO class
