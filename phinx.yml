@@ -8,12 +8,12 @@ paths:
 
 environments:
     default_migration_table: migrations
-    default_database: dev
+    default_database: development
 
     development:
         adapter: sqlite
         host: 
-        name: database/development.sqlite
+        name: database/development
         user: 
         pass: ''
         port: 3306

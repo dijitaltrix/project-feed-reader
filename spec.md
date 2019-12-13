@@ -43,3 +43,8 @@
 	* save feed items in db
 		* expire after x days (cron)
 		* lot more effort for now
+		
+# Requirements
+	PHP ^7.1.3
+	Eloquent - PDO (Eloquent)
+	SimplePie - PCRE, XML, XMLReader 
