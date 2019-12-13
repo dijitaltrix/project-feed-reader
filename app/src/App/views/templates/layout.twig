@@ -1,0 +1,20 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="/theme/css/screen.min.css">
+		{% block head %}{% endblock %}
+	</head>
+	<body id="top">
+		<main id="main" class="main">
+			<div class="container">
+				{% block main %}{% endblock %}
+			</div>
+		</main>
+		<script src="/theme/js/app.min.js"></script>
+		{% block script %}{% endblock %}
+	</body>
+</html>
+{% endspaceless %}
