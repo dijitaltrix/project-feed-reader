@@ -1,4 +1,4 @@
-.php_cs_cache
+.php_cs.cache
 brief.pdf
 /database/development.sqlite3
 /storage/
