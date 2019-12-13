@@ -22,18 +22,3 @@ $container['view'] = function($c) {
 	$view->addExtension(new Slim\Views\TwigExtension($c->get('router'), $uri));
 	return $view;
 };
-/* Must boot eloquent on start, not inside container on demand */
-$cfg = $container->settings["database"]["default"];
-$capsule = new \Illuminate\Database\Capsule\Manager;
-$capsule->addConnection([
-	'driver' => 'sqlite',
-	'database' => path('app/database.sqlite3'),
-	'charset' => 'utf8',
-	'collation' => 'utf8_unicode_ci',
-	'prefix' => '',
-]);
-$capsule->setAsGlobal();
-$capsule->bootEloquent();
-$container['eloquent'] = function ($c) use ($capsule) {
-	return $capsule;
-};

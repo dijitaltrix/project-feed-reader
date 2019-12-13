@@ -2,7 +2,8 @@
 
 namespace Feeds;
 
+
 class Feed
 {
-	
+
 }
