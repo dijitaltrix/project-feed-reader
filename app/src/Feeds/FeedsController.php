@@ -33,8 +33,10 @@ class FeedsController
     public function __construct(ContainerInterface $container)
     {
         $this->app = $container;	// I prefer to call it app, short and sweet
-        $this->log = $container['log'];
-        $this->view = $container['view'];
+		$this->mapper = new FeedMapper($container->get('db'));
+        $this->log = $container->get('log');
+        $this->view = $container->get('view');
+		$this->filter = $container->get('filter');
     }
     /**
      * Shows the 'create feed' view
@@ -46,8 +48,14 @@ class FeedsController
      */
     public function create(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
-        return $this->view->render($response, '@feeds/create.twig', [
+        // grab previous input data
+        $feed = $this->mapper->new();
+        // grab alerts from session
+        $alerts = [];
 
+        return $this->view->render($response, '@feeds/create.twig', [
+            'alerts' => $alerts,
+            'feed' => $feed,
         ]);
     }
 
@@ -58,7 +66,20 @@ class FeedsController
 
     public function index(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
-        die("index");
+		// fetch feeds, optionally filtering by name
+		$where = [];
+		$url_query = $request->getQueryParams();
+		if (isset($url_query['name'])) {
+			// use 'filtered' input in where clause
+			$where = ["name" => $this->app->filter->string($name)];
+		}
+		$feeds = $this->mapper->fetch($where);
+        // grab alerts from session (may have been deleted)
+        $alerts = [];
+        return $this->view->render($response, '@feeds/index.twig', [
+            'alerts' => $alerts,
+            'feeds' => $feeds,
+        ]);
     }
 
     public function delete(ServerRequestInterface $request, ResponseInterface $response, $args=[])
@@ -73,6 +94,16 @@ class FeedsController
 
     public function view(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
-        die("view");
+        // find entity data, 'id' is filtered by the router
+        $feed = $this->mapper->find( (int) $args['id']);
+        // grab alerts from session
+        $alerts = [];
+		// todo change this
+		// $contents = new 
+
+        return $this->view->render($response, '@feeds/view.twig', [
+            'feed' => $feed,
+        ]);
+
     }
 }

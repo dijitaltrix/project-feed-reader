@@ -8,6 +8,22 @@ $container['csrf'] = function ($c) {
 	$csrf->setPersistentTokenMode(true);
 	return $csrf;
 };
+// set database
+$container['db'] = function($c) {
+	try {
+		$db = new \PDO(sprintf("%s:%s", "sqlite", path("database/development.sqlite3")));
+		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+		return $db;
+
+	} catch (PDOException $e) {
+		// for this demo just change and catch this in index.php
+		throw new Exception($e);
+	}
+};
+// input filter
+$container['filter'] = function ($c) {
+	return new \App\Filter;
+};
 // app logger
 $container['log'] = function($c) {
 	$log = new \Monolog\Logger('app');

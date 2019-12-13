@@ -1,7 +1,7 @@
 {% extends('@app/templates/layout.twig') %}
 
 {% block head %}
-<title>Create feed</title>
+<title>Feed {{ feed.name }}</title>
 {% endblock %}
 
 
@@ -10,18 +10,20 @@
 
 
 {% block main %}
-<form action="/feeds" method="post">
+<section class="section">
 	<div class="row">
 		<div class="col-12">
-			<h1>Create feed</h1>
+			<h1>Feed {{ feed.name }}</h1>
+			<p>{{ feed.description }}</p>
 		</div>
 		<div class="col-12">
 			<div class="form-btns">
 				<a class="btn btn-link" href="/feeds">Go back to feeds</a>
-				<button class="btn btn-outline btn-success" type="submit">Save feed</button>
 			</div>
 		</div>
 	</div>
-	{% include '@feeds/form.twig' %}
-</form>
+</section>
+<section class="section section-inset">
+	display feed contents
+</section>
 {% endblock %}
