@@ -23,5 +23,9 @@
 		13:15 - Added input filter, using mapper not db
 		break 
 		15:15 - Get feed vide working
-		15:20 - Get and display feed contents using Simplepie
-		
+		15:20 - Get and display feed contents using SimplePie
+		break
+		16:40 - Pass SimplePie in as dependency
+		17:00 - Got feed view working
+		17:30 - Playing round with feed view and reading stuff!
+		break

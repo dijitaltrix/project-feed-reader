@@ -36,7 +36,6 @@ class FeedsController
 		$this->mapper = new FeedMapper($container->get('db'));
         $this->log = $container->get('log');
         $this->view = $container->get('view');
-		$this->filter = $container->get('filter');
     }
     /**
      * Shows the 'create feed' view
@@ -96,10 +95,7 @@ class FeedsController
     {
         // find entity data, 'id' is filtered by the router
         $feed = $this->mapper->find( (int) $args['id']);
-        // grab alerts from session
-        $alerts = [];
-		// todo change this
-		// $contents = new 
+		$feed->attachReader($this->app->get('feed_reader'));
 
         return $this->view->render($response, '@feeds/view.twig', [
             'feed' => $feed,

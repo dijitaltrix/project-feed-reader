@@ -24,6 +24,8 @@
 	</div>
 </section>
 <section class="section section-inset">
-	display feed contents
+{% for item in feed.items %}
+	{% include '@feeds/includes/feed-item.twig' %}
+{% endfor %}
 </section>
 {% endblock %}

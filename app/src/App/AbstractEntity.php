@@ -5,15 +5,15 @@ namespace App;
 use Exception;
 
 abstract class AbstractEntity {
-    
+
     /**
      * Holds class properties
      *
-     * @var string
+     * @var array
      */
     protected $data;
-    
-    
+
+
     public function __construct($data = [])
     {
         $this->setData($data);
@@ -28,9 +28,9 @@ abstract class AbstractEntity {
                 $out[$k] = $this->$getter($v);
             }
         }
-        
+
         return $out;
-        
+
     }
     public function setData($data=[])
     {
@@ -47,9 +47,9 @@ abstract class AbstractEntity {
         $str = str_replace('_', ' ', $str);
         $str = ucwords($str);
         $str = str_replace(' ', '', $str);
-        
+
         return "get$str";
-        
+
     }
     public function getSetter($str)
     {
@@ -57,9 +57,9 @@ abstract class AbstractEntity {
         $str = str_replace('_', ' ', $str);
         $str = ucwords($str);
         $str = str_replace(' ', '', $str);
-        
+
         return "set$str";
-        
+
     }
 
     public function __isset($name)
@@ -80,9 +80,9 @@ abstract class AbstractEntity {
         if (method_exists($this, $method)) {
             return $this->$method($value);
         }
-        
+
         throw new Exception("Trying to set undefined property $name");
-        
+
     }
     public function __get($name)
     {
@@ -90,8 +90,8 @@ abstract class AbstractEntity {
         if (method_exists($this, $method)) {
             return $this->$method();
         }
-        
+
         throw new Exception("Trying to get undefined property $name");
-        
+
     }
 }

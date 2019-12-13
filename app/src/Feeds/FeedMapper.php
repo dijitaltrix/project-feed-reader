@@ -9,11 +9,15 @@ use PDOStatement;
 class FeedMapper {
     
     /**
-     * Holder of the PDO connection
-     * @var string
+     * Holds the PDO connection
+     * @var object
      */
-    protected $db;
-    
+    private $db;
+    /**
+     * Holds the feed reader class
+     * @var object
+     */
+    protected $reader;
     /**
      * Table name for use in queries
      * @var string
@@ -28,8 +32,7 @@ class FeedMapper {
     
     public function new($data = []) : Feed
     {
-		xdebug_break();
-        return new Feed($data);
+        return new Feed($data, $this->reader);
     }
 
     public function fetch($where=[]) : Array
@@ -46,13 +49,13 @@ class FeedMapper {
 			$sql.= " COLLATE NOCASE"; // quick hack for case-insensitive searching in sqlite move to container setup
 		}
         $st = $this->db->prepare($sql);
-		$st->setFetchMode(PDO::FETCH_ARR);
+		$st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute($where);
 
 		$out = [];
 		while ($row = $st->fetch())
 		{
-			$out[] = $row;
+			$out[] = $this->new($row);
 		}
 		
         return $out;
@@ -66,7 +69,7 @@ class FeedMapper {
 		$st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute(['id' => $id]);
 		$data = $st->fetch();
-		xdebug_break();
+
         return $this->new($data);
 
     }

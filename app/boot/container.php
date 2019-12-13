@@ -30,13 +30,19 @@ $container['log'] = function($c) {
 	$log->pushHandler(new \Monolog\Handler\StreamHandler($c->settings["log"]["path"], \Monolog\Logger::DEBUG));
 	return $log;
 };
-// set renderer
+// feed reader
+$container['feed_reader'] = function ($c) {
+	$reader = new SimplePie();
+	$reader->set_cache_location(path('storage/cache/feeds'));
+	return $reader;
+};
+// view renderer
 $container['view'] = function($c) {
 	$view = new \Slim\Views\Twig([
 		'app' => path('app/src/App/views'),
 		'feeds' => path('app/src/Feeds/views'),
 	], [
-		'cache' => path('storage/views'),
+		'cache' => path('storage/cache/views'),
 		'debug' => true,
 	]);
 	$view->addExtension(new \Twig\Extension\DebugExtension());
