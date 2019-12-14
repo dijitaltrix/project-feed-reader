@@ -36,6 +36,10 @@ $container['feed_reader'] = function ($c) {
 	$reader->set_cache_location(path('storage/cache/feeds'));
 	return $reader;
 };
+// session handler
+$container['session'] = function($c) {
+	return new \RKA\Session();
+};
 // view renderer
 $container['view'] = function($c) {
 	$view = new \Slim\Views\Twig([
