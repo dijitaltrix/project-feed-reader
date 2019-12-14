@@ -1,7 +1,7 @@
 <div class="alerts">
-	{% for alert in alerts %}
-	<div class="alert alert-{{ alert.type }}">
-		{{ alert.message }}
+	{% for type, message in alerts %}
+	<div class="alert alert-{{ type }}">
+		{{ message }}
 	</div>
 {% endfor %}
 </div>

@@ -75,13 +75,18 @@ class FeedValidator
 			}
 		}
 
-		return (boolean) ! empty($this->errors);
+		return (boolean) ! count($this->errors);
 
 	}
 
 	public function getErrors() : array
 	{
-		
+		if (is_array($this->errors) && ! empty($this->errors)) {
+			return $this->errors;
+		}
+
+		return [];
+
 	}
 	/**
 	 * Returns the HTTP status code generated at the $url
@@ -120,8 +125,9 @@ class FeedValidator
 	 */
 	private function isValidAlphanum($str) : bool
 	{
-		return (bool) preg_match('/[^a-z0-9\s\-\_\.\,\;]/i', $str);
+		return (bool) ! preg_match('/[^a-z0-9\s\-\_\.\,\;]/i', $str);
 		// not identifying false results which indicate an error
+		// double negation which is not nice either.. to fix
 	}
 	/**
 	 * Validate a url using the built in validator 

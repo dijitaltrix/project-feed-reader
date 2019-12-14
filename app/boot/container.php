@@ -36,6 +36,10 @@ $container['feed_reader'] = function ($c) {
 	$reader->set_cache_location(path('storage/cache/feeds'));
 	return $reader;
 };
+// flash messages
+$container['flash'] = function($c) {
+	return new \Slim\Flash\Messages();
+};
 // session handler
 $container['session'] = function($c) {
 	return new \RKA\Session();

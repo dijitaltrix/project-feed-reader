@@ -1,0 +1,29 @@
+{% extends('@app/templates/layout.twig') %}
+
+{% block head %}
+<title>Edit feed</title>
+{% endblock %}
+
+
+{% block script %}
+{% endblock %}
+
+
+{% block main %}
+<form action="{{ path_for('feeds.update', { 'id': feed.id }) }}" method="post">
+	<div class="row">
+		<div class="col-12">
+			<h1>Edit feed</h1>
+		</div>
+		<div class="col-12">
+			<div class="form-btns">
+				<a class="btn btn-link" href="{{ path_for('feeds') }}">Go back to feeds</a>
+				<button class="btn btn-outline btn-success" type="submit">Save feed</button>
+			</div>
+		</div>
+	</div>
+	{% include '@feeds/form.twig' %}
+	{{ dump(errors) }}
+	{{ dump(input) }}
+</form>
+{% endblock %}

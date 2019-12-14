@@ -35,3 +35,4 @@
 		13:15 - Continue validation - curl
 		13:45 - Got validation working, updated views with named routes
 		break
+		15:30 - Got edit working with session alerts, errors etc..
