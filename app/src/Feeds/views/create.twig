@@ -10,14 +10,14 @@
 
 
 {% block main %}
-<form action="/feeds" method="post">
+<form action="{{ path_for('feeds') }}" method="post">
 	<div class="row">
 		<div class="col-12">
 			<h1>Create feed</h1>
 		</div>
 		<div class="col-12">
 			<div class="form-btns">
-				<a class="btn btn-link" href="/feeds">Go back to feeds</a>
+				<a class="btn btn-link" href="{{ path_for('feeds') }}">Go back to feeds</a>
 				<button class="btn btn-outline btn-success" type="submit">Save feed</button>
 			</div>
 		</div>

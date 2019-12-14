@@ -10,13 +10,14 @@
 
 
 {% block main %}
-<form action="/feeds" method="get">
+<form action="{{ path_for('feeds') }}" method="get">
 	<div class="row">
 		<div class="col-12">
 			<h1>Feeds</h1>
 		</div>
 		<div class="col-12">
 			<div class="form-btns">
+				<a href="{{ path_for('feeds.create') }}" class="btn btn-link">Add feed</a>
 				<button class="btn btn-outline" type="submit">Search feeds</button>
 			</div>
 		</div>
@@ -25,7 +26,7 @@
 		{% if feeds|length > 0 %}
 			{% include '@feeds/includes/list.twig' %}
 		{% else %}
-			<p>There are no feeds to display, get started by <a href="/feeds/create">adding a feed</a></p>
+			<p>There are no feeds to display, get started by <a href="{{ path_for('feeds.create') }}">adding a feed</a></p>
 		{% endif %}
 	</section>
 </form>

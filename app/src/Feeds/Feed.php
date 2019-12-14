@@ -2,6 +2,9 @@
 
 namespace Feeds;
 
+use Exception;
+
+
 class Feed extends \App\AbstractEntity
 {
 	/**
@@ -70,17 +73,17 @@ class Feed extends \App\AbstractEntity
 	}
 	public function setName($str)
 	{
-		$this->data['name'] = $str;
+		$this->data['name'] = filter($str, "alphanum");
 	}
 	public function setUrl($str)
 	{
-		$this->data['url'] = $str;
+		$this->data['url'] = filter($str, "url");
 	}
 	
 	public function getId() : int
 	{
 		if ( ! isset($this->data['id'])) {
-			throw new Exception("Cannot return unset property: 'id'");
+			return (int) null;
 		}
 		
 		return (int) $this->data['id'];
@@ -89,7 +92,7 @@ class Feed extends \App\AbstractEntity
 	public function getName() : string
 	{
 		if ( ! isset($this->data['name'])) {
-			throw new Exception("Cannot return unset property: 'name'");
+			return '';
 		}
 		
 		return (string) $this->data['name'];
@@ -98,7 +101,7 @@ class Feed extends \App\AbstractEntity
 	public function getUrl() : string
 	{
 		if ( ! isset($this->data['url'])) {
-			throw new Exception("Cannot return unset property: 'url'");
+			return '';
 		}
 		
 		return (string) $this->data['url'];

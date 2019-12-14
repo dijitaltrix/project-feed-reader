@@ -1,6 +1,6 @@
 <div class="feed feed-item">
 	<span class="h6"><a href="{{ item.link }}" rel="external">{{ item.title }}</a></span>
 	<small class="text-muted">
-		Written{% if item.author %}by {{ item.author }}{% endif %} on {{ item.date }}</small>
+		Written {% if item.author %} by {{ item.author }}{% endif %} on {{ item.date }}</small>
 	<p>{{ item.description|raw }}</p>
 </div>

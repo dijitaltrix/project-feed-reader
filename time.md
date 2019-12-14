@@ -30,4 +30,8 @@
 		17:30 - Playing round with feed view and reading stuff!
 		break
 14th	11:45 - Check updated feed, get ui ideas 
-		11:50 - Get feed create/edit working
+		11:50 - Get feed create/edit working, validation
+		12:30 - break
+		13:15 - Continue validation - curl
+		13:45 - Got validation working, updated views with named routes
+		break

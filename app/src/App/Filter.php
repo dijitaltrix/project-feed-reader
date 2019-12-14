@@ -15,19 +15,19 @@ class Filter
 	 * @param string $str 
 	 * @return string
 	 */
-	public function alphanum($str)
+	public function alphanum($str) : string
 	{
 		$str = trim($str);
 		$str = filter_var(trim($str), FILTER_SANITIZE_STRING);
 		// for good measure
-		$str = preg_replace('/[^a-z0-9\s\.]+/', '', $str);
+		$str = preg_replace('/[^a-z0-9\s\.]+/i', '', $str);
 
-		return $str;
+		return (string) $str;
 
 	}
-	public function url($str)
+	public function url($str) : string
 	{
-		return filter_var(trim($str), FILTER_SANITIZE_URL);
+		return (string) filter_var(trim($str), FILTER_SANITIZE_URL);
 	}
 
 }
