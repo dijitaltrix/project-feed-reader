@@ -39,10 +39,15 @@
 	* support differing rss formats - check libraries on packagist
 
 #Improvements
-	* Store feed meta data in db e.g last fetched date
+	* Store feed meta data in db e.g. last fetched date
 	* save feed items in db
 		* expire after x days (cron)
 		* lot more effort for now
+	* Show feed list in column on right (mobile?)
+		* set viewed_at timestamp on click to view feed items
+		* sort feed list by viewed_at - add column in phinx
+	* When fetching feed items, store unique words in searchable column in db then allow index page search to query that column
+		* remove non alphanum, explode by space, array unique, asort to aid search, combine by semi colon - query AND by space
 		
 # Requirements
 	PHP ^7.1.3

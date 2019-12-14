@@ -29,3 +29,5 @@
 		17:00 - Got feed view working
 		17:30 - Playing round with feed view and reading stuff!
 		break
+14th	11:45 - Check updated feed, get ui ideas 
+		11:50 - Get feed create/edit working
