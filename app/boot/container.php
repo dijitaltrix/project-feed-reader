@@ -10,15 +10,22 @@ $container['csrf'] = function ($c) {
 };
 // set database
 $container['db'] = function($c) {
+	
+	$db_filename = getenv('APP_DB_FILENAME');
+	
 	try {
-		$db = new \PDO(sprintf("%s:%s", "sqlite", path("database/development.sqlite3")));
+
+		$db = new \PDO(sprintf("%s:%s", "sqlite", path("database/$db_filename")));
 		$db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
 		return $db;
 
 	} catch (PDOException $e) {
+	
 		// for this demo just change and catch this in index.php
-		throw new Exception($e);
+		throw new Exception($e->getMessage());
 	}
+
 };
 // input filter
 $container['filter'] = function ($c) {
