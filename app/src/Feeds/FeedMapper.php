@@ -61,6 +61,27 @@ class FeedMapper {
         return $out;
         
     }
+	/**
+	 * Returns a list of the users feeds, used in the nav list
+	 *
+	 * @return array
+	 */
+	public function fetchNavList() : Array
+	{
+        $sql = "SELECT id, name, url FROM `$this->table` ORDER BY `name` ASC";
+        $st = $this->db->prepare($sql);
+		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->execute();
+
+		$out = [];
+		while ($row = $st->fetch())
+		{
+			$out[] = $this->new($row);
+		}
+		
+        return $out;
+		
+	}
     
     public function find($id) : Feed
     {

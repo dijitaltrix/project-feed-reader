@@ -12,13 +12,12 @@
 {% block main %}
 <section class="section">
 	<div class="row">
-		<div class="col-12">
-			<h1>Feed {{ feed.name }}</h1>
+		<div class="column col-12">
+			<h1>{{ feed.name }}</h1>
 			<p>{{ feed.description }}</p>
 		</div>
-		<div class="col-12">
+		<div class="column col-12">
 			<div class="form-btns">
-				<a class="btn btn-link" href="{{ path_for('feeds') }}"><i class="icon icon-back"></i>&nbsp;Go back to feeds</a>
 				<a class="btn btn-default" href="{{ path_for('feeds.edit', { 'id': feed.id }) }}"><i class="icon icon-edit"></i>&nbsp;Edit this feed</a>
 			</div>
 		</div>

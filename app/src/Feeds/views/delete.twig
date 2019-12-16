@@ -13,19 +13,14 @@
 <form action="{{ path_for('feeds.delete', { 'id': feed.id } ) }}" method="post">
 	<input type="hidden" name="id" value="{{ feed.id }}">
 	<div class="row">
-		<div class="col-12">
+		<div class="column col-12">
 			<h1>Delete feed</h1>
-		</div>
-		<div class="col-12">
-			<div class="form-btns">
-				<a class="btn btn-link" href="{{ path_for('feeds') }}"><i class="icon icon-back"></i>&nbsp;Go back to feeds</a>
-			</div>
 		</div>
 	</div>
 
 	<section class="section">
 		<div class="row">
-			<div class="col-12">
+			<div class="column col-12">
 				{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
 			</div>
 		</div>
@@ -34,7 +29,7 @@
 	<section class="section">
 		<div class="row">
 
-			<div class="col-12">
+			<div class="column col-12">
 				<p>Are you sure you want to delete the '{{ feed.name }}' feed?</p>
 				<div class="form-btns">
 					<button class="btn btn-error" type="submit"><i class="icon icon-delete"></i>&nbsp;Delete feed</button>

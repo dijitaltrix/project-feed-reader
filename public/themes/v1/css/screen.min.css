@@ -3276,6 +3276,20 @@ a.text-error:visited {
     transform: translate(-50%, -40%) rotate(-135deg);
     width: .5em; }
 
+.nav {
+  width: 20%;
+  min-width: 180px;
+  max-width: 240px;
+  position: absolute;
+  top: 0;
+  left: 0; }
+
+.main {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
 .form-btns {
   margin: 1rem 0; }
   .form-btns .btn {
@@ -3283,7 +3297,7 @@ a.text-error:visited {
 
 .feed-list {
   list-style: none;
-  margin: 1rem 0; }
+  margin: 0; }
 
 .feed-list-item {
   margin-bottom: 1rem;
@@ -3292,5 +3306,14 @@ a.text-error:visited {
 
 .card-subtitle {
   font-size: 0.6rem; }
+
+.text-lg {
+  font-size: 120%; }
+
+.nav {
+  margin: 0.25rem; }
+
+.section {
+  padding: 1rem 0; }
 
 /*# sourceMappingURL=screen.min.css.map */

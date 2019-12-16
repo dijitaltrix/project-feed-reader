@@ -61,6 +61,7 @@ class FeedsController
         $alerts = $this->app->session->get('alerts', []);
         return $this->view->render($response, '@feeds/index.twig', [
             'alerts' => $alerts,
+			'nav' => $this->mapper->fetchNavList(),
             'feeds' => $feeds,
         ]);
     }
@@ -88,6 +89,7 @@ class FeedsController
         return $this->view->render($response, '@feeds/create.twig', [
             'alerts' => $alerts,
             'errors' => $errors,
+			'nav' => $this->mapper->fetchNavList(),
             'feed' => $feed,
         ]);
     }
@@ -139,6 +141,7 @@ class FeedsController
         return $this->view->render($response, '@feeds/edit.twig', [
             'alerts' => $alerts,
             'errors' => $errors,
+			'nav' => $this->mapper->fetchNavList(),
             'feed' => $feed,
         ]);
     }
@@ -158,6 +161,7 @@ class FeedsController
         return $this->view->render($response, '@feeds/delete.twig', [
             'alerts' => $alerts,
             'errors' => $errors,
+			'nav' => $this->mapper->fetchNavList(),
             'feed' => $feed,
         ]);
     }
@@ -228,8 +232,15 @@ class FeedsController
         // find entity data, 'id' is filtered by the router
         $feed = $this->mapper->find((int) $args['id']);
         $feed->attachReader($this->app->get('feed_reader'));
+        // grab any leftover alerts from session
+        $alerts = $this->app->session->get('alerts', []);
+
+        // forget keys as our session plugin does not do that
+        $this->app->session->set('alerts', []);
 
         return $this->view->render($response, '@feeds/view.twig', [
+			'alerts' => $alerts,
+			'nav' => $this->mapper->fetchNavList(),
             'feed' => $feed,
         ]);
     }

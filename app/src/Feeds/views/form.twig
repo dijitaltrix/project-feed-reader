@@ -1,6 +1,6 @@
 <section class="section">
 	<div class="row">
-		<div class="col-12">
+		<div class="column col-12">
 			{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
 		</div>
 	</div>
@@ -9,14 +9,14 @@
 <section class="section">
 	<div class="row">
 
-		<div class="col-12">
+		<div class="column col-12">
 			<div class="form-group">
 				<label for="name" class="form-label">Feed name</label>
 				<input type="text" class="form-input" id="name" name="name" placeholder="e.g. Awesome news feed" value="{{ feed.name }}">
 			</div>
 		</div>
 
-		<div class="col-12">
+		<div class="column col-12">
 			<div class="form-group">
 				<label for="url" class="form-label">Feed location</label>
 				<input type="text" class="form-input" id="url" name="url" placeholder="https://feeds.awesome-news.com" value="{{ feed.url }}">

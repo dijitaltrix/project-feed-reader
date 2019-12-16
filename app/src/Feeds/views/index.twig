@@ -12,29 +12,28 @@
 {% block main %}
 <form action="{{ path_for('feeds') }}" method="get">
 	<div class="row">
-		<div class="col-12">
-			<h1>Feeds</h1>
-		</div>
 		<section class="section">
 			<div class="row">
-				<div class="col-12">
+				<div class="column col-12">
 					{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
 				</div>
 			</div>
 		</section>
-		<div class="col-12">
-			<div class="form-btns">
-				<a href="{{ path_for('feeds.create') }}" class="btn btn-outline"><i class="icon icon-plus"></i>&nbsp;Add feed</a>
-				<button class="btn btn-outline" type="submit"><i class="icon icon-search"></i></button>
-			</div>
+		<div class="column col-12">
+			
+			<section class="section section-vertical-center">
+				{% if feeds|length == 0 %}
+					<p class="text-lg">There are no feeds to display, get started by <a class="btn btn-link" href="{{ path_for('feeds.create') }}">adding a feed</a></p>
+				{% else %}
+					<div class="input-group">
+						<label class="form-label text-assistive d-none" for="query">Search your feeds</label>
+						<input class="form-input" type="text" id="query" placeholder="Search your feeds..." value="">
+					</div>
+					<div class="form-group"><button class="btn btn-outline" type="submit"><i class="icon icon-search"></i></button>
+				{% endif %}
+			</section>
+			
 		</div>
 	</div>
-	<section class="section">
-		{% if feeds|length > 0 %}
-			{% include '@feeds/includes/list.twig' %}
-		{% else %}
-			<p>There are no feeds to display, get started by <a href="{{ path_for('feeds.create') }}">adding a feed</a></p>
-		{% endif %}
-	</section>
 </form>
 {% endblock %}
