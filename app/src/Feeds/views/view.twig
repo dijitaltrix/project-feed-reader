@@ -18,15 +18,17 @@
 		</div>
 		<div class="col-12">
 			<div class="form-btns">
-				<a class="btn btn-link" href="{{ path_for('feeds') }}">Go back to feeds</a>
+				<a class="btn btn-outline" href="{{ path_for('feeds') }}">Go back to feeds</a>
 				<a class="btn btn-default" href="{{ path_for('feeds.edit', { 'id': feed.id }) }}">Edit this feed</a>
 			</div>
 		</div>
 	</div>
 </section>
 <section class="section section-inset">
+	<div class="feed-list">
 {% for item in feed.items %}
 	{% include '@feeds/includes/feed-item.twig' %}
 {% endfor %}
+	</div>
 </section>
 {% endblock %}

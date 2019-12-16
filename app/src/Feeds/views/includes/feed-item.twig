@@ -1,6 +1,14 @@
-<div class="feed feed-item">
-	<span class="h6"><a href="{{ item.link }}" rel="external">{{ item.title }}</a></span>
-	<small class="text-muted">
-		Written {% if item.author %} by {{ item.author }}{% endif %} on {{ item.date }}</small>
-	<p>{{ item.description|raw }}</p>
+<div class="card feed-list-item" data-id="{{ feed.id }}">
+	<div class="card-header">
+		<div class="card-title h5">
+			<a href="{{ item.link }}" rel="external">{{ item.title }}</a>
+		</div>
+		<div class="card-subtitle text-gray">
+			Written {% if item.author %} by {{ item.author }}{% endif %} on {{ item.date }}
+		</div>
+	</div>
+	<div class="card-body">
+		{{ item.description|raw }}
+		<a href="{{ item.link }}" rel="external">More...</a>
+	</div>
 </div>

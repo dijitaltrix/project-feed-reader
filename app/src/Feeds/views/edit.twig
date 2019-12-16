@@ -19,6 +19,7 @@
 			<div class="form-btns">
 				<a class="btn btn-link" href="{{ path_for('feeds') }}">Go back to feeds</a>
 				<button class="btn btn-outline btn-success" type="submit">Save feed</button>
+				<a href="{{ path_for('feeds.delete', { 'id': feed.id }) }}" class="btn btn-outline btn-primary">Delete feed</a>
 			</div>
 		</div>
 	</div>

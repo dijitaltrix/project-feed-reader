@@ -15,9 +15,16 @@
 		<div class="col-12">
 			<h1>Feeds</h1>
 		</div>
+		<section class="section">
+			<div class="row">
+				<div class="col-12">
+					{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
+				</div>
+			</div>
+		</section>
 		<div class="col-12">
 			<div class="form-btns">
-				<a href="{{ path_for('feeds.create') }}" class="btn btn-link">Add feed</a>
+				<a href="{{ path_for('feeds.create') }}" class="btn btn-outline">Add feed</a>
 				<button class="btn btn-outline" type="submit">Search feeds</button>
 			</div>
 		</div>

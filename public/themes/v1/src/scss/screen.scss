@@ -1,0 +1,18 @@
+@import "spectre/spectre";
+
+// this is the button bar, space it nicely
+.form-btns {
+	margin:1rem 0;
+	.btn {
+		// space inline buttons
+		margin-right:0.5rem;
+	}
+}
+// this is the feed item preview from remote, space it nicely
+.feed-list-item {
+	margin-bottom:1rem;
+}
+// make the subtitle smaller, used for the feed url or meta 'written by' info
+.card-subtitle {
+	font-size:0.6rem;
+}
