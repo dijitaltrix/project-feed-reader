@@ -36,3 +36,5 @@
 		13:45 - Got validation working, updated views with named routes
 		break
 		15:30 - Got edit working with session alerts, errors etc..
+16th	11:20 - Add delete feature
+		14:00 - Make frontend look pretty

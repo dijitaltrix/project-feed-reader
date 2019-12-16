@@ -2,9 +2,11 @@
 /*
  *	Feeds routes
  */
-$app->get('/feeds', '\Feeds\FeedsController:index')->setName('feeds');
-$app->get('/feeds/create', '\Feeds\FeedsController:create')->setName('feeds.create');
-$app->post('/feeds', '\Feeds\FeedsController:insert')->setName('feeds.insert');
-$app->get('/feeds/{id:[0-9]+}/edit', '\Feeds\FeedsController:edit')->setName('feeds.edit');
-$app->get('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:view')->setName('feeds.view');
-$app->post('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:update')->setName('feeds.update');
+$app->get('/feeds/create', '\Feeds\FeedsController:getCreate')->setName('feeds.create');
+$app->get('/feeds/{id:[0-9]+}/delete', '\Feeds\FeedsController:getDelete')->setName('feeds.delete');
+$app->post('/feeds/{id:[0-9]+}/delete', '\Feeds\FeedsController:postDelete')->setName('feeds.delete');
+$app->get('/feeds/{id:[0-9]+}/edit', '\Feeds\FeedsController:getEdit')->setName('feeds.edit');
+$app->get('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:getView')->setName('feeds.view');
+$app->post('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:postUpdate')->setName('feeds.update');
+$app->get('/feeds', '\Feeds\FeedsController:getIndex')->setName('feeds');
+$app->post('/feeds', '\Feeds\FeedsController:postInsert')->setName('feeds.insert');

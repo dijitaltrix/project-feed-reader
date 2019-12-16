@@ -122,19 +122,13 @@ class FeedMapper {
         
     }
     
-    public function delete($params = []) : bool
+    public function delete(Feed $entity) : bool
     {
-        if (empty($params)) {
-            throw new Exception('DELETE requires some parameters, none passed');
-        }
+        $sql = "DELETE FROM `$this->table` WHERE `id`=:id";
         
-        $sql = "DELETE FROM `$this->table` WHERE ";
-        foreach ($params as $k=>$v) {
-            $sql.= "`$k`=:$k AND ";
-        }
-        $sql = rtrim($sql, ' AND ');
-        
-        return $this->db->prepare($sql)->execute($params);
+        $st = $this->db->prepare($sql);
+		
+		return (bool) $st->execute(['id'=>$entity->id]);
         
     }
 }

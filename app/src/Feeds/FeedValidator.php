@@ -10,6 +10,7 @@
 namespace Feeds;
 
 use App\Filter;
+use Exception;
 
 
 class FeedValidator
@@ -76,6 +77,33 @@ class FeedValidator
 		}
 
 		return (boolean) ! count($this->errors);
+
+	}
+	/**
+	 * Check the Feed is okay to delete
+	 *
+	 * @param array $data 
+	 * @param Feed $feed 
+	 * @return boolean
+	 */
+	public function isOkToDelete($data, Feed $feed) : bool
+	{
+		if ( ! isset($data['id'])) {
+			$this->errors['id'] = "No id supplied in delete form";
+			return false;
+		}
+		if (empty($feed->id)) {
+			$this->errors['id'] = "Cannot find the feed to delete";
+			return false;
+		}
+		if ($data['id'] != $feed->id) {
+			$this->errors['id'] = "Feed id mismatch";
+			return false;
+		}
+
+		//TODO if this were important check in db for existing feed, match on other fields etc..
+
+		return true;
 
 	}
 

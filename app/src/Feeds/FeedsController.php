@@ -47,7 +47,7 @@ class FeedsController
      * @param array $args
      * @return response
      */
-    public function index(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function getIndex(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         // fetch feeds, optionally filtering by name
         $where = [];
@@ -72,7 +72,7 @@ class FeedsController
      * @param array $args
      * @return response
      */
-    public function create(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function getCreate(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         // grab any available previous input data from session
         $feed = $this->mapper->new($this->app->session->get('input', []));
@@ -92,7 +92,7 @@ class FeedsController
         ]);
     }
     
-    public function insert(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function postInsert(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         $data = $request->getParsedBody();
 
@@ -115,18 +115,18 @@ class FeedsController
         // return error response, redirect back to create form
         return $response
             ->withStatus(302)
-            ->withHeader('Location', 'feeds/create');
+            ->withHeader('Location', '/feeds/create');
     }
 
-    public function edit(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function getEdit(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         // grab any available previous input data from session
-		$previous = $this->app->session->get('input', []);
-		if ( ! empty($previous)) {
-	        $feed = $this->mapper->new($previous);
-		} else {
-	        $feed = $this->mapper->find($args['id']);
-		}
+        $previous = $this->app->session->get('input', []);
+        if (! empty($previous)) {
+            $feed = $this->mapper->new($previous);
+        } else {
+            $feed = $this->mapper->find($args['id']);
+        }
         // grab alerts and errors from session
         $alerts = $this->app->session->get('alerts', []);
         $errors = $this->app->session->get('errors', []);
@@ -143,23 +143,66 @@ class FeedsController
         ]);
     }
 
-
-    public function delete(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function getDelete(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
-        die("delete");
+        // fetch the item to be delete from storage
+        $feed = $this->mapper->find($args['id']);
+        // grab alerts and errors from session
+        $alerts = $this->app->session->get('alerts', []);
+        $errors = $this->app->session->get('errors', []);
+
+        // forget keys as our session plugin does not do that
+        $this->app->session->set('alerts', []);
+        $this->app->session->set('errors', []);
+
+        return $this->view->render($response, '@feeds/delete.twig', [
+            'alerts' => $alerts,
+            'errors' => $errors,
+            'feed' => $feed,
+        ]);
     }
 
-    public function update(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function postDelete(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    {
+        // basic check to compare the hidden form body id with the url
+        $feed = $this->mapper->find($args['id']);
+        $data = $request->getParsedBody();
+        
+        if ($this->validator->isOkToDelete($data, $feed)) {
+            $this->mapper->delete($feed);
+			//NEXT Save in session to provide undo feature, would really require a POST to be RESTful
+			$this->app->session->set("undo", $feed->getData());
+
+            $this->app->session->set('alerts', [
+                // 'success' => sprintf("The feed '%s' has been deleted, click to <a href=\"/feeds/restore\">undo</a>", $feed->name),
+                'success' => sprintf("The feed '%s' has been deleted", $feed->name),
+            ]);
+            // return success response, a redirect to view the new feed
+            return $response
+                ->withStatus(302)
+                ->withHeader('Location', '/feeds');
+        }
+
+        // set errors, alerts and old data into session
+        $this->app->session->set('alerts', [
+            'warning' => 'Sorry the feed cannot be deleted'
+        ]);
+        $this->app->session->set('errors', $this->validator->getErrors());
+        $this->app->session->set('input', $feed->getData());
+
+        // return error response, redirect back to create form
+        return $response
+            ->withStatus(302)
+            ->withHeader('Location', sprintf('/feeds/%d/edit', $feed->id));
+    }
+
+    public function postUpdate(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         $data = $request->getParsedBody();
 
-        if ($this->validator->isValid($data))
-		{
-			$feed = $this->mapper->find($args['id']);
-			 // don't allow user to overwite id manually via POST! really should handle in model
-			$data['id'] = $args['id'];
-			$feed->setData($data);
-            $feed = $this->mapper->update($feed);
+        if ($this->validator->isValid($data)) {
+            $feed = $this->mapper->find($args['id']);
+            $result = $this->mapper->update($feed);
             // return success response, a redirect to view the new feed
             return $response
                 ->withStatus(302)
@@ -177,11 +220,10 @@ class FeedsController
         // return error response, redirect back to create form
         return $response
             ->withStatus(302)
-            ->withHeader('Location', sprintf('feeds/%d/edit', $feed->id));
-
+            ->withHeader('Location', sprintf('/feeds/%d/edit', $feed->id));
     }
 
-    public function view(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+    public function getView(ServerRequestInterface $request, ResponseInterface $response, $args=[])
     {
         // find entity data, 'id' is filtered by the router
         $feed = $this->mapper->find((int) $args['id']);
@@ -191,4 +233,9 @@ class FeedsController
             'feed' => $feed,
         ]);
     }
+
+	public function getRestore(ServerRequestInterface $request, ResponseInterface $response, $args=[])
+	{
+		// check for undo key in session, if it passed validation then insert it
+	}
 }
