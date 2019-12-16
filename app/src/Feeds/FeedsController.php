@@ -33,10 +33,10 @@ class FeedsController
     public function __construct(ContainerInterface $container)
     {
         $this->app = $container;	// I prefer to call it app, short and sweet
-        $this->mapper = new FeedMapper($container->get('db'));
+        $this->mapper = new FeedMapper($container->get('db'), $container->get('feed_reader'));
         $this->log = $container->get('log');
         $this->view = $container->get('view');
-        $this->validator = new FeedValidator($container->get('filter'));
+        $this->validator = new FeedValidator($container->get('filter'), $this->mapper);
     }
     /**
      * Shows the index 'browse feeds' view
@@ -98,9 +98,16 @@ class FeedsController
     {
         $data = $request->getParsedBody();
 
-        if ($this->validator->isValid($data)) {
+        if ($this->validator->isInsertable($data)) {
             // pass new entity (filled and filtered) to mapper insert which returns entity
-            $feed = $this->mapper->insert($this->mapper->new($data));
+            $feed = $this->mapper->new($data);
+			// fetch a feed name if not supplied by the user
+			if (empty($feed->name)) {
+				$feed->name = $feed->fetchName();
+			}
+			// insert feed into storage
+			$this->mapper->insert($feed);
+
             // return success response, a redirect to view the new feed
             return $response
                 ->withStatus(302)
@@ -172,7 +179,7 @@ class FeedsController
         $feed = $this->mapper->find($args['id']);
         $data = $request->getParsedBody();
         
-        if ($this->validator->isOkToDelete($data, $feed)) {
+        if ($this->validator->isDeletable($data, $feed)) {
             $this->mapper->delete($feed);
 			//NEXT Save in session to provide undo feature, would really require a POST to be RESTful
 			$this->app->session->set("undo", $feed->getData());
@@ -204,8 +211,11 @@ class FeedsController
     {
         $data = $request->getParsedBody();
 
-        if ($this->validator->isValid($data)) {
+        if ($this->validator->isUpdateable($data)) {
             $feed = $this->mapper->find($args['id']);
+			$feed->setData($data);
+			// disallow overriding of the id field (in the absence of any sanity chacking in the Entity)
+			$feed->id = $args['id'];
             $result = $this->mapper->update($feed);
             // return success response, a redirect to view the new feed
             return $response
@@ -231,7 +241,6 @@ class FeedsController
     {
         // find entity data, 'id' is filtered by the router
         $feed = $this->mapper->find((int) $args['id']);
-        $feed->attachReader($this->app->get('feed_reader'));
         // grab any leftover alerts from session
         $alerts = $this->app->session->get('alerts', []);
 

@@ -40,3 +40,6 @@
 		14:30 - Make frontend look pretty 
 		16:00 - break 
 		21:00 - run through, add installation guide 
+		21:30 - break
+		21:45 - made name optional - fetch remote, validating on existing url
+		 

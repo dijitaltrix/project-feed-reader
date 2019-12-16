@@ -25,55 +25,93 @@ class FeedValidator
 	 * @var object
 	 */
 	private $filter;
+	/**
+	 * Holds the feed mapper class
+	 * @var object
+	 */
+	private $mapper;
 
 
 	/**
-	 * Validator constructor requires a Filter, this should ideally
-	 * be a requirement on an interface not a concrete class
+	 * Validator constructor requires a Filter and a Mapper, these should ideally
+	 * be requirements on an interface not a concrete class
 	 *
 	 * @param Filter $filter 
+	 * @param FeedMapper $mapper 
 	 */
-	public function __construct(Filter $filter)
+	public function __construct(Filter $filter, FeedMapper $mapper)
 	{
 		$this->filter = $filter;
+		$this->mapper = $mapper;
 	}
 	/**
-	 * Check the Feed data is valid
+	 * Check the Feed data is valid and ok to insert
 	 *
 	 * @param array $data 
 	 * @return boolean
 	 */
-	public function isValid($data=[]) : bool
+	public function isInsertable($data=[]) : bool
 	{
 		// check name input
-		// not sure this will be required in the future as we can grab the name from the feed
-		if ( ! isset($data['name']) OR empty($data['name'])) {
-			$this->errors['name'][] = "You must name this feed";
-		} else {
-			if (strlen($data['name']) > 255) {
-				$this->errors['name'][] = "Please shorten your feed name";
-			}
-			if ( ! $this->isValidAlphanum($data['name'])) {
-				$this->errors['name'][] = "Please use only letters and numbers for your feed name";
-			}
+		if (strlen($data['name']) > 255) {
+			$this->errors['name'] = "Please shorten your feed name";
+		}
+		if ( ! $this->isValidAlphanum($data['name'])) {
+			$this->errors['name'] = "Please use only letters and numbers for your feed name";
 		}
 
 		// check url input
 		if ( ! isset($data['url']) OR empty($data['url'])) {
-			$this->errors['url'][] = "You must provide a location for the feed";
+			$this->errors['url'] = "You must provide a location for the feed";
 		} else {
-			// sanitise provided url
+			// sanitise provided url before use
 			$url = filter($data['url'], "url");
 			// validate provided url
 			if ( ! $this->isValidUrl($data['url'])) {
-				$this->errors['url'][] = "Please check the url you have provided is correct";
+				$this->errors['url'] = "Please check the url you have provided is correct";
+			}
+			// check url exists in db
+			if ($this->isExistingUrl($url)) {
+				$this->errors['url'] = "You already have this feed in your list";
 			}
 			// check url exists using curl - we get status 200
 			$status = $this->getUrlStatus($url);
 			if ($status !== 200)
 			{
-				$this->errors['url'][] = "Sorry, we cannot find a feed at that location, please check your url is correct";
+				$this->errors['url'] = "Sorry, we cannot find a feed at that location, please check your url is correct";
 			}
+		}
+
+		return (boolean) ! count($this->errors);
+
+	}
+	/**
+	 * Check the Feed data is valid and okay to update
+	 *
+	 * @param array $data 
+	 * @return boolean
+	 */
+	public function isUpdateable($data=[]) : bool
+	{
+		// check name input
+		if (strlen($data['name']) > 255) {
+			$this->errors['name'] = "Please shorten the feed name";
+		}
+		if ( ! $this->isValidAlphanum($data['name'])) {
+			$this->errors['name'] = "Please use only letters and numbers for the feed name";
+		}
+
+		// check url input
+		if ( ! isset($data['url']) OR empty($data['url'])) {
+			$this->errors['url'] = "You must provide a location for the feed";
+		} else {
+			// sanitise provided url before use
+			$url = filter($data['url'], "url");
+			// validate provided url
+			if ( ! $this->isValidUrl($data['url'])) {
+				$this->errors['url'] = "Please check the url you have provided is correct";
+			}
+			//TODO detect URL change and revalidate url as necessary
 		}
 
 		return (boolean) ! count($this->errors);
@@ -86,7 +124,7 @@ class FeedValidator
 	 * @param Feed $feed 
 	 * @return boolean
 	 */
-	public function isOkToDelete($data, Feed $feed) : bool
+	public function isDeletable($data, Feed $feed) : bool
 	{
 		if ( ! isset($data['id'])) {
 			$this->errors['id'] = "No id supplied in delete form";
@@ -166,5 +204,9 @@ class FeedValidator
 	private function isValidUrl($str) : bool
 	{
 		return (bool) filter_var($str, FILTER_VALIDATE_URL);
+	}
+	private function isExistingUrl($url)
+	{
+		return (bool) count($this->mapper->findBy('url', $url));
 	}
 }

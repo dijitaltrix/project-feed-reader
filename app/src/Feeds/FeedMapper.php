@@ -25,9 +25,17 @@ class FeedMapper {
     protected $table = 'feeds';
 
 
-    public function __construct(\PDO $db)
+	/**
+	 * The constructor requires a PDO object for the database connection
+	 * and a feed reader object to handle the remote feeds
+	 *
+	 * @param PDO $db 
+	 * @param object $reader 
+	 */
+    public function __construct(\PDO $db, $reader)
     {
         $this->db = $db;
+		$this->reader = $reader;
     }
     
     public function new($data = []) : Feed
@@ -74,9 +82,11 @@ class FeedMapper {
         $st->execute();
 
 		$out = [];
+		// just return an array
+		// there's no need to instantiate objects for the nav list
 		while ($row = $st->fetch())
 		{
-			$out[] = $this->new($row);
+			$out[] = $row;
 		}
 		
         return $out;
@@ -92,6 +102,23 @@ class FeedMapper {
 		$data = $st->fetch();
 
         return $this->new($data);
+
+    }
+	
+    public function findBy($key, $value) : Array
+    {
+        $sql = "SELECT * FROM `$this->table` WHERE `$key`=:$key";
+        $st = $this->db->prepare($sql);
+		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->execute([$key => $value]);
+
+		$out = [];
+		while ($row = $st->fetch())
+		{
+			$out[] = $this->new($row);
+		}
+		
+        return $out;
 
     }
 
@@ -152,4 +179,5 @@ class FeedMapper {
 		return (bool) $st->execute(['id'=>$entity->id]);
         
     }
+
 }

@@ -30,8 +30,9 @@ class Feed extends \App\AbstractEntity
 	 *
 	 * @param object $reader 
 	 */
-	public function attachReader($reader)
+	public function __construct($data=[], $reader)
 	{
+		parent::__construct($data);
 		$this->reader = $reader;
 	}
 	/**
@@ -44,8 +45,12 @@ class Feed extends \App\AbstractEntity
 	 */
 	public function getDescription() : string
 	{
-		if (empty($this->description)) {
+		if (empty($this->description))
+		{
 			$this->fetchRemote();
+			// set pseudo fields, description and items
+			$this->description = $this->reader->get_description();
+
 		}
 
 		return (string) $this->description;
@@ -59,11 +64,39 @@ class Feed extends \App\AbstractEntity
 	 */
 	public function getItems() : array
 	{
-		if (empty($this->items)) {
+		if (empty($this->items))
+		{
 			$this->fetchRemote();
+
+			// just grab what we need for the view, get_items() returns lots of (useful?) cruft
+			foreach ($this->reader->get_items() as $item)
+			{
+				$this->items[] = (object) [
+					'date' => $item->get_date('jS M Y \a\t g:ia'),
+					'author' => $item->get_author(),
+					'title' => $item->get_title(),
+					'description' => strip_tags($item->get_description()),
+					'content' => strip_tags($item->get_content()),
+					'link' => $item->get_permalink(),
+				];
+			}
+
 		}
 
 		return (array) $this->items;
+
+	}
+	/**
+	 * Fetches the feed name from the remote feed url
+	 * Used when inserting a new record to automatically populate the Feed name property
+	 *
+	 * @return string
+	 */
+	public function fetchName() : string
+	{
+		$this->fetchRemote();
+		// feed name must pass alphanum validation
+		return filter($this->reader->get_title(), "alphanum");
 
 	}
 	
@@ -115,21 +148,8 @@ class Feed extends \App\AbstractEntity
 			$this->reader->set_feed_url($this->url);
 			$this->reader->init();
 			$this->reader->handle_content_type();
-
-			// set pseudo fields, description and items
-			$this->description = $this->reader->get_description();
-			// just grab what we need for the view, get_items() returns lots of (useful?) cruft
-			foreach ($this->reader->get_items() as $item)
-			{
-				$this->items[] = (object) [
-					'date' => $item->get_date('jS M Y \a\t g:ia'),
-					'author' => $item->get_author(),
-					'title' => $item->get_title(),
-					'description' => strip_tags($item->get_description()),
-					'content' => strip_tags($item->get_content()),
-					'link' => $item->get_permalink(),
-				];
-			}
+			
+			return $this->reader;
 			
 		} catch (Exception $e) {
 			
