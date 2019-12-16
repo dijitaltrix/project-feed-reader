@@ -3286,7 +3286,9 @@ a.text-error:visited {
   margin: 1rem 0; }
 
 .feed-list-item {
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25); }
 
 .card-subtitle {
   font-size: 0.6rem; }
