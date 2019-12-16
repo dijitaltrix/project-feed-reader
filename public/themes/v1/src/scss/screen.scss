@@ -9,6 +9,11 @@
 		margin-right:0.5rem;
 	}
 }
+// the main list of feeds the user can choose from 
+.feed-list {
+	list-style:none;
+	margin:1rem 0;
+}
 // this is the feed item preview from remote, space it nicely
 .feed-list-item {
 	margin-bottom:1rem;

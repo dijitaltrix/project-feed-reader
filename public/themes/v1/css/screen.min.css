@@ -3281,6 +3281,10 @@ a.text-error:visited {
   .form-btns .btn {
     margin-right: 0.5rem; }
 
+.feed-list {
+  list-style: none;
+  margin: 1rem 0; }
+
 .feed-list-item {
   margin-bottom: 1rem; }
 
