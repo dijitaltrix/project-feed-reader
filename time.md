@@ -37,4 +37,6 @@
 		break
 		15:30 - Got edit working with session alerts, errors etc..
 16th	11:20 - Add delete feature
-		14:00 - Make frontend look pretty
+		14:30 - Make frontend look pretty 
+		16:00 - break 
+		21:00 - run through, add installation guide 

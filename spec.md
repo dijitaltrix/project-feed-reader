@@ -48,8 +48,9 @@
 		* sort feed list by viewed_at - add column in phinx
 	* When fetching feed items, store unique words in searchable column in db then allow index page search to query that column
 		* remove non alphanum, explode by space, array unique, asort to aid search, combine by semi colon - query AND by space
+	* Fetch whole article on click rather viewing on target site (ethical?)
+	
 		
 # Requirements
 	PHP ^7.1.3
-	Eloquent - PDO (Eloquent)
 	SimplePie - PCRE, XML, XMLReader (mf2?)
