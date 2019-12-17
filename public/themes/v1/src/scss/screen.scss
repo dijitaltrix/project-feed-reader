@@ -1,45 +1,18 @@
 @import "spectre/spectre";
 @import "spectre/spectre-icons";
 
+// separate style sout into files organised by their module name 
+// (in PHP e.g. App, Feed etc.) or css class name 
 @import "layout";
-
-
-
-// this is the button bar, space it nicely
-.form-btns {
-	margin:1rem 0;
-	.btn {
-		// space inline buttons
-		margin-right:0.5rem;
-	}
-}
-// the main list of feeds the user can choose from 
-.feed-list {
-	list-style:none;
-	margin:0;
-}
-// this is the feed item preview from remote, space it nicely
-.feed-list-item {
-	margin-bottom:1rem;
-	border:none;
-	border-bottom:1px solid rgba(0,0,0,0.25);
-}
-// make the subtitle smaller, used for the feed url or meta 'written by' info
-.card-subtitle {
-	font-size:0.6rem;
-}
-
-.text-lg {
-	font-size:120%;
-}
-
-.nav {
-	margin:0.25rem;
-}
-
-.section {
-	padding:1rem 0;
-}
-.section-vertical-center {
-	
-}
+// .nav-*
+@import "nav";
+// .main-*
+@import "main";
+// .feed-*
+@import "feed";
+// .form-*
+@import "form";
+// .section-*
+@import "section";
+// .text-*
+@import "text";

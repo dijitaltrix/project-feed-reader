@@ -1,7 +1,7 @@
 {% if feeds|length > 0 %}
 	<h3 class="text-center">Your feeds</h3>
 	<a class="btn btn-outline" href="{{ path_for('feeds.create') }}"><i class="icon icon-plus"></i>&nbsp;Add a feed</a>
-	{% include '@feeds/includes/nav-list.twig' %}
+	{% include '@app/includes/nav-list.twig' %}
 {% else %}
 	<a class="btn btn-outline" href="{{ path_for('feeds.create') }}"><i class="icon icon-plus"></i>&nbsp;Add a feed</a>
 {% endif %}
