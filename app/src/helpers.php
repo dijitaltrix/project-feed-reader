@@ -20,17 +20,16 @@ function path($str=null)
  * This could be considered dangerous to put here as it may encourage 'loose' use
  * of input checking, rather than enforcing 'checkpoints' in the models and controllers
  *
- * @param string $var 
- * @param string $filter 
+ * @param string $var
+ * @param string $filter
  * @return mixed
  */
 function filter($var, $type)
 {
-	$filter = new App\Filter();
-	if (method_exists($filter, $type)) {
-		return $filter->$type($var);
-	}
+    $filter = new App\Filter();
+    if (method_exists($filter, $type)) {
+        return $filter->$type($var);
+    }
 
-	throw new Exception("Cannot filter '$type'");
-
+    throw new Exception("Cannot filter '$type'");
 }

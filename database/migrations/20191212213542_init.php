@@ -42,6 +42,6 @@ class Init extends AbstractMigration
      */
     public function down()
     {
-		$this->table('feeds')->drop()->save();
+        $this->table('feeds')->drop()->save();
     }
 }

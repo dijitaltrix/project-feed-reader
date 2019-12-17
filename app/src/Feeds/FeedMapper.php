@@ -6,8 +6,9 @@ use Exception;
 use PDO;
 use PDOStatement;
 
-class FeedMapper {
-    
+class FeedMapper
+{
+
     /**
      * Holds the PDO connection
      * @var object
@@ -25,105 +26,130 @@ class FeedMapper {
     protected $table = 'feeds';
 
 
-	/**
-	 * The constructor requires a PDO object for the database connection
-	 * and a feed reader object to handle the remote feeds
-	 *
-	 * @param PDO $db 
-	 * @param object $reader 
-	 */
+    /**
+     * The constructor requires a PDO object for the database connection
+     * and a feed reader object to handle the remote feeds
+     *
+     * @param PDO $db
+     * @param object $reader
+     */
     public function __construct(\PDO $db, $reader)
     {
         $this->db = $db;
-		$this->reader = $reader;
+        $this->reader = $reader;
     }
-    
+    /**
+     * Creates a new Feed entity
+     *
+     * @param Array $data
+     * @return Feed
+     */
     public function new($data = []) : Feed
     {
         return new Feed($data, $this->reader);
     }
-
-    public function fetch($where=[]) : Array
+    /**
+     * Creates a new Feed entity
+     *
+     * @param Array $data
+     * @return Feed
+     */
+    public function fetch($where=[]) : array
     {
         $sql = "SELECT * FROM `$this->table` ";
-		if ( ! empty($where))
-		{
-			$sql.= "WHERE ";
-	        foreach ($where as $k=>$v)
-			{
-	            $sql.= "`$k` LIKE :$k AND ";
-	        }
-	        $sql = rtrim($sql, ' AND ');
-			$sql.= " COLLATE NOCASE"; // quick hack for case-insensitive searching in sqlite move to container setup
-		}
+        if (! empty($where)) {
+            $sql.= "WHERE ";
+            foreach ($where as $k=>$v) {
+                $sql.= "`$k` LIKE :$k AND ";
+            }
+            $sql = rtrim($sql, ' AND ');
+            // quick hack for case-insensitive searching in sqlite
+            // really should move to container setup
+            $sql.= " COLLATE NOCASE";
+        }
         $st = $this->db->prepare($sql);
-		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute($where);
 
-		$out = [];
-		while ($row = $st->fetch())
-		{
-			$out[] = $this->new($row);
-		}
-		
+        $out = [];
+        while ($row = $st->fetch()) {
+            $out[] = $this->new($row);
+        }
+
         return $out;
-        
     }
-	/**
-	 * Returns a list of the users feeds, used in the nav list
-	 *
-	 * @return array
-	 */
-	public function fetchNavList() : Array
-	{
+    /**
+     * Returns a list of the users feeds, used in the nav list
+     *
+     * @return array
+     */
+    public function fetchNavList() : array
+    {
         $sql = "SELECT id, name, url FROM `$this->table` ORDER BY `name` ASC";
         $st = $this->db->prepare($sql);
-		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute();
 
-		$out = [];
-		// just return an array
-		// there's no need to instantiate objects for the nav list
-		while ($row = $st->fetch())
-		{
-			$out[] = $row;
-		}
-		
+        $out = [];
+        // just return an array
+        // there's no need to instantiate objects for the nav list
+        while ($row = $st->fetch()) {
+            $out[] = $row;
+        }
+
         return $out;
-		
-	}
-    
+    }
+    /**
+     * Returns the Feed identified by $id
+     * If not found, throws an Exception
+     *
+     * @param integer $id
+     * @return Feed
+     * @throws Exception
+     */
     public function find($id) : Feed
     {
         $sql = "SELECT * FROM `$this->table` WHERE `id`=:id";
         $st = $this->db->prepare($sql);
-		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute(['id' => $id]);
-		$data = $st->fetch();
+        $data = $st->fetch();
 
         if (! isset($data['id']) or empty($data['id'])) {
             throw new Exception("Feed not found");
         }
 
+        return $this->new($data);
     }
-	
-    public function findBy($key, $value) : Array
+    /**
+     * Returns a list of Feeds where $key matches $value
+     *
+     * @param string $key
+     * @param mixed $value
+     * @return Array
+     */
+    public function findBy($key, $value) : array
     {
         $sql = "SELECT * FROM `$this->table` WHERE `$key`=:$key";
         $st = $this->db->prepare($sql);
-		$st->setFetchMode(PDO::FETCH_ASSOC);
+        $st->setFetchMode(PDO::FETCH_ASSOC);
         $st->execute([$key => $value]);
 
-		$out = [];
-		while ($row = $st->fetch())
-		{
-			$out[] = $this->new($row);
-		}
-		
+        $out = [];
+        while ($row = $st->fetch()) {
+            $out[] = $this->new($row);
+        }
+
         return $out;
-
     }
-
+    /**
+     * Inserts a single Feed into storage
+     * returns the Feed fetched and refreshed from storage
+     *
+     * @param Feed $entity
+     * @return Feed
+     * @throws Exception
+     */
     public function insert(Feed $entity) : Feed
     {
         $sql = "INSERT INTO `$this->table` (";
@@ -137,19 +163,25 @@ class FeedMapper {
         }
         $sql = rtrim($sql, ',');
         $sql.= ')';
-        
+
         $st = $this->db->prepare($sql);
         $rows = $st->execute($entity->getData());
-        
+
         if ($rows == 1) {
             $entity->id = $this->db->lastInsertId();
             return $entity;
         }
-        
-        throw new Exception("Insert error", 500);
-        
-    }
 
+        throw new Exception("Insert error", 500);
+    }
+    /**
+     * Updates a single Feed in storage
+     * returns the Feed fetched and refreshed from storage
+     *
+     * @param Feed $entity
+     * @return Feed
+     * @throws Exception
+     */
     public function update(Feed $entity) : Feed
     {
         $sql = "UPDATE `$this->table` SET ";
@@ -160,26 +192,27 @@ class FeedMapper {
         }
         $sql = rtrim($sql, ',');
         $sql.= ' WHERE `id` = :id';
-        
+
         $st = $this->db->prepare($sql);
         $rows = $st->execute($entity->getData());
-        
+
         if ($rows == 1) {
             return $entity;
         }
-        
+
         throw new Exception("Update error", 500);
-        
     }
-    
+    /**
+     * Removes the supplied Feed from storage
+     *
+     * @param Feed $entity
+     * @return boolean
+     */
     public function delete(Feed $entity) : bool
     {
         $sql = "DELETE FROM `$this->table` WHERE `id`=:id";
-        
         $st = $this->db->prepare($sql);
-		
-		return (bool) $st->execute(['id'=>$entity->id]);
-        
-    }
 
+        return (bool) $st->execute(['id'=>$entity->id]);
+    }
 }
