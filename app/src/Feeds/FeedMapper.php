@@ -101,7 +101,9 @@ class FeedMapper {
         $st->execute(['id' => $id]);
 		$data = $st->fetch();
 
-        return $this->new($data);
+        if (! isset($data['id']) or empty($data['id'])) {
+            throw new Exception("Feed not found");
+        }
 
     }
 	

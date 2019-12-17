@@ -14,31 +14,58 @@ try {
 	# run the application
 	$app->run();
 
+	#
+	#	The exception handling below should really be 
+	#	put into an exception handler class and linked
+	#	from slims container
+	#
+
 } catch (\Slim\Exception\NotFoundException $e) {
 
 	// log to events, good to track these somewhere
 	$container->log->info($e);
-	// show a nice helpful error page with text describing what to do next
-	die("Page not found");
 
-} catch (\Slim\Exception\NotFoundAllowed $e) {
+	// show helpful page assuring user it's not their fault
+	$view = $container->get('view');
+	$response = $container->get('response');
 
-	// log error, might be malicious
-	$container->log->info($e);
-	die("Not allowed");
+	header("HTTP/1.1 404 Page Not Found");
+	echo $view->fetch('@app/errors/4xx.twig', [
+		// wouldn't really show exception messages here
+		'code' => 404,
+		'message' => $e->getMessage(),
+	]);
 
 } catch (PDOException $e) {
 
 	// log error 
 	$container->log->error($e);
-	// handle database errors
-	die("Sorry something went wrong with the database, did you set it up correctly?");
+
+	// show helpful page assuring user it's not their fault
+	$view = $container->get('view');
+	$response = $container->get('response');
+
+	header("HTTP/1.1 500 Server Error");
+	echo $view->fetch('@app/errors/5xx.twig', [
+		// wouldn't really show exception messages here
+		'code' => $e->getCode(),
+		'message' => $e->getMessage(),
+	]);
 
 } catch (Exception $e) {
 
 	// log error
 	$container->log->error($e);
-	// handle any other errors, show helpful page assuring user it's not their fault
-	die($e);
+
+	// show helpful page assuring user it's not their fault
+	$view = $container->get('view');
+	$response = $container->get('response');
+
+	header("HTTP/1.1 500 Server Error");
+	echo $view->fetch('@app/errors/5xx.twig', [
+		// wouldn't really show exception messages here
+		'code' => $e->getCode(),
+		'message' => $e->getMessage(),
+	]);
 
 }

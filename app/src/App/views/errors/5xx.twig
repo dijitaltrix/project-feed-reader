@@ -1,0 +1,20 @@
+{% spaceless %}
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<link rel="stylesheet" href="/theme/css/screen.min.css">
+		<title>Error {{ code }}</title>
+	</head>
+	<body id="top">
+		<div class="container">
+			<h1>Sorry</h1>
+			<p class="text-large">Something has gone wrong at our end, it's  not you it's us.</p>
+			<p>Please go back and try again, or try later</p>
+			<p>The error was '{{ message }}'</p>
+		</div>
+		<script src="/theme/js/app.min.js"></script>
+	</body>
+</html>
+{% endspaceless %}

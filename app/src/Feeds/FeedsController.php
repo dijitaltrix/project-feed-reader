@@ -59,6 +59,12 @@ class FeedsController
         $feeds = $this->mapper->fetch($where);
         // grab alerts from session (may have been deleted)
         $alerts = $this->app->session->get('alerts', []);
+		
+        // forget keys as our session plugin does not do that
+        $this->app->session->set('alerts', []);
+        $this->app->session->set('errors', []);
+        $this->app->session->set('input', []);
+		
         return $this->view->render($response, '@feeds/index.twig', [
             'alerts' => $alerts,
 			'nav' => $this->mapper->fetchNavList(),
@@ -107,6 +113,10 @@ class FeedsController
 			}
 			// insert feed into storage
 			$this->mapper->insert($feed);
+			// set alert to show the user
+            $this->app->session->set('alerts', [
+                'success' => sprintf("Created the '%s' feed", $feed->name),
+            ]);
 
             // return success response, a redirect to view the new feed
             return $response
@@ -186,7 +196,7 @@ class FeedsController
 
             $this->app->session->set('alerts', [
                 // 'success' => sprintf("The feed '%s' has been deleted, click to <a href=\"/feeds/restore\">undo</a>", $feed->name),
-                'success' => sprintf("The feed '%s' has been deleted", $feed->name),
+                'success' => sprintf("The '%s' feed has been deleted", $feed->name),
             ]);
             // return success response, a redirect to view the new feed
             return $response
@@ -196,7 +206,7 @@ class FeedsController
 
         // set errors, alerts and old data into session
         $this->app->session->set('alerts', [
-            'warning' => 'Sorry the feed cannot be deleted'
+            'warning' => sprintf("Sorry the '%s' feed cannot be deleted", $feed->name)
         ]);
         $this->app->session->set('errors', $this->validator->getErrors());
         $this->app->session->set('input', $feed->getData());
@@ -217,6 +227,9 @@ class FeedsController
 			// disallow overriding of the id field (in the absence of any sanity chacking in the Entity)
 			$feed->id = $args['id'];
             $result = $this->mapper->update($feed);
+            $this->app->session->set('alerts', [
+                'success' => sprintf("Updated the '%s' feed", $feed->name),
+            ]);
             // return success response, a redirect to view the new feed
             return $response
                 ->withStatus(302)
@@ -246,6 +259,8 @@ class FeedsController
 
         // forget keys as our session plugin does not do that
         $this->app->session->set('alerts', []);
+        $this->app->session->set('errors', []);
+        $this->app->session->set('input', []);
 
         return $this->view->render($response, '@feeds/view.twig', [
 			'alerts' => $alerts,
