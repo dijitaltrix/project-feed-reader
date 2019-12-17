@@ -1,7 +1,10 @@
-<div class="section section-pad-more">
-	<div class="input-group">
-		<label class="form-label text-assistive d-none" for="query">Search your feeds</label>
-		<input class="form-input input-lg" type="text" id="query" placeholder="Search your feeds..." value="{{ query|default('') }}">
-		<button class="btn btn-lg input-group-btn" type="submit"><i class="icon icon-search"></i></button>
+<form action="{{ path_for('feeds') }}" method="get">
+	<div class="section section-pad-more">
+		<div class="input-group">
+			<label class="form-label text-assistive d-none" for="query">Search your feeds</label>
+			<input class="form-input input-lg" name="query" type="text" id="query" placeholder="Search your feeds..." value="{{ query|default('') }}">
+			<button class="btn btn-lg input-group-btn" type="submit"><i class="icon icon-search"></i></button>
+		</div>
+		<p class="form-input-hint">Search the names of your feeds</p>
 	</div>
 </div>

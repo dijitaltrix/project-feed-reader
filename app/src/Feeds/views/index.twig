@@ -10,29 +10,30 @@
 
 
 {% block main %}
-<form action="{{ path_for('feeds') }}" method="get">
-	<div class="row">
-		
-		<section class="section section-pad-vertical">
-			<div class="row">
-				<div class="column col-12">
-					{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
-				</div>
+<div class="row">
+	
+	<section class="section section-pad-vertical">
+		<div class="row">
+			<div class="column col-12">
+				{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
 			</div>
-		</section>
-
-		<div class="column col-12">
-			
-			<section class="section section-vertical-center text-center">
-				{% if feeds|length == 0 %}
-					<h1>Welcome to your feeds</h1>
-					<p class="text-large">To get started <a href="{{ path_for('feeds.create') }}">add your first feed</a></p>
-				{% else %}
-					{% include '@feeds/includes/index-search.twig' %}
-				{% endif %}
-			</section>
-			
 		</div>
+	</section>
+
+	<div class="column col-12">
+		
+		<section class="section section-vertical-center text-center">
+			{% if nav|length == 0 %}
+				<h1>Welcome to your feeds</h1>
+				<p class="text-large">To get started <a href="{{ path_for('feeds.create') }}">add your first feed</a></p>
+			{% else %}
+				{% include '@feeds/includes/index-search.twig' %}
+				{% if feeds|length > 0 %}
+					{% include '@feeds/includes/index-search-results.twig' %}
+				{% endif %}
+			{% endif %}
+		</section>
+		
 	</div>
-</form>
+</div>
 {% endblock %}

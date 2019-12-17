@@ -20,6 +20,7 @@
 	<div class="row">
 		<div class="column col-12">
 			<div class="form-btns">
+				<a href="{{ path_for('feeds') }}" class="btn btn-outline"><i class="icon icon-back"></i>&nbsp;Go to home</a>
 				<button class="btn btn-outline btn-success" type="submit"><i class="icon icon-upload"></i>&nbsp;Save feed</button>
 				<a href="{{ path_for('feeds.delete', { 'id': feed.id }) }}" class="btn btn-outline btn-delete"><i class="icon icon-delete"></i>&nbsp;Delete feed</a>
 			</div>

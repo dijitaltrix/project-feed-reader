@@ -1,0 +1,8 @@
+<section class="search section section-pad text-center">
+	<h3>Search results for '{{ query }}'</h3>
+{% for feed in feeds %}
+	<div class="search-result">
+		<a href="{{ path_for('feeds.view', { 'id':feed.id }) }}">{{ feed.name }}</a>
+	</div>
+{% endfor %}
+</section>

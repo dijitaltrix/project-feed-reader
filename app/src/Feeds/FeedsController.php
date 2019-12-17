@@ -52,11 +52,15 @@ class FeedsController
         // fetch feeds, optionally filtering by name
         $where = [];
         $url_query = $request->getQueryParams();
-        if (isset($url_query['name'])) {
+        $query = null;
+        if (isset($url_query['query'])) {
             // use 'filtered' input in where clause
-            $where = ["name" => $this->app->filter->string($name)];
+            $query = $this->app->filter->alphanum($url_query['query']);
+            if (! empty($query)) {
+                $where = ["name" => "%$query%"];
+                $feeds = $this->mapper->fetch($where);
+            }
         }
-        $feeds = $this->mapper->fetch($where);
         // grab alerts from session (may have been deleted)
         $alerts = $this->app->session->get('alerts', []);
 		
