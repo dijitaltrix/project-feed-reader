@@ -49,8 +49,10 @@
 	* When fetching feed items, store unique words in searchable column in db then allow index page search to query that column
 		* remove non alphanum, explode by space, array unique, asort to aid search, combine by semi colon - query AND by space
 	* Fetch whole article on click rather viewing on target site (ethical?)
-	
-		
+	* Show fetched date so returning users know how old the feed is - ui js appear after x min/hours
+	* Add tags to quickly filter feed articles (probably need to combine feed items)
+	* Show clickable tags on main page (index.twig) to display matching articles
+
 # Requirements
 	PHP ^7.1.3
 	SimplePie - PCRE, XML, XMLReader (mf2?)
