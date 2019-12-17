@@ -1,3 +1,11 @@
-.text-lg {
-	font-size:120%;
+// NB: removed text-lg - use text-large from vendor package
+
+// a visually hidden link which appears on focus
+.text-skip-link {
+	position:absolute;
+	top:0;
+	left:-9999px;
+	&:focus {
+		left:auto;
+	}
 }

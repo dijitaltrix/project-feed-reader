@@ -15,15 +15,15 @@
 		<div class="column col-12">
 			<h1>Edit feed</h1>
 		</div>
+	</div>
+	{% include '@feeds/form.twig' %}
+	<div class="row">
 		<div class="column col-12">
 			<div class="form-btns">
 				<button class="btn btn-outline btn-success" type="submit"><i class="icon icon-upload"></i>&nbsp;Save feed</button>
-				<a href="{{ path_for('feeds.delete', { 'id': feed.id }) }}" class="btn btn-outline btn-primary"><i class="icon icon-delete"></i>&nbsp;Delete feed</a>
+				<a href="{{ path_for('feeds.delete', { 'id': feed.id }) }}" class="btn btn-outline btn-delete"><i class="icon icon-delete"></i>&nbsp;Delete feed</a>
 			</div>
 		</div>
 	</div>
-	{% include '@feeds/form.twig' %}
-	{{ dump(errors) }}
-	{{ dump(input) }}
 </form>
 {% endblock %}

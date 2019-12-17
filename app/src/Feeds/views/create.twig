@@ -15,14 +15,14 @@
 		<div class="column col-12">
 			<h1>Create feed</h1>
 		</div>
+	</div>
+	{% include '@feeds/form.twig' %}
+	<div class="row">
 		<div class="column col-12">
 			<div class="form-btns">
 				<button class="btn btn-outline btn-success" type="submit"><i class="icon icon-check"></i>&nbsp;Save feed</button>
 			</div>
 		</div>
 	</div>
-	{% include '@feeds/form.twig' %}
-	{{ dump(errors) }}
-	{{ dump(input) }}
 </form>
 {% endblock %}

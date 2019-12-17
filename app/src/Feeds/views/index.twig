@@ -12,24 +12,23 @@
 {% block main %}
 <form action="{{ path_for('feeds') }}" method="get">
 	<div class="row">
-		<section class="section">
+		
+		<section class="section section-pad-vertical">
 			<div class="row">
 				<div class="column col-12">
 					{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
 				</div>
 			</div>
 		</section>
+
 		<div class="column col-12">
 			
-			<section class="section section-vertical-center">
+			<section class="section section-vertical-center text-center">
 				{% if feeds|length == 0 %}
-					<p class="text-lg">There are no feeds to display, get started by <a class="btn btn-link" href="{{ path_for('feeds.create') }}">adding a feed</a></p>
+					<h1>Welcome to your feeds</h1>
+					<p class="text-large">To get started <a href="{{ path_for('feeds.create') }}">add your first feed</a></p>
 				{% else %}
-					<div class="input-group">
-						<label class="form-label text-assistive d-none" for="query">Search your feeds</label>
-						<input class="form-input" type="text" id="query" placeholder="Search your feeds..." value="">
-					</div>
-					<div class="form-group"><button class="btn btn-outline" type="submit"><i class="icon icon-search"></i></button>
+					{% include '@feeds/includes/index-search.twig' %}
 				{% endif %}
 			</section>
 			
