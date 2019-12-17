@@ -54,9 +54,8 @@ $container['view'] = function ($c) {
         'feeds' => path('app/src/Feeds/views'),
     ], [
         'cache' => path('storage/cache/views'),
-        'debug' => true,
+        'debug' => false,
     ]);
-    $view->addExtension(new \Twig\Extension\DebugExtension());
     // Instantiate and add Slim specific extension
     $uri = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER));
     $view->addExtension(new Slim\Views\TwigExtension($c->get('router'), $uri));

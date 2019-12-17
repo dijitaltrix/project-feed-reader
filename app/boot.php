@@ -5,10 +5,10 @@ $app = new \Slim\App([
 ]);
 // use Slims default container
 $container = $app->getContainer();
-// load everything in the boot folder
+// load only .php files in the boot folder
 foreach (scandir(path('app/boot')) as $file) {
     $f = path("app/boot/$file");
-    if (is_file($f)) {
+    if (is_file($f) && (substr($f, -4) == '.php')) {
         require $f;
     }
 }

@@ -19,7 +19,8 @@
 		"vlucas/phpdotenv": "2.4",
 		"simplepie/simplepie": "^1.5",
 		"robmorgan/phinx": "^0.11.3",
-		"akrabat/rka-slim-session-middleware": "^2.0"
+		"akrabat/rka-slim-session-middleware": "^2.0",
+		"mf2/mf2": "^0.4.6"
 	},
 	"autoload": {
 		"psr-4": {

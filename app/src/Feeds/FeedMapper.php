@@ -1,4 +1,9 @@
 <?php
+/**
+ * This class provides access to the persistence layer for the Feeds
+ *
+ * @author Ian Grindley
+ */
 
 namespace Feeds;
 

@@ -34,6 +34,7 @@ try {
         'code' => 404,
         'message' => $e->getMessage(),
     ]);
+
 } catch (PDOException $e) {
 
     // log error
@@ -49,6 +50,7 @@ try {
         'code' => $e->getCode(),
         'message' => $e->getMessage(),
     ]);
+
 } catch (Exception $e) {
 
     // log error
@@ -64,4 +66,5 @@ try {
         'code' => $e->getCode(),
         'message' => $e->getMessage(),
     ]);
+
 }
