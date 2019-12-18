@@ -21,10 +21,12 @@
 ####Clone this repository
 
 ```sh
-git clone dijitaltrix/project-feed-reader
+git clone https://github.com/dijitaltrix/project-feed-reader.git
 ```
 
 ####Install the dependencies with [Composer](http://getcomposer.org):
+
+`cd` into the new folder and run composer update
 
 ```sh
 composer update
