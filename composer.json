@@ -1,6 +1,6 @@
 {
-	"name": "dijitaltrix/demo-rss-reader",
-	"description": "A simple RSS reader demo",
+	"name": "dijitaltrix/project-rss-reader",
+	"description": "A simple RSS reader demo project",
 	"type": "project",
 	"minimum-stability": "stable",
 	"license": "MIT",
