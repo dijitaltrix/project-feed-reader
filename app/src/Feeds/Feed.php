@@ -93,6 +93,7 @@ class Feed extends \App\AbstractEntity
     
     public function setId($int)
     {
+		// TODO check this for range (add id filter logic in App\Filter)
         $this->data['id'] = (int) $int;
     }
     public function setName($str)
