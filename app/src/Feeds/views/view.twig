@@ -14,10 +14,10 @@
 	<div class="row">
 		<div class="column col-12">
 			<h1>{{ feed.name }}</h1>
-			<p>{{ feed.description }}</p>
+			<p class="lh-copy">{{ feed.description }}</p>
 		</div>
 		
-		<section class="section section-pad-vertical">
+		<section class="pv2">
 			<div class="row">
 				<div class="column col-12">
 					{% include '@app/includes/alerts.twig' with {'alerts': alerts} %}
@@ -26,15 +26,15 @@
 		</section>
 		
 		<div class="column col-12">
-			<div class="form-btns">
-				<a href="{{ path_for('feeds') }}" class="btn btn-outline"><i class="icon icon-back"></i>&nbsp;Go to home</a>
-				<a class="btn btn-default" href="{{ path_for('feeds.edit', { 'id': feed.id }) }}"><i class="icon icon-edit"></i>&nbsp;Edit this feed</a>
+			<div class="mv1">
+				<a href="{{ path_for('feeds') }}" class="{{ css.btn_outline }}"><i class="{{ css.icon_back }}"></i>&nbsp;Go to home</a>
+				<a class="{{ css.btn_outline }}" href="{{ path_for('feeds.edit', { 'id': feed.id }) }}"><i class="{{ css.icon_edit }}"></i>&nbsp;Edit this feed</a>
 			</div>
 		</div>
 	</div>
 </section>
-<section class="section section-inset">
-	<div class="feed-list">
+<section class="pv4">
+	<div class="">
 {% for item in feed.items %}
 	{% include '@feeds/includes/feed-item.twig' %}
 {% endfor %}

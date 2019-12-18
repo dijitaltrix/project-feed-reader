@@ -1,18 +1,12 @@
-<div class="card feed-list-item" data-id="{{ feed.id }}">
-	<div class="card-header">
-		<div class="card-title h5">
-			<a href="{{ item.link }}" rel="external" tabindex="0">{{ item.title }}</a>
-		</div>
-		<div class="card-subtitle text-gray">
-			Written {% if item.author %} by {{ item.author }}{% endif %} on {{ item.date }}
-		</div>
-	</div>
-	<div class="card-body">
+<div class="mb4 pb3 bb b--black-30" data-id="{{ feed.id }}">
+	<a class="db pa0 f4 mb1 {{ css.link }}" href="{{ item.link }}" rel="external" tabindex="0">{{ item.title }}</a>
+	<span class="f6 black-50">Written {% if item.author %} by {{ item.author }}{% endif %} on {{ item.date }}</span>
+	<p class="lh-copy">
 		{{ item.description|raw }}
 		{# 
 			this is set as not tab-able as the link is available above and just results in 
 			the user having to tab twice in the same article
 		#}
 		<a href="{{ item.link }}" tabindex="-1" rel="external">More...</a>
-	</div>
+	</p>
 </div>

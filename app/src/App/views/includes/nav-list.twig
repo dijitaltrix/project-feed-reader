@@ -1,7 +1,7 @@
-<ul class="nav-list">
+<ul class="list">
 {% for feed in feeds %}
-	<li class="nav-list-item" data-id="{{ feed.id }}">
-		<a href="{{ path_for('feeds.view', { 'id': feed.id } ) }}">{{ feed.name|default("Unknown") }}</a>
+	<li class="f5 nowrap pv1 v-mid" data-id="{{ feed.id }}">
+		<a class="{{ css.nav_link }}" href="{{ path_for('feeds.view', { 'id': feed.id } ) }}">{{ feed.name|default("Unknown") }}</a>
 	</li>
 {% endfor %}
 </ul>

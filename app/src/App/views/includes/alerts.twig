@@ -1,6 +1,7 @@
-<div class="alerts">
-	{% for type, message in alerts %}
-	<div class="alert alert-{{ type }}">
+
+<div class="pv1">
+{% for type, message in alerts %}
+	<div class="{{ css.alert }} {{ css.alert_type }}">
 		{{ message }}
 	</div>
 {% endfor %}

@@ -1,4 +1,27 @@
 {% spaceless %}
+{% set css = {
+	alert: "db mv2 pa2",
+	alert_success: "db mv2 pa2 white bg-dark-green",
+	alert_warning: "db mv2 pa2 white bg-orange",
+	
+	btn_outline: "dib mr1 pa2 f6 no-underline bg-transparent hover-bg-dark-blue hover-white ba b--dark-blue dark-blue",
+	btn_outline_success: "dib mr1 pa2 f6 no-underline bg-transparent hover-bg-dark-green hover-white ba b--dark-green dark-green",
+	btn_outline_delete: "dib mr1 pa2 f6 no-underline bg-transparent hover-bg-dark-red hover-white ba b--dark-red dark-red",
+	
+	form_label: "f6 db b mb2",
+	form_input: "f5 db border-box w-100 ba b--black-20 pa2 mb1",
+	form_help: "f6 black-70",
+	form_help_error: "f6 dark-red",
+	
+	link: "dark-blue no-underline underline-hover",
+	
+	icon_back: "",
+	icon_plus: "",
+	icon_tick: "",
+
+	nav_link: "no-underline underline-hover dark-blue dark-blue",
+	
+} %}
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -7,15 +30,19 @@
 		<link rel="stylesheet" href="/theme/css/screen.min.css">
 		{% block head %}{% endblock %}
 	</head>
-	<body id="top">
-		<nav id="nav" class="nav">
-			{% include '@app/includes/nav.twig' with { 'feeds': nav } %}
-		</nav>
-		<main id="main" class="main">
-			<div class="container">
-				{% block main %}{% endblock %}
-			</div>
-		</main>
+	<body id="top" class="cf sans-serif">
+		<div class="fl w-25">
+			<nav id="nav" class="pv2 ph1">
+				{% include '@app/includes/nav.twig' with { 'feeds': nav } %}
+			</nav>
+		</div>
+		<div class="fl w-75">
+			<main id="main" class="pa2 ">
+				<div class="container">
+					{% block main %}{% endblock %}
+				</div>
+			</main>
+		</div>
 		<script src="/theme/js/app.min.js"></script>
 		{% block script %}{% endblock %}
 	</body>

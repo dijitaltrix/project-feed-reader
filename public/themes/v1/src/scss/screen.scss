@@ -1,18 +1,5 @@
-@import "spectre/spectre";
-@import "spectre/spectre-icons";
+@import "tachyons/tachyons.scss";
 
-// separate style sout into files organised by their module name 
-// (in PHP e.g. App, Feed etc.) or css class name 
-@import "layout";
-// .nav-*
-@import "nav";
-// .main-*
-@import "main";
-// .feed-*
-@import "feed";
-// .form-*
-@import "form";
-// .section-*
-@import "section";
-// .text-*
-@import "text";
+@import "alert.scss";
+@import "text.scss";
+
