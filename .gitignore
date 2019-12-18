@@ -2,5 +2,4 @@
 .sass-cache
 brief.pdf
 /database/development.sqlite3
-/storage/
 /vendor/
