@@ -204,10 +204,21 @@ class FeedsController
                 // 'success' => sprintf("The feed '%s' has been deleted, click to <a href=\"/feeds/restore\">undo</a>", $feed->name),
                 'success' => sprintf("The '%s' feed has been deleted", $feed->name),
             ]);
-            // return success response, a redirect to view the new feed
-            return $response
-                ->withStatus(302)
-                ->withHeader('Location', '/feeds');
+            
+            if ($request->isXhr()) {
+                // return a JSON success response to be handled in javascript
+                return $response
+                    ->withStatus(200)
+                    ->withJson([
+                        'status' => 200,
+                        'redirect' => '/feeds',
+                    ]);
+            } else {
+                // return success response, a redirect to view the new feed
+                return $response
+                    ->withStatus(302)
+                    ->withHeader('Location', '/feeds');
+            }
         }
 
         // set errors, alerts and old data into session
@@ -217,10 +228,20 @@ class FeedsController
         $this->app->session->set('errors', $this->validator->getErrors());
         $this->app->session->set('input', $feed->getData());
 
-        // return error response, redirect back to create form
-        return $response
-            ->withStatus(302)
-            ->withHeader('Location', sprintf('/feeds/%d/edit', $feed->id));
+        if ($request->isXhr()) {
+            // return a JSON error response to be handled in javascript
+            return $response
+                ->withStatus(400)
+                ->withJson([
+                    'status' => 400,
+                    'redirect' => sprintf('/feeds/%d/edit', $feed->id),
+                ]);
+        } else {
+            // return success response, redirect back to create form
+            return $response
+                ->withStatus(302)
+                ->withHeader('Location', sprintf('/feeds/%d/edit', $feed->id));
+        }
     }
 
     public function postUpdate(ServerRequestInterface $request, ResponseInterface $response, $args=[])
