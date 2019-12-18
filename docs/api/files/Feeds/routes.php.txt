@@ -1,0 +1,13 @@
+<?php
+/*
+ *	Feeds routes
+ */
+$app->get('/feeds/create', '\Feeds\FeedsController:getCreate')->setName('feeds.create');
+$app->get('/feeds/{id:[0-9]+}/delete', '\Feeds\FeedsController:getDelete')->setName('feeds.delete');
+$app->post('/feeds/{id:[0-9]+}/delete', '\Feeds\FeedsController:postDelete')->setName('feeds.delete');
+$app->get('/feeds/{id:[0-9]+}/edit', '\Feeds\FeedsController:getEdit')->setName('feeds.edit');
+$app->get('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:getView')->setName('feeds.view');
+$app->post('/feeds/{id:[0-9]+}', '\Feeds\FeedsController:postUpdate')->setName('feeds.update');
+$app->get('/feeds', '\Feeds\FeedsController:getIndex')->setName('feeds');
+$app->post('/feeds', '\Feeds\FeedsController:postInsert')->setName('feeds.insert');
+
