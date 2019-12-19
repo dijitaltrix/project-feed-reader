@@ -54,7 +54,7 @@ $container['view'] = function ($c) {
         'feeds' => path('app/src/Feeds/views'),
     ], [
         'cache' => path('storage/cache/views'),
-        'debug' => false,
+        'debug' => getenv('APP_DEBUG'),
     ]);
     // Instantiate and add Slim specific extension
     $uri = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER));
