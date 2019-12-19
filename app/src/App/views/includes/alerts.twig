@@ -1,7 +1,7 @@
-
 <div class="pv1">
 {% for type, message in alerts %}
-	<div class="{{ css.alert }} {{ css.alert_type }}">
+	{% set alert_type = "alert_%s"|format(type) %}
+	<div class="{{ css.alert }} {{ css[alert_type] }}">
 		{{ message }}
 	</div>
 {% endfor %}
