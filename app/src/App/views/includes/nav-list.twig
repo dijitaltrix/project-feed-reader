@@ -1,4 +1,4 @@
-<ul class="list">
+<ul class="list tl mt5">
 {% for feed in feeds %}
 	<li class="f5 nowrap pv1 v-mid" data-id="{{ feed.id }}">
 		<a class="{{ css.nav_link }}" href="{{ path_for('feeds.view', { 'id': feed.id } ) }}">{{ feed.name|default("Unknown") }}</a>

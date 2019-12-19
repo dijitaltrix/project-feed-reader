@@ -1,9 +1,9 @@
 {# keyboard users start here #}
-<h3 class="tc">Feeds</h3>
+<h3>Feeds</h3>
 {% if feeds|length > 0 %}
 	<a class="{{ css.btn_outline }}" href="{{ path_for('feeds.create') }}" tabindex="1"><i class="{{ css.icon-plus }}"></i>&nbsp;Add a feed</a>
 	{# this shouldn't really be needed with <nav> & <main> elements #}
-	<div class="relative">
+	<div class="relative tc">
 		<a class="text-skip-link" href="#main" tabindex="2">Skip the feeds list</a>
 	</div>
 	{% include '@app/includes/nav-list.twig' %}

@@ -1,10 +1,12 @@
 <form action="{{ path_for('feeds') }}" method="get">
-	<section class="pv2 tc">
-		<div class="{{ css.form_group }}">
-			<label class="f4 clip {{ css.form_label }}" for="query">Search your feeds</label>
-			<input class="f3 {{ css.form_input }}" name="query" type="text" id="query" placeholder="Search your feeds..." value="{{ query|default('') }}">
-			<button class="{{ css.form_input_btn_attached }}" type="submit"><i class="{{ css.icon_search }}"></i> Search</button>
-		</div>
-		<p class="f5 {{ css.form_help }}">Search the names of your feeds</p>
+	<section class="pv2 ph6">
+		<fieldset class="cf bn ma0 pa0">
+			<legend class="pa0 f5 f4-ns mb3 black-80">Search your feed names</legend>
+			<div class="cf">
+				<label for="query" class="clip" for="query">Search your feeds</label>
+				<input id="query" class="f5 input-reset ba b--black-70 fl black-70 bg-white pa3 lh-solid w-100 w-75-m" name="query" type="text" id="query" placeholder="Search your feeds..." value="{{ query|default('') }}">
+				<button class="f5 button-reset ba b--dark-blue fl pv3 tc bn bg-animate bg-dark-blue hover-bg-blue white pointer w-100 w-25-m" type="submit"><i class="{{ css.icon_search }}"></i> Search</button>
+			</div>
+		</fieldset>
 	</section>
 </div>
