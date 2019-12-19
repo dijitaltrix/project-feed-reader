@@ -18,13 +18,19 @@
 
 ## Install
 
-####Clone this repository
+#### Clone this repository
 
 ```sh
 git clone https://github.com/dijitaltrix/project-feed-reader.git
 ```
 
-####Install the dependencies with [Composer](http://getcomposer.org):
+#### Create your .env file
+Copy the env.example file to .env and edit accordingly
+```sh
+cp env.example .env
+```
+
+#### Install the dependencies with [Composer](http://getcomposer.org):
 
 `cd` into the new folder and run composer update
 
@@ -32,11 +38,11 @@ git clone https://github.com/dijitaltrix/project-feed-reader.git
 composer update
 ```
 
-####Create the database
+#### Create the database
 
 ```sh
 vendor/bin/phinx migrate
- # Optionally seed the database with the example feeds
+# Optionally seed the database with the example feeds
 vendor/bin/phinx seed
 ```
 

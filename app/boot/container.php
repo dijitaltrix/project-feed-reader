@@ -10,15 +10,11 @@ $container['csrf'] = function ($c) {
 };
 // set database
 $container['db'] = function ($c) {
-    $db_filename = getenv('APP_DB_FILENAME');
-
     try {
-        $db = new \PDO(sprintf("%s:%s", "sqlite", path("database/$db_filename")));
+        $db = new \PDO(sprintf("%s:%s", "sqlite", path($c->settings["db"]["filepath"])));
         $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
         return $db;
     } catch (PDOException $e) {
-
         // for this demo just change and catch this in index.php
         throw new Exception($e->getMessage());
     }
@@ -30,13 +26,13 @@ $container['filter'] = function ($c) {
 // app logger
 $container['log'] = function ($c) {
     $log = new \Monolog\Logger('app');
-    $log->pushHandler(new \Monolog\Handler\StreamHandler($c->settings["log"]["path"], \Monolog\Logger::DEBUG));
+    $log->pushHandler(new \Monolog\Handler\StreamHandler($c->settings["log"]["filepath"], \Monolog\Logger::DEBUG));
     return $log;
 };
 // feed reader
 $container['feed_reader'] = function ($c) {
     $reader = new SimplePie();
-    $reader->set_cache_location(path('storage/cache/feeds'));
+    $reader->set_cache_location(path($c->settings['feed']['cache_path']));
     return $reader;
 };
 // flash messages
@@ -53,8 +49,8 @@ $container['view'] = function ($c) {
         'app' => path('app/src/App/views'),
         'feeds' => path('app/src/Feeds/views'),
     ], [
-        'cache' => path('storage/cache/views'),
-        'debug' => getenv('APP_DEBUG'),
+        'cache' => path($c->settings["view"]["cache"]),
+        'debug' => $c->settings["view"]["debug"],
     ]);
     // Instantiate and add Slim specific extension
     $uri = \Slim\Http\Uri::createFromEnvironment(new \Slim\Http\Environment($_SERVER));

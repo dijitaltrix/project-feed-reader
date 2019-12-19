@@ -10,14 +10,22 @@ return [
         "locales" => ["en_GB.UTF-8"],
         "default_locale" => ["en_GB.UTF-8"],
     ],
+	// database setup
+	"db" => [
+		"filepath" => getenv('DB_FILEPATH')
+	],
+	// feed reader setup
+	"feed" => [
+		"cache_path" => getenv('FEED_CACHE_PATH'),
+	],
     // logger setup
     "log" => [
-        "path" => path("storage/logs/app.log"),
-        "email" => null,
+        "filepath" => getenv('LOG_FILEPATH'),
     ],
     // twig view setup
     "view" => [
-        "path" => path("app/src/views"),
-        "cache" => path("storage/views"),
+        "path" => getenv("VIEW_PATH"),
+        "cache" => getenv("VIEW_CACHE_PATH"),
+        "debug" => getenv("APP_DEBUG"),
     ],
 ];
